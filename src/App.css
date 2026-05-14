@@ -952,34 +952,38 @@
   .hero {
     height: auto;
     min-height: 100vh;
-    padding-top: 140px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
 
   .hero-text h1 {
     font-size: 2.2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .hero-text p {
     font-size: 1rem;
     padding: 0 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .hero-btns {
     flex-direction: column;
     width: 100%;
     padding: 0 2rem;
+    gap: 1rem;
   }
 
   .hero-btns .btn {
     width: 100%;
     justify-content: center;
+    padding: 0.7rem 1.5rem;
   }
 
   .hero-photo {
-    width: 90%;
-    margin-top: 2rem;
+    width: 85%;
+    margin-top: -1rem;
   }
 
   .hero-image {
