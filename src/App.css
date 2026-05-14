@@ -949,8 +949,37 @@
     padding: 0 0.2rem;
   }
 
-  .hero-photo {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-btns {
+    flex-direction: column;
     width: 100%;
+    padding: 0 2rem;
+  }
+
+  .hero-btns .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-photo {
+    width: 90%;
+    margin-top: 2rem;
   }
 
   .hero-image {
