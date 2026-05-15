@@ -43,6 +43,7 @@ import denemeThumb from './assets/playlist-deneme.jpg';
 import gorsellerleThumb from './assets/playlist-gorsellerle.jpg';
 import garantiThumb from './assets/playlist-garanti.jpg';
 import deneme20Thumb from './assets/playlist-deneme-20.png';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 
@@ -762,6 +763,7 @@ function App() {
           <p>&copy; 2026 Engin Eraydın. Tüm Hakları Saklıdır.</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
