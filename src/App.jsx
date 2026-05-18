@@ -382,7 +382,7 @@ function App() {
             className="hero-text"
           >
             <motion.span variants={fadeInUp} className="badge">Türkiye'nin Coğrafya Hocası</motion.span>
-            <motion.h1 variants={fadeInUp}>Sınavlara Coğrafya ile <span>Yön Verin.</span></motion.h1>
+            <motion.h1 variants={fadeInUp}>Engin Eraydın ile Sınavlara <span>Yön Verin.</span></motion.h1>
             <motion.p variants={fadeInUp}>Engin Eraydın ile KPSS, TYT ve AYT sınavlarına en güncel ve en kapsamlı şekilde hazırlanın. Haritalarla coğrafyayı seveceksiniz.</motion.p>
             <motion.div variants={fadeInUp} className="hero-btns">
               <a href="https://www.youtube.com/@engineraydincografya" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Derslere Başla <ChevronRight size={20} /></a>
