@@ -388,7 +388,7 @@ function App() {
             <motion.p variants={fadeInUp}>Engin Eraydın ile KPSS, TYT ve AYT sınavlarına en güncel ve en kapsamlı şekilde hazırlanın. Haritalarla coğrafyayı seveceksiniz.</motion.p>
             <motion.div variants={fadeInUp} className="hero-btns">
               <a href="https://www.youtube.com/@engineraydincografya" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Derslere Başla <ChevronRight size={20} /></a>
-              <a href="#kitaplar" className="btn btn-outline">Kitapları İncele <ChevronRight size={20} color="#ff851b" /></a>
+              <a href="#kitaplar" className="btn btn-secondary">Kitapları İncele <ChevronRight size={20} color="#ffffff" /></a>
               <a href="#harita" className="btn btn-success">İnteraktif Haritalar <ChevronRight size={20} /></a>
             </motion.div>
           </motion.div>
