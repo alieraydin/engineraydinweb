@@ -4,21 +4,27 @@
   position: relative;
 }
 
-/* Navbar */
+/* Premium Horizontal Navbar */
 .navbar {
   position: fixed;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 1200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  transform: none;
   z-index: 1000;
-  padding: 0.8rem 2rem;
+  padding: 1rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(4, 15, 30, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-sizing: border-box;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .nav-content {
@@ -26,15 +32,20 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1200px;
+  padding: 0 2rem;
+  gap: 2rem;
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.5rem;
-  color: var(--primary);
+  font-size: 1.4rem;
+  color: var(--white);
   font-weight: 500;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .logo-icon {
@@ -44,18 +55,39 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-.nav-links a {
-  font-weight: 700;
-  color: var(--primary);
+.nav-links a:not(.btn) {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   transition: var(--transition);
+  position: relative;
+  padding: 0.3rem 0;
+  letter-spacing: 0.3px;
 }
 
-.nav-links a:hover {
-  color: var(--secondary);
+.nav-links a:not(.btn)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: var(--secondary);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.nav-links a:not(.btn):hover {
+  color: var(--white);
+}
+
+.nav-links a:not(.btn):hover::after {
+  width: 100%;
 }
 
 .menu-toggle {
@@ -139,6 +171,10 @@
   z-index: 1;
 }
 
+.hero-text {
+  margin-top: -120px;
+}
+
 .badge {
   display: inline-block;
   padding: 0.5rem 1.2rem;
@@ -170,7 +206,13 @@
 
 .hero-btns {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hero-btns .btn {
+  padding: 0.8rem 1.2rem;
+  font-size: 0.9rem;
 }
 
 .hero-image {
@@ -216,7 +258,7 @@
 
 /* Countdowns */
 .countdowns {
-  margin-top: -50px;
+  margin-top: -120px;
   position: relative;
   z-index: 10;
 }
@@ -905,13 +947,14 @@
     top: 70px;
     left: 0;
     right: 0;
-    background: white;
+    background: rgba(4, 15, 30, 0.95);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: 1.5rem;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     gap: 1rem;
     text-align: center;
-    border: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .nav-links.active {
@@ -920,7 +963,7 @@
 
   .menu-toggle {
     display: block;
-    color: var(--primary);
+    color: var(--white);
     background: transparent;
     border: none;
     cursor: pointer;
@@ -954,6 +997,10 @@
     min-height: 100vh;
     padding-top: 100px;
     padding-bottom: 40px;
+  }
+
+  .hero-text {
+    margin-top: 20px;
   }
 
   .hero-text h1 {
@@ -1141,5 +1188,281 @@
   }
   .modal-content {
     max-width: 100%;
+  }
+}
+
+/* Interactive Map Styles */
+.imap-wrapper {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 2.5rem;
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+.imap-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+.imap-cats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+.imap-cat-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.5rem;
+  background: rgba(0, 31, 63, 0.05);
+  border: 1px solid rgba(0, 31, 63, 0.1);
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.imap-cat-btn span {
+  font-size: 0.9rem;
+}
+
+.imap-cat-btn:hover {
+  background: rgba(0, 31, 63, 0.1);
+  transform: translateY(-2px);
+}
+
+.imap-cat-btn.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.25);
+}
+
+.imap-select-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.imap-select-wrap label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.imap-select {
+  padding: 0.5rem 0.8rem;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1.5px solid rgba(0, 31, 63, 0.15);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  transition: var(--transition);
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23001f3f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.2em;
+  padding-right: 2.5rem;
+}
+
+.imap-select:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(255, 133, 27, 0.15);
+}
+
+.imap-cols-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 1rem;
+}
+
+.imap-bars-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.imap-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 180px;
+  gap: 0.5rem;
+}
+
+.imap-col-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  flex: 1;
+  gap: 0.4rem;
+}
+
+.imap-col-val {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.imap-col-track {
+  width: 100%;
+  max-width: 35px;
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.imap-col-fill {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.imap-col-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.imap-rank {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.imap-col-name {
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.75rem;
+}
+
+.imap-right {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imap-product-badge {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  padding: 0.4rem 1rem;
+  border: 1.5px solid;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.imap-map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+
+.imap-tooltip {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 1rem 1.5rem;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 10;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.imap-tooltip-close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.imap-tooltip-close:hover {
+  color: var(--white);
+}
+
+.imap-tooltip-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.imap-tooltip-val {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+@media (max-width: 992px) {
+  .imap-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .imap-right {
+    min-height: 400px;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .imap-cats {
+    grid-template-columns: 1fr;
   }
 }

@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
+    "@vnedyalk0v/react19-simple-maps": "^2.0.7",
+    "d3-interpolate": "^3.0.1",
+    "d3-scale": "^4.0.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.14.0",
     "react": "^19.2.5",

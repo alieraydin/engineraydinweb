@@ -44,6 +44,7 @@ import gorsellerleThumb from './assets/playlist-gorsellerle.jpg';
 import garantiThumb from './assets/playlist-garanti.jpg';
 import deneme20Thumb from './assets/playlist-deneme-20.png';
 import { Analytics } from '@vercel/analytics/react';
+import InteractiveMap from './InteractiveMap';
 import './App.css';
 
 
@@ -67,7 +68,7 @@ const PLAYLISTS = [
     id: 3, 
     title: "2026 KPSS - AGS - Haritalarla Genel Tekrar", 
     thumbnail: haritalarThumb, 
-    videoCount: 6,
+    videoCount: 8,
     link: "https://www.youtube.com/playlist?list=PLgW2uP-bSUO0nClVbVLn2Hph2roOx-N0S" 
   },
   { 
@@ -316,7 +317,7 @@ function App() {
   return (
     <div className="app">
       {/* Navbar */}
-      <nav className="navbar glass-card">
+      <nav className="navbar">
         <div className="container nav-content">
           <div className="logo">
             <Map className="logo-icon" />
@@ -328,9 +329,10 @@ function App() {
             <li><a href="#videolar" onClick={() => setIsMenuOpen(false)}>Videolar</a></li>
             <li><a href="#kitaplar" onClick={() => setIsMenuOpen(false)}>Kitaplar</a></li>
             <li><a href="#dokumanlar" onClick={() => setIsMenuOpen(false)}>Dökümanlar</a></li>
+            <li><a href="#harita" onClick={() => setIsMenuOpen(false)}>Haritalı Veriler</a></li>
             <li><a href="#etkinlikler" onClick={() => setIsMenuOpen(false)}>Etkinlikler</a></li>
             <li><a href="#hakkinda" onClick={() => setIsMenuOpen(false)}>Hakkında</a></li>
-            <li><a href="#social" className="btn btn-secondary">Sosyal Medya</a></li>
+            <li><a href="#social" className="btn btn-secondary" onClick={() => setIsMenuOpen(false)}>Sosyal Medya</a></li>
           </ul>
 
           <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -386,7 +388,8 @@ function App() {
             <motion.p variants={fadeInUp}>Engin Eraydın ile KPSS, TYT ve AYT sınavlarına en güncel ve en kapsamlı şekilde hazırlanın. Haritalarla coğrafyayı seveceksiniz.</motion.p>
             <motion.div variants={fadeInUp} className="hero-btns">
               <a href="https://www.youtube.com/@engineraydincografya" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Derslere Başla <ChevronRight size={20} /></a>
-              <a href="#kitaplar" className="btn btn-outline">Kitapları İncele</a>
+              <a href="#kitaplar" className="btn btn-outline">Kitapları İncele <ChevronRight size={20} color="#ff851b" /></a>
+              <a href="#harita" className="btn btn-success">İnteraktif Haritalar <ChevronRight size={20} /></a>
             </motion.div>
           </motion.div>
           <motion.div 
@@ -486,6 +489,7 @@ function App() {
         </div>
       </section>
 
+
       {/* Books Section */}
       <section id="kitaplar" className="section bg-light">
         <div className="container">
@@ -562,6 +566,9 @@ function App() {
           </motion.div>
         </div>
       </section>
+
+      {/* Interactive Map Section */}
+      <InteractiveMap />
 
       {/* Events Section */}
       <section id="etkinlikler" className="section">
@@ -753,6 +760,7 @@ function App() {
               <li><a href="#videolar">Videolar</a></li>
               <li><a href="#kitaplar">Kitaplar</a></li>
               <li><a href="#dokumanlar">Dökümanlar</a></li>
+              <li><a href="#harita">Haritalı Veriler</a></li>
               <li><a href="#etkinlikler">Etkinlikler</a></li>
               <li><a href="#hakkinda">Hakkında</a></li>
               <li><a href="#social">Sosyal Medya</a></li>
