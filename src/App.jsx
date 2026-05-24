@@ -389,7 +389,7 @@ function App() {
             <motion.div variants={fadeInUp} className="hero-btns">
               <a href="https://www.youtube.com/@engineraydincografya" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Derslere Başla <ChevronRight size={20} /></a>
               <a href="#kitaplar" className="btn btn-secondary">Kitapları İncele <ChevronRight size={20} color="#ffffff" /></a>
-              <a href="#harita" className="btn btn-success">İnteraktif Haritalar <ChevronRight size={20} /></a>
+              <a href="#harita" className="btn btn-success">Haritalı Veriler <ChevronRight size={20} /></a>
             </motion.div>
           </motion.div>
           <motion.div 
