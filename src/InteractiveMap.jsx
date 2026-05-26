@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { ComposableMap, Geographies, Geography } from '@vnedyalk0v/react19-simple-maps';
+import { ComposableMap, Geographies, Geography, Marker } from '@vnedyalk0v/react19-simple-maps';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import { MINING_MAP_DATA } from './miningData';
 import geoData from './tr-cities.json';
 
 const GEO_URL = geoData;
@@ -472,14 +473,16 @@ const POPULATION_DATA = {
 };
 
 const ELECTRICITY_DATA = {
-  year: "2024",
-  total: "354.570 GWh",
+  year: "2025",
+  total: "360.900 GWh",
   sources: [
-    { id: "komur",        name: "Kömür",                          percent: 34.7, gwh: 123035, color: "#78716c" },
-    { id: "yenilenebilir", name: "Yenilenebilir Enerji & Atıklar", percent: 25.2, gwh: 89352,  color: "#22c55e" },
-    { id: "hidrolik",     name: "Hidrolik",                       percent: 21.1, gwh: 74815,  color: "#38bdf8" },
-    { id: "dogalgaz",     name: "Doğal Gaz",                      percent: 18.9, gwh: 67014,  color: "#f97316" },
-    { id: "sivi",         name: "Sıvı Yakıtlar",                  percent: 0.1,  gwh: 355,    color: "#a78bfa" },
+    { id: "komur",      name: "Kömür",        percent: 33.6, gwh: 121262, color: "#78716c" },
+    { id: "dogalgaz",   name: "Doğal Gaz",    percent: 23.0, gwh: 83007,  color: "#f97316" },
+    { id: "hidrolik",   name: "Hidrolik",      percent: 15.8, gwh: 57022,  color: "#38bdf8" },
+    { id: "ruzgar",     name: "Rüzgar",        percent: 10.9, gwh: 39338,  color: "#34d399" },
+    { id: "gunes",      name: "Güneş",         percent: 10.5, gwh: 37895,  color: "#fbbf24" },
+    { id: "jeotermal",  name: "Jeotermal",     percent: 3.2,  gwh: 11549,  color: "#f43f5e" },
+    { id: "diger",      name: "Diğer",         percent: 3.1,  gwh: 11188,  color: "#a78bfa" },
   ]
 };
 
@@ -586,6 +589,7 @@ const MINING_PRODUCTS = {
     ]}
 };
 
+
 const formatValue = (value, unit) => {
   if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M ${unit}`;
   if (value >= 1000) return `${(value / 1000).toFixed(0)}B ${unit}`;
@@ -612,6 +616,14 @@ const normalizeProvinceName = (name) => {
   return n;
 };
 
+const toTitleCaseTr = (str) => {
+  if (!str) return "";
+  return str.split(' ').map(word => {
+    if (word.length === 0) return word;
+    return word.charAt(0).toLocaleUpperCase('tr-TR') + word.slice(1).toLocaleLowerCase('tr-TR');
+  }).join(' ');
+};
+
 export default function InteractiveMap() {
   const [activeTab, setActiveTab] = useState("tarim_hayvancilik");
   const [dtSubTab, setDtSubTab] = useState("exp_country");
@@ -621,6 +633,7 @@ export default function InteractiveMap() {
   const [madenCategory, setMadenCategory] = useState("metalik");
   const [madenProduct, setMadenProduct] = useState("demir");
   const [clickedProv, setClickedProv] = useState(null);
+  const [madenMapType, setMadenMapType] = useState('uranyum_toryum');
 
   useEffect(() => {
     setClickedProv(null);
@@ -914,18 +927,35 @@ export default function InteractiveMap() {
               <div className="dt-layout-grid">
                 {/* Sidebar Navigation */}
                 <div className="dt-sidebar">
-                  <div className="imap-select-wrap">
-                    <label>Veri Seçin</label>
-                    <select
-                      className="imap-select"
-                      value={dtSubTab}
-                      onChange={(e) => setDtSubTab(e.target.value)}
+                  <div className="dt-tab-buttons">
+                    <button
+                      className={`imap-cat-btn ${dtSubTab === 'exp_country' ? 'active' : ''}`}
+                      onClick={() => setDtSubTab('exp_country')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.75rem' }}
                     >
-                      <option value="exp_country">🟢 İHRACAT — En Fazla Satış Yapılan 5 Ülke</option>
-                      <option value="imp_country">🔴 İTHALAT — En Fazla Alım Yapılan 5 Ülke</option>
-                      <option value="exp_product">📦 En Çok İhracat Yapılan 5 Ürün</option>
-                      <option value="imp_product">🛒 En Çok İthalat Yapılan 5 Ürün</option>
-                    </select>
+                      🟢 İHRACAT — En Fazla Satış Yapılan 5 Ülke
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${dtSubTab === 'imp_country' ? 'active' : ''}`}
+                      onClick={() => setDtSubTab('imp_country')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.75rem' }}
+                    >
+                      🔴 İTHALAT — En Fazla Alım Yapılan 5 Ülke
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${dtSubTab === 'exp_product' ? 'active' : ''}`}
+                      onClick={() => setDtSubTab('exp_product')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.75rem' }}
+                    >
+                      📦 En Çok İhracat Yapılan 5 Ürün
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${dtSubTab === 'imp_product' ? 'active' : ''}`}
+                      onClick={() => setDtSubTab('imp_product')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.75rem' }}
+                    >
+                      🛒 En Çok İthalat Yapılan 5 Ürün
+                    </button>
                   </div>
                 </div>
 
@@ -1313,24 +1343,77 @@ export default function InteractiveMap() {
               <div className="dt-layout-grid">
                 {/* Sidebar */}
                 <div className="dt-sidebar">
-                  <div className="imap-select-wrap">
-                    <label>Veri Seçin</label>
-                    <select
-                      className="imap-select"
-                      value={nufusSubTab}
-                      onChange={(e) => setNufusSubTab(e.target.value)}
+                  <div className="dt-tab-buttons">
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'piramit' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('piramit')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
                     >
-                      <option value="piramit">📊 Nüfus Piramidi</option>
-                      <option value="yas_gruplari">👶 Yaş Gruplarına Göre Dağılım</option>
-                      <option value="top_pop">🏙️ Nüfusu En Çok 5 İl</option>
-                      <option value="bot_pop">🌾 Nüfusu En Az 5 İl</option>
-                      <option value="top_mig">📈 En Fazla Göç Alan 5 İl</option>
-                      <option value="bot_mig">📉 En Az Göç Alan 5 İl</option>
-                      <option value="top_mig_out">📤 En Fazla Göç Veren 5 İl</option>
-                      <option value="bot_mig_out">📥 En Az Göç Veren 5 İl</option>
-                      <option value="top_fert">🔺 Doğurganlık Hızı En Yüksek 5 İl</option>
-                      <option value="bot_fert">🔻 Doğurganlık Hızı En Düşük 5 İl</option>
-                    </select>
+                      📊 Nüfus Piramidi
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'yas_gruplari' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('yas_gruplari')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      👶 Yaş Gruplarına Göre Dağılım
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'top_pop' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('top_pop')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      🏙️ Nüfusu En Çok 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'bot_pop' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('bot_pop')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      🌾 Nüfusu En Az 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'top_mig' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('top_mig')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      📈 En Fazla Göç Alan 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'bot_mig' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('bot_mig')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      📉 En Az Göç Alan 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'top_mig_out' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('top_mig_out')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      📤 En Fazla Göç Veren 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'bot_mig_out' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('bot_mig_out')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      📥 En Az Göç Veren 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'top_fert' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('top_fert')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      🔺 Doğurganlık Hızı En Yüksek 5 İl
+                    </button>
+                    <button
+                      className={`imap-cat-btn ${nufusSubTab === 'bot_fert' ? 'active' : ''}`}
+                      onClick={() => setNufusSubTab('bot_fert')}
+                      style={{ justifyContent: 'flex-start', textAlign: 'left', padding: '0.6rem 0.75rem', fontSize: '0.9rem' }}
+                    >
+                      🔻 Doğurganlık Hızı En Düşük 5 İl
+                    </button>
                   </div>
                 </div>
 
@@ -1652,170 +1735,164 @@ export default function InteractiveMap() {
               </div>
             </motion.div>
           )}
-          {activeTab === "madenler_enerji" && (
+{activeTab === "madenler_enerji" && (
             <motion.div
               key="madenler_enerji"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.4 }}
-              className="imap-wrapper"
+              className="dt-wrapper"
             >
-              <div className="imap-left">
-                <div className="imap-cats">
-                  {MINING_CATEGORIES.map(cat => (
-                    <button
-                      key={cat.id}
-                      className={`imap-cat-btn ${madenCategory === cat.id ? 'active' : ''}`}
-                      onClick={() => {
-                        setMadenCategory(cat.id);
-                        const firstProduct = Object.keys(MINING_PRODUCTS).find(
-                          k => MINING_PRODUCTS[k].category === cat.id
-                        );
-                        if (firstProduct) setMadenProduct(firstProduct);
-                      }}
+              <div className="dt-layout-grid" style={{ minHeight: '500px' }}>
+                {/* Sidebar Navigation */}
+                <div className="dt-sidebar">
+                  <div className="imap-select-wrap">
+                    <label>Maden & Enerji Haritası Seçin</label>
+                    <select
+                      className="imap-select"
+                      value={madenMapType}
+                      onChange={(e) => setMadenMapType(e.target.value)}
                     >
-                      <span>{cat.emoji}</span>
-                      {cat.label}
-                    </button>
-                  ))}
-                </div>
-                
-                <div className="imap-select-wrap">
-                  <label>Maden / Enerji Türü</label>
-                  <select
-                    className="imap-select"
-                    value={madenProduct}
-                    onChange={(e) => setMadenProduct(e.target.value)}
-                  >
-                    {Object.keys(MINING_PRODUCTS)
-                      .filter(k => MINING_PRODUCTS[k].category === madenCategory)
-                      .map(k => (
-                        <option key={k} value={k}>
-                          {MINING_PRODUCTS[k].name}
-                        </option>
-                      ))
-                    }
-                  </select>
-                </div>
-
-                <div className="imap-cols-container">
-                  <div className="imap-bars-title">Rezerv Potansiyeli</div>
-                  <div className="imap-cols">
-                    {MINING_PRODUCTS[madenProduct].provinces
-                      .sort((a, b) => b.value - a.value)
-                      .slice(0, 5)
-                      .map((prov, idx) => {
-                        const maxVal = Math.max(...MINING_PRODUCTS[madenProduct].provinces.map(p => p.value));
-                        const heightPct = (prov.value / maxVal) * 100;
-                        return (
-                          <div key={prov.name} className="imap-col-item">
-                            <div className="imap-col-track">
-                              <motion.div 
-                                className="imap-col-fill"
-                                style={{ backgroundColor: MINING_PRODUCTS[madenProduct].color }}
-                                initial={{ height: 0 }}
-                                animate={{ height: `${heightPct}%` }}
-                                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                              />
-                            </div>
-                            <div className="imap-col-label">
-                              <span className="imap-rank">#{idx + 1}</span>
-                              <span className="imap-col-name" title={prov.name}>{prov.name}</span>
-                            </div>
-                          </div>
-                        );
-                    })}
+                      {Object.entries(MINING_MAP_DATA)
+                        .map(([key, data]) => {
+                          let text = data.title.replace(/TÜRKİYE /gi, '').replace(/ YATAKLARININ DAĞILIŞI/gi, '').replace(/ YATAKLARI/gi, '');
+                          text = toTitleCaseTr(text);
+                          return { key, text };
+                        })
+                        .sort((a, b) => a.text.localeCompare(b.text, 'tr-TR'))
+                        .map(({ key, text }) => (
+                          <option key={key} value={key}>{text}</option>
+                        ))}
+                    </select>
+                  </div>
+                  
+                  <div style={{ marginTop: '2rem', padding: '1rem', background: 'rgba(255,255,255,0.05)', borderRadius: '8px' }}>
+                    <h4 style={{ margin: '0 0 1rem 0', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Lejant</h4>
+                    {MINING_MAP_DATA[madenMapType].legend.map((item, idx) => {
+                      const isString = typeof item === 'string';
+                      const type = isString ? 'circle' : item.type;
+                      const color = isString ? '#ef4444' : item.color;
+                      const label = isString ? item : item.label;
+                      return (
+                      <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem', fontSize: '0.85rem' }}>
+                        {type === 'circle' && (
+                          <span style={{ display: 'inline-block', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: color }}></span>
+                        )}
+                        {type === 'factory' && (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill={color}>
+                            <path d="M22 22H2V20H22V22ZM2 18V6L9 10V6L16 10V6L22 10V18H2Z" />
+                          </svg>
+                        )}
+                        {type === 'pumpjack' && (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill={color}>
+                            <path d="M16 3H8V5H14.1L12.7 7.8L9.8 6.4L5.4 15H2V17H11.5L16 8H19V21H21V6H16V3ZM8 17H6V21H8V17Z" />
+                          </svg>
+                        )}
+                        {type === 'cylinder' && (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill={color}>
+                            <path d="M12 2C8.69 2 6 3.34 6 5V19C6 20.66 8.69 22 12 22C15.31 22 18 20.66 18 19V5C18 3.34 15.31 2 12 2ZM12 4C14.76 4 16 5 16 5C16 5 14.76 6 12 6C9.24 6 8 5 8 5C8 5 9.24 4 12 4ZM12 20C9.24 20 8 19 8 19V17.21C9.17 17.7 10.53 18 12 18C13.47 18 14.83 17.7 16 17.21V19C16 19 14.76 20 12 20Z" />
+                          </svg>
+                        )}
+                        <span>{label}</span>
+                      </div>
+                    )})}
                   </div>
                 </div>
-              </div>
 
-              <div className="imap-right">
-                <div className="imap-product-badge" style={{ borderColor: MINING_PRODUCTS[madenProduct].color, color: MINING_PRODUCTS[madenProduct].color }}>
-                  {MINING_PRODUCTS[madenProduct].name} Haritası
-                </div>
-                <div className="imap-map-container">
-                  <ComposableMap
-                    projection="geoMercator"
-                    projectionConfig={{
-                      scale: 2300,
-                      center: [35.2433, 38.9637]
-                    }}
-                    width={800}
-                    height={400}
-                  >
-                    <Geographies geography={GEO_URL}>
-                      {({ geographies }) =>
-                        geographies.map((geo) => {
-                          const provName = geo.properties.name;
-                          const found = MINING_PRODUCTS[madenProduct].provinces.find(
-                            p => normalizeProvinceName(p.name) === normalizeProvinceName(provName)
-                          );
-                          const isClicked = clickedProv === provName;
-                          let fillColor = "rgba(0,0,0,0.03)";
-                          if (found) {
-                            const maxVal = Math.max(...MINING_PRODUCTS[madenProduct].provinces.map(p => p.value));
-                            const opacity = Math.max(0.25, found.value / maxVal);
-                            const hex = MINING_PRODUCTS[madenProduct].color;
-                            const r = parseInt(hex.slice(1,3), 16);
-                            const g = parseInt(hex.slice(3,5), 16);
-                            const b = parseInt(hex.slice(5,7), 16);
-                            fillColor = `rgba(${r},${g},${b},${opacity})`;
-                          }
-
-                          return (
+                {/* Main Content Area */}
+                <div className="dt-content" style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div className="imap-product-badge" style={{ alignSelf: 'flex-start', marginBottom: '1rem', backgroundColor: 'var(--card-bg)' }}>
+                    {MINING_MAP_DATA[madenMapType].title}
+                  </div>
+                  <div className="imap-map-container" style={{ flex: 1, position: 'relative', background: 'var(--card-bg)', borderRadius: '12px', padding: '1rem' }}>
+                    <ComposableMap
+                      projection="geoMercator"
+                      projectionConfig={{
+                        scale: 2300,
+                        center: [35.2433, 38.9637]
+                      }}
+                      width={800}
+                      height={400}
+                      style={{ width: "100%", height: "100%" }}
+                    >
+                      <Geographies geography={GEO_URL}>
+                        {({ geographies }) =>
+                          geographies.map((geo) => (
                             <Geography
                               key={geo.rsmKey}
                               geography={geo}
-                              fill={isClicked ? "#001f3f" : fillColor}
-                              stroke="#ffffff"
-                              strokeWidth={0.8}
+                              fill="#e2e8f0"
+                              stroke="#e2e8f0"
+                              strokeWidth={0.5}
                               style={{
-                                default: { outline: "none", transition: "all 250ms" },
-                                hover: { fill: "#fbbf24", outline: "none", cursor: "pointer", stroke: "#fff", strokeWidth: 1.5 },
-                                pressed: { fill: "#001f3f", outline: "none" }
+                                default: { outline: "none" },
+                                hover: { outline: "none", fill: "#cbd5e1" },
+                                pressed: { outline: "none" }
                               }}
-                              onMouseEnter={() => setClickedProv(provName)}
-                              onMouseLeave={() => setClickedProv(null)}
                             />
-                          );
-                        })
-                      }
-                    </Geographies>
-                  </ComposableMap>
-                </div>
-
-                <AnimatePresence>
-                  {clickedProv && (
-                    <motion.div 
-                      className="imap-tooltip"
-                      initial={{ opacity: 0, scale: 0.9, y: 10 }}
-                      animate={{ opacity: 1, scale: 1, y: 0 }}
-                      exit={{ opacity: 0, scale: 0.9, y: 10 }}
-                    >
-                      <button className="imap-tooltip-close" onClick={() => setClickedProv(null)}>×</button>
-                      <div className="imap-tooltip-title">{clickedProv}</div>
-                      {(() => {
-                        const product = MINING_PRODUCTS[madenProduct];
-                        const found = product.provinces.find(p => normalizeProvinceName(p.name) === normalizeProvinceName(clickedProv));
-                        if (found) {
-                          return (
-                            <>
-                              <div className="imap-tooltip-val" style={{ color: product.color }}>
-                                {found.value} Puan
-                              </div>
-                              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-                                {product.name} Potansiyeli
-                              </div>
-                            </>
-                          );
-                        } else {
-                          return <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Belirgin bir rezerv bulunmuyor.</div>;
+                          ))
                         }
-                      })()}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                      </Geographies>
+                      
+                      {MINING_MAP_DATA[madenMapType].markers.map((marker, index) => {
+                        const coords = marker.coordinates || marker.position || (marker.lng !== undefined && marker.lat !== undefined ? [marker.lng, marker.lat] : [35.0, 39.0]);
+                        const icon = marker.icon || 'circle';
+                        const color = marker.color || '#ef4444';
+                        const name = marker.name || marker.label || 'Bilinmiyor';
+                        return (
+                        <Marker key={index} coordinates={coords}>
+                          <g style={{ cursor: 'pointer' }} onMouseEnter={() => setClickedProv(name)} onMouseLeave={() => setClickedProv(null)}>
+                            {icon === 'circle' && (
+                              <circle r={5} fill={color} stroke="#fff" strokeWidth={1.5} cy={marker.offsetY || 0} />
+                            )}
+                            {icon === 'factory' && (
+                              <g transform={`translate(-8, ${(marker.offsetY || 0) - 18}) scale(0.7)`}>
+                                <path d="M22 22H2V20H22V22ZM2 18V6L9 10V6L16 10V6L22 10V18H2Z" fill={color} />
+                              </g>
+                            )}
+                            {icon === 'pumpjack' && (
+                              <g transform={`translate(-8, ${(marker.offsetY || 0) - 18}) scale(0.7)`}>
+                                <path d="M16 3H8V5H14.1L12.7 7.8L9.8 6.4L5.4 15H2V17H11.5L16 8H19V21H21V6H16V3ZM8 17H6V21H8V17Z" fill={color} />
+                              </g>
+                            )}
+                            {icon === 'cylinder' && (
+                              <g transform={`translate(-8, ${(marker.offsetY || 0) - 18}) scale(0.7)`}>
+                                <path d="M12 2C8.69 2 6 3.34 6 5V19C6 20.66 8.69 22 12 22C15.31 22 18 20.66 18 19V5C18 3.34 15.31 2 12 2ZM12 4C14.76 4 16 5 16 5C16 5 14.76 6 12 6C9.24 6 8 5 8 5C8 5 9.24 4 12 4ZM12 20C9.24 20 8 19 8 19V17.21C9.17 17.7 10.53 18 12 18C13.47 18 14.83 17.7 16 17.21V19C16 19 14.76 20 12 20Z" fill={color} />
+                              </g>
+                            )}
+                            {marker.label !== "" && (
+                              <text
+                                textAnchor={marker.align || "middle"}
+                                x={marker.offsetX || 0}
+                                y={(marker.offsetY || 0) + 14}
+                                style={{ fill: "#334155", fontSize: "10px", fontWeight: "600", pointerEvents: "none" }}
+                              >
+                                {name}
+                              </text>
+                            )}
+                          </g>
+                        </Marker>
+                      )})}
+                    </ComposableMap>
+
+                    {/* Interactive Tooltip / Detail overlay */}
+                    <AnimatePresence>
+                      {clickedProv && (
+                        <motion.div 
+                          className="imap-tooltip"
+                          initial={{ opacity: 0, scale: 0.9, y: 10 }}
+                          animate={{ opacity: 1, scale: 1, y: 0 }}
+                          exit={{ opacity: 0, scale: 0.9, y: 10 }}
+                          style={{ position: 'absolute', bottom: '20px', left: '20px', background: 'var(--card-bg)', zIndex: 10 }}
+                        >
+                          <div className="imap-tooltip-title">{clickedProv}</div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+
+                  </div>
+                </div>
               </div>
             </motion.div>
           )}

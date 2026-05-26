@@ -1,0 +1,96 @@
+{
+  "kursun_cinko": {
+    "title": "TÜRKİYE KURŞUN - ÇİNKO YATAKLARININ DAĞILIŞI",
+    "legend": [
+      {
+        "label": "Kurşun - Çinko Yatakları",
+        "type": "point"
+      }
+    ],
+    "markers": [
+      {"name": "Handeresi", "coordinates": [27.3, 39.8]},
+      {"name": "Balya", "coordinates": [27.5, 39.7]},
+      {"name": "Amasya - Gümüşhacıköy", "coordinates": [35.3, 40.8]},
+      {"name": "Yozgat - Akdağmadeni", "coordinates": [35.8, 39.6]},
+      {"name": "Kayseri - Zamantı", "coordinates": [35.6, 38.2]},
+      {"name": "Bolkarlar", "coordinates": [34.6, 37.4]},
+      {"name": "Koyulhisar", "coordinates": [37.8, 40.3]},
+      {"name": "Köprübaşı", "coordinates": [38.0, 40.8]},
+      {"name": "Rize - Madenköy", "coordinates": [40.7, 40.9]},
+      {"name": "Elazığ - Keban", "coordinates": [38.7, 38.8]}
+    ]
+  },
+  "trona": {
+    "title": "TÜRKİYE TRONA (SODA KÜLÜ) YATAKLARININ DAĞILIŞI",
+    "legend": [
+      {
+        "label": "Trona (Soda Külü) Yatakları",
+        "type": "point"
+      },
+      {
+        "label": "Soda Külü İşletmeleri",
+        "type": "factory"
+      }
+    ],
+    "markers": [
+      {"name": "Beypazarı", "coordinates": [31.9, 40.1]},
+      {"name": "Sincan", "coordinates": [32.5, 39.9]},
+      {"name": "Kahramankazan", "coordinates": [32.6, 40.2]},
+      {"name": "ANKARA", "coordinates": [32.8, 39.9], "type": "factory"}
+    ]
+  },
+  "volfram": {
+    "title": "TÜRKİYE VOLFRAM (TUNGSTEN) YATAKLARININ DAĞILIŞI",
+    "legend": [
+      {
+        "label": "Wolfram (Tungsten) Yatakları",
+        "type": "point"
+      }
+    ],
+    "markers": [
+      {"name": "Bursa - Uludağ", "coordinates": [29.1, 40.0]},
+      {"name": "Niğde - Gümüşler", "coordinates": [34.7, 37.9]},
+      {"name": "Elazığ - Keban", "coordinates": [38.7, 38.8]}
+    ]
+  },
+  "pomza": {
+    "title": "TÜRKİYE POMZA TAŞI YATAKLARININ DAĞILIŞI",
+    "legend": [
+      {
+        "label": "Pomza Taşı Yatakları",
+        "type": "point"
+      }
+    ],
+    "markers": [
+      {"name": "Nevşehir", "coordinates": [34.7, 38.6]},
+      {"name": "Kayseri", "coordinates": [35.4, 38.7]},
+      {"name": "Bitlis", "coordinates": [42.1, 38.4]},
+      {"name": "Tatvan", "coordinates": [42.5, 38.8]},
+      {"name": "Van", "coordinates": [43.4, 38.5]}
+    ]
+  },
+  "perlit": {
+    "title": "TÜRKİYE PERLİT YATAKLARININ DAĞILIŞI",
+    "legend": [
+      {
+        "label": "Perlit Yatakları",
+        "type": "point"
+      }
+    ],
+    "markers": [
+      {"name": "Balıkesir", "coordinates": [27.8, 39.6]},
+      {"name": "Balıkesir", "coordinates": [28.0, 39.8]},
+      {"name": "İzmir", "coordinates": [27.1, 38.4]},
+      {"name": "İzmir", "coordinates": [27.3, 38.0]},
+      {"name": "Ankara", "coordinates": [32.5, 40.0]},
+      {"name": "Ankara", "coordinates": [33.0, 40.0]},
+      {"name": "Erzincan", "coordinates": [39.5, 39.7]},
+      {"name": "Erzurum", "coordinates": [40.8, 40.0]},
+      {"name": "Erzurum", "coordinates": [41.5, 40.1]},
+      {"name": "Kars", "coordinates": [43.1, 40.6]},
+      {"name": "Bitlis", "coordinates": [42.1, 38.4]},
+      {"name": "Bitlis", "coordinates": [42.5, 38.8]},
+      {"name": "Van", "coordinates": [43.4, 38.5]}
+    ]
+  }
+}

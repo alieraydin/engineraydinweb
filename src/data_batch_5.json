@@ -1,0 +1,31 @@
+{
+  "kukurt_manganez": {
+    "title": "TÜRKİYE KÜKÜRT VE MANGANEZ YATAKLARININ DAĞILIŞI",
+    "legend": [
+      { "type": "circle", "color": "#84cc16", "label": "Kükürt Yatakları" },
+      { "type": "circle", "color": "#f97316", "label": "Manganez Yatakları" }
+    ],
+    "markers": [
+      { "name": "Isparta - Keçiborlu", "coordinates": [30.29, 37.94], "type": "kukurt", "icon": "circle", "color": "#84cc16" },
+      { "name": "Zonguldak", "coordinates": [31.79, 41.45], "type": "manganez", "icon": "circle", "color": "#f97316" },
+      { "name": "Trabzon", "coordinates": [39.73, 41.00], "type": "manganez", "icon": "circle", "color": "#f97316" },
+      { "name": "Rize", "coordinates": [40.52, 41.02], "type": "manganez", "icon": "circle", "color": "#f97316" },
+      { "name": "Ardahan", "coordinates": [42.70, 41.11], "type": "manganez", "icon": "circle", "color": "#f97316" },
+      { "name": "Denizli", "coordinates": [29.09, 37.78], "type": "manganez", "icon": "circle", "color": "#f97316" }
+    ]
+  },
+  "tas_komuru": {
+    "title": "TÜRKİYE TAŞ KÖMÜRÜ YATAKLARININ DAĞILIŞI",
+    "legend": [
+      { "type": "circle", "color": "#f97316", "label": "Taşkömürü Yatakları" },
+      { "type": "factory", "color": "#475569", "label": "Termik Santraller" }
+    ],
+    "markers": [
+      { "name": "Kozlu - Karadon", "coordinates": [31.75, 41.42], "type": "tas_komuru", "icon": "circle", "color": "#f97316" },
+      { "name": "Amasra", "coordinates": [32.38, 41.74], "type": "tas_komuru", "icon": "circle", "color": "#f97316" },
+      { "name": "İnebolu", "coordinates": [33.76, 41.97], "type": "tas_komuru", "icon": "circle", "color": "#f97316" },
+      { "name": "ZONGULDAK - ÇATALAĞZI", "coordinates": [31.89, 41.51], "type": "santral", "icon": "factory", "color": "#475569" },
+      { "name": "ADANA - SUGÖZÜ", "coordinates": [35.87, 36.83], "type": "santral", "icon": "factory", "color": "#475569" }
+    ]
+  }
+}

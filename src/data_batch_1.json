@@ -1,0 +1,60 @@
+{
+  "demir": {
+    "title": "TÜRKİYE DEMİR YATAKLARININ DAĞILIŞI",
+    "legend": [
+      { "type": "circle", "color": "#f97316", "label": "Küçük Demir Yatakları" },
+      { "type": "circle", "color": "#ef4444", "label": "Büyük Demir Yatakları" },
+      { "type": "factory", "color": "#475569", "label": "Demir - Çelik Fabrikaları" }
+    ],
+    "markers": [
+      { "name": "Eymir", "coordinates": [27.8, 39.5], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "Şamlı", "coordinates": [27.9, 39.7], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "Çamdağ", "coordinates": [30.6, 40.8], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "Çavdar", "coordinates": [27.7, 37.6], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "EREĞLİ", "coordinates": [31.4, 41.3], "type": "fabrika", "icon": "factory", "color": "#475569" },
+      { "name": "KARABÜK", "coordinates": [32.6, 41.2], "type": "fabrika", "icon": "factory", "color": "#475569" },
+      { "name": "Kesikköprü", "coordinates": [33.4, 39.4], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Attepe Feke - Mansurlu Havzası", "coordinates": [36.0, 38.0], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "İSKENDERUN", "coordinates": [36.2, 36.6], "type": "fabrika", "icon": "factory", "color": "#475569" },
+      { "name": "Divriği A-B Kafa", "coordinates": [38.1, 39.4], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Hasançelebi", "coordinates": [37.8, 38.8], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Hekimhan", "coordinates": [38.1, 38.8], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Avnik", "coordinates": [40.5, 38.9], "type": "buyuk", "icon": "circle", "color": "#ef4444" }
+    ]
+  },
+  "bakir": {
+    "title": "TÜRKİYE BAKIR YATAKLARININ DAĞILIŞI",
+    "legend": [
+      { "type": "circle", "color": "#f97316", "label": "Küçük Bakır Yatakları" },
+      { "type": "circle", "color": "#ef4444", "label": "Büyük Bakır Yatakları" },
+      { "type": "factory", "color": "#475569", "label": "Bakır İşletmeleri" }
+    ],
+    "markers": [
+      { "name": "Kastamonu - Küre", "coordinates": [33.7, 41.8], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "SAMSUN", "coordinates": [36.3, 41.3], "type": "fabrika", "icon": "factory", "color": "#475569" },
+      { "name": "Hasköy Kurşunlu", "coordinates": [34.8, 40.6], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "RİZE Çayeli Madenköy (Yatak)", "coordinates": [40.7, 41.0], "type": "kucuk", "icon": "circle", "color": "#f97316" },
+      { "name": "RİZE Çayeli Madenköy (İşletme)", "coordinates": [40.8, 41.0], "type": "fabrika", "icon": "factory", "color": "#475569", "label": "" },
+      { "name": "ARTVİN Murgul (Yatak)", "coordinates": [41.6, 41.2], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "ARTVİN Murgul (İşletme)", "coordinates": [41.7, 41.2], "type": "fabrika", "icon": "factory", "color": "#475569", "label": "" },
+      { "name": "MADEN Ergani (Yatak)", "coordinates": [39.7, 38.3], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "MADEN Ergani (İşletme)", "coordinates": [39.6, 38.3], "type": "fabrika", "icon": "factory", "color": "#475569", "label": "" },
+      { "name": "Siirt", "coordinates": [42.0, 38.1], "type": "kucuk", "icon": "circle", "color": "#f97316" }
+    ]
+  },
+  "boksit": {
+    "title": "TÜRKİYE BOKSİT YATAKLARININ DAĞILIŞI",
+    "legend": [
+      { "type": "circle", "color": "#f97316", "label": "Küçük Boksit Yatakları" },
+      { "type": "circle", "color": "#ef4444", "label": "Büyük Boksit Yatakları" },
+      { "type": "factory", "color": "#475569", "label": "Boksit İşletmeleri" }
+    ],
+    "markers": [
+      { "name": "Zonguldak", "coordinates": [31.8, 41.4], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Akseki", "coordinates": [31.8, 37.0], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Seydişehir (Yatak)", "coordinates": [31.8, 37.4], "type": "buyuk", "icon": "circle", "color": "#ef4444" },
+      { "name": "Seydişehir (İşletme)", "coordinates": [31.9, 37.4], "type": "fabrika", "icon": "factory", "color": "#475569", "label": "" },
+      { "name": "Payas", "coordinates": [36.2, 36.8], "type": "kucuk", "icon": "circle", "color": "#f97316" }
+    ]
+  }
+}

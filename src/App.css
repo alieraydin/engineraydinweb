@@ -1475,25 +1475,19 @@
 /* Interactive Map Tabs */
 .imap-tabs-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: -1rem auto 3rem auto;
   max-width: 1000px;
   padding: 0 1rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
 }
+
 @media (min-width: 1024px) {
   .imap-tabs-container {
     justify-content: center;
   }
-}
-
-.imap-tabs-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
 }
 
 .imap-tabs-break {
@@ -1503,10 +1497,24 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .imap-tabs-break {
+    display: none;
+  }
+}
+
+/* Hide break in grid mode too */
+@media (max-width: 768px) {
+  .imap-tabs-container > .imap-tabs-break {
+    display: none;
+  }
+}
+
 .imap-tab-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.35rem;
   padding: 0.6rem 1.2rem;
   background: rgba(0, 31, 63, 0.03);
   border: 1.5px solid rgba(0, 31, 63, 0.12);
@@ -1545,21 +1553,38 @@
   font-size: 1.1rem;
 }
 
+/* Mobile: 3-column grid so all 6 tabs fit in 2 rows */
 @media (max-width: 768px) {
   .imap-tabs-container {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
     margin-bottom: 2rem;
-    padding-bottom: 0;
+    padding: 0 0.75rem;
+    max-width: 100%;
   }
   .imap-tab-btn {
-    padding: 0.6rem 1rem;
-    font-size: 0.8rem;
-    flex-shrink: 1;
+    flex-direction: column;
+    padding: 0.6rem 0.4rem;
+    font-size: 0.7rem;
+    flex-shrink: unset;
+    white-space: normal;
+    text-align: center;
+    border-radius: 12px;
+    line-height: 1.2;
+    width: 100%;
+    gap: 0.2rem;
   }
   .imap-tab-emoji {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    display: block;
+  }
+}
+
+/* Very small screens: 2-column grid */
+@media (max-width: 400px) {
+  .imap-tabs-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1820,6 +1845,12 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.03);
 }
 
+.dt-tab-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 @media (max-width: 992px) {
   .dt-summary-grid {
     grid-template-columns: 1fr 1fr;
@@ -1829,6 +1860,32 @@
   }
   .dt-cols-grid {
     grid-template-columns: 1fr;
+  }
+  .dt-tab-buttons {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .dt-nav-btn {
+    white-space: normal;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .dt-tab-buttons {
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+  }
+  .dt-tab-buttons > * {
+    width: 100% !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    white-space: normal;
+    font-size: 0.82rem;
+    padding: 0.6rem 0.75rem !important;
+    box-sizing: border-box;
   }
 }
 

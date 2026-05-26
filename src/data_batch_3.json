@@ -1,0 +1,88 @@
+{
+  "zimpara_tasi": {
+    "title": "Zımpara Taşı Yatakları",
+    "legend": [
+      {
+        "label": "Zımpara Taşı Yatakları",
+        "icon": "circle",
+        "color": "#FF6B6B"
+      }
+    ],
+    "markers": [
+      { "position": [27.1, 38.4], "label": "İzmir", "type": "Zımpara Taşı Yatakları" },
+      { "position": [27.8, 37.8], "label": "Aydın", "type": "Zımpara Taşı Yatakları" },
+      { "position": [27.4, 37.0], "label": "Bodrum", "type": "Zımpara Taşı Yatakları" },
+      { "position": [27.8, 37.3], "label": "Milas", "type": "Zımpara Taşı Yatakları" },
+      { "position": [28.3, 36.8], "label": "Marmaris", "type": "Zımpara Taşı Yatakları" },
+      { "position": [32.0, 36.5], "label": "Alanya", "type": "Zımpara Taşı Yatakları" }
+    ]
+  },
+  "fosfat": {
+    "title": "Fosfat Yatakları",
+    "legend": [
+      {
+        "label": "Fosfat Yatakları",
+        "icon": "circle",
+        "color": "#FF6B6B"
+      },
+      {
+        "label": "Fosfat İşleme Tesisi",
+        "icon": "factory",
+        "color": "#8B4513"
+      }
+    ],
+    "markers": [
+      { "position": [38.0, 37.0], "label": "Aşağı Fırat Bölgesi", "type": "Fosfat Yatakları" },
+      { "position": [41.0, 38.6], "label": "Bingöl - Bitlis Bölgesi", "type": "Fosfat Yatakları" },
+      { "position": [40.5, 37.5], "label": "Mardin - Mazıdağ Bölgesi", "type": "Fosfat Yatakları" },
+      { "position": [40.6, 37.5], "label": "Mazıdağ", "type": "Fosfat İşleme Tesisi" }
+    ]
+  },
+  "asbest": {
+    "title": "Asbest (Amyant) Yatakları",
+    "legend": [
+      {
+        "label": "Asbest Yatakları",
+        "icon": "circle",
+        "color": "#FF6B6B"
+      }
+    ],
+    "markers": [
+      { "position": [27.9, 39.6], "label": "Balıkesir", "type": "Asbest Yatakları" },
+      { "position": [30.5, 39.8], "label": "Eskişehir", "type": "Asbest Yatakları" },
+      { "position": [35.8, 40.6], "label": "Amasya", "type": "Asbest Yatakları" },
+      { "position": [37.0, 39.7], "label": "Sivas", "type": "Asbest Yatakları" },
+      { "position": [36.2, 36.2], "label": "Hatay", "type": "Asbest Yatakları" }
+    ]
+  },
+  "altin": {
+    "title": "Altın Yatakları",
+    "legend": [
+      {
+        "label": "Altın Yatakları",
+        "icon": "circle",
+        "color": "#FF6B6B"
+      }
+    ],
+    "markers": [
+      { "position": [26.7, 40.3], "label": "Lapseki", "type": "Altın Yatakları" },
+      { "position": [30.2, 40.0], "label": "Söğüt", "type": "Altın Yatakları" },
+      { "position": [27.1, 39.1], "label": "Ovacık", "type": "Altın Yatakları" },
+      { "position": [27.0, 39.2], "label": "Çukuralan", "type": "Altın Yatakları" },
+      { "position": [27.1, 38.5], "label": "Arapdağ", "type": "Altın Yatakları" },
+      { "position": [27.0, 38.3], "label": "Efemçukuru", "type": "Altın Yatakları" },
+      { "position": [28.0, 38.5], "label": "Sart", "type": "Altın Yatakları" },
+      { "position": [29.1, 38.5], "label": "Kışladağ", "type": "Altın Yatakları" },
+      { "position": [28.3, 39.0], "label": "Kızıltepe", "type": "Altın Yatakları" },
+      { "position": [31.1, 39.5], "label": "Kaymaz", "type": "Altın Yatakları" },
+      { "position": [35.0, 38.9], "label": "Himmetdede", "type": "Altın Yatakları" },
+      { "position": [34.9, 38.8], "label": "Mahmatlar", "type": "Altın Yatakları" },
+      { "position": [37.5, 40.9], "label": "Altıntepe", "type": "Altın Yatakları" },
+      { "position": [39.4, 40.4], "label": "Midi", "type": "Altın Yatakları" },
+      { "position": [39.4, 40.5], "label": "Gümüşhane - Mastra", "type": "Altın Yatakları" },
+      { "position": [38.5, 39.4], "label": "İliç - Çöpler", "type": "Altın Yatakları" },
+      { "position": [38.1, 39.2], "label": "Bakırtepe", "type": "Altın Yatakları" },
+      { "position": [41.8, 41.2], "label": "Artvin - Cerattepe", "type": "Altın Yatakları" }
+    ]
+  }
+}
