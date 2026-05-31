@@ -33,7 +33,7 @@ const InstagramIcon = ({ size = 24 }) => (
     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
   </svg>
 );
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import enginImg from './assets/engin-eraydin-transparent.png';
 import eventEskisehirImg from './assets/events/eskisehir_fuar.jpg';
 import kpssThumb from './assets/playlist-kpss-2026.png';
@@ -45,6 +45,7 @@ import garantiThumb from './assets/playlist-garanti.jpg';
 import deneme20Thumb from './assets/playlist-deneme-20.png';
 import { Analytics } from '@vercel/analytics/react';
 import InteractiveMap from './InteractiveMap';
+import HeroSlider from './components/HeroSlider';
 import './App.css';
 
 
@@ -68,7 +69,7 @@ const PLAYLISTS = [
     id: 3, 
     title: "2026 KPSS - AGS - Haritalarla Genel Tekrar", 
     thumbnail: haritalarThumb, 
-    videoCount: 8,
+    videoCount: 10,
     link: "https://www.youtube.com/playlist?list=PLgW2uP-bSUO0nClVbVLn2Hph2roOx-N0S" 
   },
   { 
@@ -231,37 +232,43 @@ const DOCUMENTS = [
     id: 5,
     title: "TÜRKİYE'NİN COĞRAFİ KONUMU",
     subtitle: "Konu Özetleri ve Haritalar",
-    link: "https://drive.google.com/file/d/1OfJl99RUVUDVMHExdezvOBplH2rEx08I/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1OfJl99RUVUDVMHExdezvOBplH2rEx08I/view?usp=drive_link",
+    infographic: "/cografi_konum_infografik.png"
   },
   {
     id: 6,
     title: "TÜRKİYE'NİN DAĞLARI",
     subtitle: "Oluşum ve Dağılış Haritaları",
-    link: "https://drive.google.com/file/d/1TFixuiIO3NlNDooE9_TgqgJ1u6-gqA5c/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1TFixuiIO3NlNDooE9_TgqgJ1u6-gqA5c/view?usp=drive_link",
+    infographic: "/daglar_infografik.png"
   },
   {
     id: 7,
     title: "TÜRKİYE'NİN PLATOLARI",
     subtitle: "Bölgesel Dağılım ve Özellikler",
-    link: "https://drive.google.com/file/d/1ycIA8flvN8cp1fa3LJnEbQ5JGInD0BNP/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1ycIA8flvN8cp1fa3LJnEbQ5JGInD0BNP/view?usp=drive_link",
+    infographic: "/platolar_infografik.png"
   },
   {
     id: 8,
     title: "TÜRKİYE'NİN OVALARI",
     subtitle: "Delta ve Tektonik Ovalar Rehberi",
-    link: "https://drive.google.com/file/d/1KTZXd9Bnu_wduceez-teKD7JdFvFvdFU/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1KTZXd9Bnu_wduceez-teKD7JdFvFvdFU/view?usp=drive_link",
+    infographic: "/ovalar_infografik.png"
   },
   {
     id: 9,
     title: "TÜRKİYE'NİN BİTKİLERİ",
     subtitle: "Flora Çeşitliliği ve Dağılışı",
-    link: "https://drive.google.com/file/d/1J6t2yX8pvVlF0m1FkhAMiHP13z_Toylm/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1J6t2yX8pvVlF0m1FkhAMiHP13z_Toylm/view?usp=drive_link",
+    infographic: "/bitkiler_infografik.png"
   },
   {
     id: 10,
     title: "TÜRKİYE'DE TOPRAK",
     subtitle: "Toprak Tipleri ve Verimlilik Analizi",
-    link: "https://drive.google.com/file/d/1Y2F5aLZ3BgQSl2lmolH6J2Zj0HshVeER/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1Y2F5aLZ3BgQSl2lmolH6J2Zj0HshVeER/view?usp=drive_link",
+    infographic: "/infografik.png"
   }
 ];
 
@@ -294,6 +301,12 @@ function CountdownCard({ exam }) {
     return () => clearInterval(timer);
   }, []);
 
+  const getDayColor = (days) => {
+    if (days >= 100) return '#22c55e';   // yeşil
+    if (days >= 50)  return '#f97316';   // turuncu
+    return '#ef4444';                    // kırmızı
+  };
+
   return (
     <div className="countdown-card glass-card">
       <div className="exam-info">
@@ -303,7 +316,7 @@ function CountdownCard({ exam }) {
         </p>
       </div>
       <div className="day-counter">
-        <span className="days">{timeLeft}</span>
+        <span className="days" style={{ color: getDayColor(timeLeft) }}>{timeLeft}</span>
         <span className="label">GÜN KALDI</span>
       </div>
     </div>
@@ -313,9 +326,91 @@ function CountdownCard({ exam }) {
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showEventModal, setShowEventModal] = useState(false);
+  const [infographicModal, setInfographicModal] = useState(null);
+  const [showPromoPopup, setShowPromoPopup] = useState(() => {
+    // Sadece ilk girişte göster (oturum başına bir kez)
+    return !sessionStorage.getItem('promoSeen');
+  });
+
+  const closePromoPopup = () => {
+    sessionStorage.setItem('promoSeen', '1');
+    setShowPromoPopup(false);
+  };
 
   return (
     <div className="app">
+      {/* ── Promo Popup (ilk giriş) ── */}
+      <AnimatePresence>
+        {showPromoPopup && (
+          <motion.div
+            className="promo-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={closePromoPopup}
+          >
+            <motion.div
+              className="promo-box"
+              initial={{ scale: 0.82, opacity: 0, y: 40 }}
+              animate={{ scale: 1, opacity: 1, y: 0, transition: { type: 'spring', stiffness: 260, damping: 22 } }}
+              exit={{ scale: 0.88, opacity: 0, y: 20 }}
+              onClick={e => e.stopPropagation()}
+            >
+              {/* Kapat butonu */}
+              <button className="promo-close" onClick={closePromoPopup} aria-label="Kapat">
+                <X size={20} />
+              </button>
+
+              {/* Resme tıklayınca YouTube kanalına git */}
+              <a
+                href="https://www.youtube.com/@engineraydincografya"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={closePromoPopup}
+                className="promo-link"
+              >
+                <img
+                  src="/youtube-tanitim.png"
+                  alt="YouTube Kanalımıza Davetlisiniz"
+                  className="promo-img"
+                />
+              </a>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Infographic Modal */}
+      <AnimatePresence>
+        {infographicModal && (
+          <motion.div 
+            className="modal-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setInfographicModal(null)}
+            style={{ zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}
+          >
+            <motion.div 
+              className="modal-content glass-card"
+              initial={{ y: 50, opacity: 0, scale: 0.9 }}
+              animate={{ y: 0, opacity: 1, scale: 1 }}
+              exit={{ y: 20, opacity: 0, scale: 0.9 }}
+              onClick={(e) => e.stopPropagation()}
+              style={{ maxWidth: '600px', maxHeight: '85vh', overflow: 'auto', padding: '1rem', position: 'relative' }}
+            >
+              <button 
+                className="modal-close"
+                onClick={() => setInfographicModal(null)}
+                style={{ position: 'absolute', top: '10px', left: '10px', background: 'var(--primary)', color: 'white', borderRadius: '50%', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 10, cursor: 'pointer', border: 'none' }}
+              >
+                <X size={20} />
+              </button>
+              <img src={infographicModal} alt="İnfografik" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain', display: 'block', borderRadius: '8px' }} />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
       {/* Navbar */}
       <nav className="navbar">
         <div className="container nav-content">
@@ -380,17 +475,12 @@ function App() {
           <motion.div 
             initial="hidden"
             animate="visible"
-            variants={staggerContainer}
             className="hero-text"
+            style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}
           >
-            <motion.span variants={fadeInUp} className="badge">Türkiye'nin Coğrafya Hocası</motion.span>
-            <motion.h1 variants={fadeInUp}>Engin Eraydın ile Sınavlara <span>Yön Verin.</span></motion.h1>
-            <motion.p variants={fadeInUp}>Engin Eraydın ile KPSS, TYT ve AYT sınavlarına en güncel ve en kapsamlı şekilde hazırlanın. Haritalarla coğrafyayı seveceksiniz.</motion.p>
-            <motion.div variants={fadeInUp} className="hero-btns">
-              <a href="https://www.youtube.com/@engineraydincografya" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Derslere Başla <ChevronRight size={20} /></a>
-              <a href="#kitaplar" className="btn btn-secondary">Kitapları İncele <ChevronRight size={20} color="#ffffff" /></a>
-              <a href="#harita" className="btn btn-success">Haritalı Veriler <ChevronRight size={20} /></a>
-            </motion.div>
+            <div className="hero-slider-wrapper" style={{ width: '100%', aspectRatio: '16/9', position: 'relative', zIndex: 10 }}>
+              <HeroSlider />
+            </div>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 50, scale: 0.9 }}
@@ -553,14 +643,24 @@ function App() {
                 <div className="doc-icon"><FileText size={40} /></div>
                 <h3>{doc.title}</h3>
                 <p>{doc.subtitle}</p>
-                <a 
-                  href={doc.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="btn btn-primary btn-sm"
-                >
-                  <Download size={16} /> İndir
-                </a>
+                <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                  <a 
+                    href={doc.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn btn-primary btn-sm"
+                  >
+                    <Download size={16} /> İndir
+                  </a>
+                  {doc.infographic && (
+                    <button 
+                      className="btn btn-secondary btn-sm"
+                      onClick={() => setInfographicModal(doc.infographic)}
+                    >
+                      <PieChart size={16} /> İnfografik
+                    </button>
+                  )}
+                </div>
               </motion.div>
             ))}
           </motion.div>

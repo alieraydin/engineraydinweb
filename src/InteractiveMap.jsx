@@ -633,7 +633,7 @@ export default function InteractiveMap() {
   const [madenCategory, setMadenCategory] = useState("metalik");
   const [madenProduct, setMadenProduct] = useState("demir");
   const [clickedProv, setClickedProv] = useState(null);
-  const [madenMapType, setMadenMapType] = useState('uranyum_toryum');
+  const [madenMapType, setMadenMapType] = useState('altin');
 
   useEffect(() => {
     setClickedProv(null);
@@ -1802,7 +1802,7 @@ export default function InteractiveMap() {
 
                 {/* Main Content Area */}
                 <div className="dt-content" style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div className="imap-product-badge" style={{ alignSelf: 'flex-start', marginBottom: '1rem', backgroundColor: 'var(--card-bg)' }}>
+                  <div className="imap-product-badge" style={{ position: 'relative', top: 'auto', left: 'auto', alignSelf: 'flex-start', marginBottom: '1rem', backgroundColor: 'var(--card-bg)' }}>
                     {MINING_MAP_DATA[madenMapType].title}
                   </div>
                   <div className="imap-map-container" style={{ flex: 1, position: 'relative', background: 'var(--card-bg)', borderRadius: '12px', padding: '1rem' }}>
