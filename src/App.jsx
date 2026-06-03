@@ -275,7 +275,7 @@ const DOCUMENTS = [
 const EXAMS = [
   { name: "YKS-TYT", date: new Date("2026-06-20T10:00:00") },
   { name: "YKS-AYT", date: new Date("2026-06-21T10:00:00") },
-  { name: "MEB-AGS", date: new Date("2026-07-12T10:00:00") },
+  { name: "MEB-AGS", date: new Date("2026-07-26T10:00:00") },
   { name: "KPSS-LİSANS (GK-GY)", date: new Date("2026-09-06T10:00:00") },
   { name: "KPSS-ALAN BİLGİSİ", date: new Date("2026-09-12T10:00:00") },
   { name: "KPSS-ÖNLİSANS", date: new Date("2026-10-04T10:00:00") },
