@@ -283,36 +283,16 @@
   align-items: center;
   position: relative;
   background: linear-gradient(
-    135deg,
-    #0a2e38 0%,
-    #0d3d52 20%,
-    #0f4c6b 40%,
-    #0a3d6b 60%,
-    #083080 80%,
-    #061a5c 100%
+    to bottom left,
+    #4ade80 0%,
+    #22c55e 20%,
+    #0e7490 50%,
+    #1e3a8a 80%,
+    #0f172a 100%
   );
   color: var(--white);
   padding-top: 80px;
   overflow: hidden;
-}
-
-  .hero-rays {
-    display: none;
-  }
-  /* Simplify coord grid */
-  .hero-coord-grid {
-    opacity: 0.4;
-  }
-}
-
-/* ── Overlay: Vignette ───────────────────────────────────────── */
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at center, transparent 30%, rgba(0, 3, 12, 0.75) 100%);
-  z-index: 4;
-  pointer-events: none;
 }
 
 
