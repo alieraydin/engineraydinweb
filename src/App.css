@@ -445,6 +445,29 @@
   animation: orbFloat3 20s ease-in-out infinite;
 }
 
+/* ── Mobile orb overrides (prevent overflow & heavy GPU load) ── */
+@media (max-width: 768px) {
+  .hero-orb-1 {
+    width: 120vw;
+    height: 120vw;
+    top: -30%;
+    left: -30%;
+    filter: blur(40px);
+    animation: none;
+  }
+  .hero-orb-2 {
+    width: 120vw;
+    height: 120vw;
+    bottom: -40%;
+    right: -30%;
+    filter: blur(50px);
+    animation: none;
+  }
+  .hero-orb-3 {
+    display: none;
+  }
+}
+
 /* ── Layer 4: Light Beam Rays (from center-bottom) ───────────── */
 .hero-rays {
   position: absolute;
@@ -477,12 +500,26 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 900px;
-  height: 900px;
+  width: min(900px, 95vw);
+  height: min(900px, 95vw);
   pointer-events: none;
   z-index: 2;
   perspective: 1400px;
   animation: globeGlow 8s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .hero-bg-globe {
+    width: min(480px, 95vw);
+    height: min(480px, 95vw);
+    opacity: 0.5;
+  }
+  .sphere-wrapper {
+    animation-duration: 90s;
+  }
+  .globe-equator {
+    animation: none;
+  }
 }
 
 .sphere-wrapper {
@@ -554,6 +591,21 @@
   z-index: 3;
   pointer-events: none;
   animation: scanLine 12s linear infinite;
+}
+
+@media (max-width: 768px) {
+  /* Disable scan line on mobile — saves battery & avoids repaint */
+  .hero-scan-line {
+    display: none;
+  }
+  /* Disable light rays on mobile */
+  .hero-rays {
+    display: none;
+  }
+  /* Simplify coord grid */
+  .hero-coord-grid {
+    opacity: 0.4;
+  }
 }
 
 /* ── Overlay: Vignette ───────────────────────────────────────── */

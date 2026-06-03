@@ -12,8 +12,10 @@ export default function HeroStarCanvas() {
     let W = canvas.width = canvas.offsetWidth;
     let H = canvas.height = canvas.offsetHeight;
 
-    // ── Stars ──────────────────────────────────────────
-    const STAR_COUNT = 220;
+    const isMobile = W < 768;
+
+    // ── Stars ──────────────────────────────────────────────────
+    const STAR_COUNT = isMobile ? 80 : 220;
     const stars = Array.from({ length: STAR_COUNT }, () => ({
       x: Math.random() * W,
       y: Math.random() * H,
@@ -23,8 +25,8 @@ export default function HeroStarCanvas() {
       color: Math.random() < 0.3 ? '#ffe0a0' : Math.random() < 0.5 ? '#a0d8ff' : '#ffffff',
     }));
 
-    // ── Shooting Stars ──────────────────────────────────
-    const SHOOT_COUNT = 4;
+    // ── Shooting Stars ──────────────────────────────────────────
+    const SHOOT_COUNT = isMobile ? 1 : 4;
     const createShooter = () => ({
       x: Math.random() * W * 0.7,
       y: Math.random() * H * 0.4,
