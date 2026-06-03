@@ -3,10 +3,10 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import './HeroSlider.css';
 
 const slides = [
-  { id: 1, file: '/slider/1.png', link: 'https://www.youtube.com/@engineraydincografya', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+1' },
-  { id: 2, file: '/slider/2.png', link: '#kitaplar',   fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+2' },
-  { id: 3, file: '/slider/3.png', link: '#dokumanlar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+3' },
-  { id: 4, file: '/slider/4.png', link: '#harita',     fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+4' },
+  { id: 1, file: '/hero-images/1.png', link: 'https://www.youtube.com/@engineraydincografya', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+1' },
+  { id: 2, file: '/hero-images/2.png', link: '#kitaplar',   fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+2' },
+  { id: 3, file: '/hero-images/3.png', link: '#dokumanlar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+3' },
+  { id: 4, file: '/hero-images/4.png', link: '#harita',     fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+4' },
 ];
 
 const AUTO_DELAY = 6000; // ms per slide
@@ -65,7 +65,6 @@ export default function HeroSlider() {
     setIsDragging(true);
     setDragStart(e.clientX);
     setDragDelta(0);
-    e.currentTarget.setPointerCapture(e.pointerId);
   };
   const onPointerMove = (e) => {
     if (!isDragging) return;
@@ -98,6 +97,7 @@ export default function HeroSlider() {
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
+        onMouseLeave={onPointerUp}
       >
         {slides.map((slide, idx) => (
           <a
@@ -107,7 +107,11 @@ export default function HeroSlider() {
             rel={slide.link.startsWith('http') ? 'noopener noreferrer' : undefined}
             className="hs-slide"
             draggable={false}
-            onClick={(e) => { if (Math.abs(dragDelta) > 5) e.preventDefault(); }}
+            onClick={(e) => { 
+              if (Math.abs(dragDelta) > 10) {
+                e.preventDefault(); 
+              }
+            }}
           >
             <img
               src={slide.file}
