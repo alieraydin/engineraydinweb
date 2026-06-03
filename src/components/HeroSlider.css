@@ -1,112 +1,162 @@
-.hero-slider-container {
+/* ─────────────────────────────────────────────────────────────────
+   HeroSlider – Professional Smooth Scroll-Band Slider
+───────────────────────────────────────────────────────────────── */
+
+/* Outer wrapper */
+.hs-container {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-dark, #001f3f);
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  border-radius: 18px;
+  /* Premium frame */
+  box-shadow:
+    0 0 0 1.5px rgba(255, 255, 255, 0.08),
+    0 30px 60px rgba(0, 0, 0, 0.5),
+    0 0 80px rgba(0, 0, 0, 0.3);
+  background: #000918;
+  user-select: none;
 }
 
-.slider-track {
+/* ── Scroll band: all slides in one row ── */
+.hs-track {
+  display: flex;
   width: 100%;
   height: 100%;
+  will-change: transform;
+  cursor: grab;
+}
+
+.hs-track:active {
+  cursor: grabbing;
+}
+
+/* Individual slide */
+.hs-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
-.slider-slide {
+/* Subtle dark edge vignette on each slide image */
+.hs-slide::after {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 60%,
+    rgba(0, 5, 20, 0.55) 100%
+  );
+  pointer-events: none;
+  border-radius: inherit;
 }
 
-.slider-image {
+.hs-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 16px;
+  object-position: center;
+  border-radius: 18px;
+  display: block;
+  pointer-events: none;
 }
 
-.slider-nav-btn {
+/* ── Navigation buttons ── */
+.hs-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
-  border: 1px solid rgba(255,255,255,0.3);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  background: rgba(5, 10, 30, 0.55);
+  color: #fff;
   cursor: pointer;
-  z-index: 10;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  transition: all 0.3s ease;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background 0.25s ease, border-color 0.25s ease,
+              transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.slider-nav-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
+.hs-btn:hover {
+  background: rgba(255, 133, 27, 0.25);
+  border-color: rgba(255, 133, 27, 0.6);
+  box-shadow: 0 0 18px rgba(255, 133, 27, 0.35);
   transform: translateY(-50%) scale(1.1);
 }
 
-.slider-nav-btn.prev {
-  left: 1.5rem;
-}
+.hs-prev { left: 1.2rem; }
+.hs-next { right: 1.2rem; }
 
-.slider-nav-btn.next {
-  right: 1.5rem;
-}
-
-.slider-dots {
+/* ── Dot indicators with progress fill ── */
+.hs-dots {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 1.2rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 0.8rem;
-  z-index: 10;
+  align-items: center;
+  gap: 0.6rem;
+  z-index: 20;
 }
 
-.slider-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.hs-dot {
+  position: relative;
+  width: 32px;
+  height: 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
   padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+  transition: width 0.3s ease, background 0.3s ease;
 }
 
-.slider-dot:hover {
-  background: rgba(255, 255, 255, 0.8);
+/* Inactive dots are narrower */
+.hs-dot:not(.active) {
+  width: 22px;
 }
 
-.slider-dot.active {
-  background: var(--secondary, #ff851b);
-  border-color: white;
-  transform: scale(1.3);
+.hs-dot:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.45);
 }
 
+/* Progress fill for active dot */
+.hs-dot-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #ff851b, #ffcc00);
+  border-radius: 4px;
+  transition: width 0.1s linear;
+}
+
+/* Active dot base is slightly visible */
+.hs-dot.active {
+  background: rgba(255, 255, 255, 0.15);
+  width: 42px;
+}
+
+/* ── Responsive ── */
 @media (max-width: 768px) {
-  .slider-nav-btn {
-    width: 40px;
-    height: 40px;
+  .hs-btn {
+    width: 38px;
+    height: 38px;
   }
-  .slider-nav-btn.prev { left: 0.5rem; }
-  .slider-nav-btn.next { right: 0.5rem; }
+  .hs-prev { left: 0.6rem; }
+  .hs-next { right: 0.6rem; }
+  .hs-dot { width: 22px; }
+  .hs-dot.active { width: 34px; }
+  .hs-dot:not(.active) { width: 16px; }
 }

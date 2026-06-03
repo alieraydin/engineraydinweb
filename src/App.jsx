@@ -46,7 +46,9 @@ import deneme20Thumb from './assets/playlist-deneme-20.png';
 import { Analytics } from '@vercel/analytics/react';
 import InteractiveMap from './InteractiveMap';
 import HeroSlider from './components/HeroSlider';
+import HeroStarCanvas from './components/HeroStarCanvas';
 import './App.css';
+
 
 
 
@@ -452,24 +454,58 @@ function App() {
       {/* Hero Section */}
       <section id="hero" className="hero">
         <div className="hero-overlay"></div>
-        
-        {/* 3D Decorative Background Globe */}
+
+        {/* === LAYER 1: Star Field Canvas === */}
+        <HeroStarCanvas />
+
+        {/* === LAYER 2: Coordinate Grid Lines === */}
+        <div className="hero-coord-grid" aria-hidden="true">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <div key={`vl-${i}`} className="coord-vline" style={{ left: `${(i / 12) * 100}%`, animationDelay: `${i * 0.3}s` }} />
+          ))}
+          {Array.from({ length: 7 }).map((_, i) => (
+            <div key={`hl-${i}`} className="coord-hline" style={{ top: `${(i / 7) * 100}%`, animationDelay: `${i * 0.4}s` }} />
+          ))}
+        </div>
+
+        {/* === LAYER 3: Glowing Orbs === */}
+        <div className="hero-orb hero-orb-1" aria-hidden="true" />
+        <div className="hero-orb hero-orb-2" aria-hidden="true" />
+        <div className="hero-orb hero-orb-3" aria-hidden="true" />
+
+        {/* === LAYER 4: Light Beam Rays === */}
+        <div className="hero-rays" aria-hidden="true">
+          {Array.from({ length: 8 }).map((_, i) => (
+            <div key={`ray-${i}`} className="hero-ray" style={{ '--ray-angle': `${i * 45}deg`, animationDelay: `${i * 0.6}s` }} />
+          ))}
+        </div>
+
+        {/* === LAYER 5: 3D Globe === */}
         <div className="hero-bg-globe">
           <div className="sphere-wrapper">
             <div className="sphere">
-              {/* Meridians */}
-              {[0, 30, 60, 90, 120, 150].map(deg => (
-                <div key={deg} className="meridian" style={{ transform: `rotateY(${deg}deg)` }}></div>
+              {[0, 20, 40, 60, 80, 100, 120, 140, 160].map(deg => (
+                <div key={deg} className="meridian" style={{ transform: `rotateY(${deg}deg)` }} />
               ))}
-              {/* Latitudes */}
-              <div className="latitude" style={{ transform: 'rotateX(90deg) translateZ(120px) scale(0.6)' }}></div>
-              <div className="latitude" style={{ transform: 'rotateX(90deg) translateZ(60px) scale(0.92)' }}></div>
-              <div className="latitude" style={{ transform: 'rotateX(90deg) translateZ(0) scale(1)' }}></div>
-              <div className="latitude" style={{ transform: 'rotateX(90deg) translateZ(-60px) scale(0.92)' }}></div>
-              <div className="latitude" style={{ transform: 'rotateX(90deg) translateZ(-120px) scale(0.6)' }}></div>
+              {[
+                { tz: '160px', sc: '0.45' },
+                { tz: '110px', sc: '0.72' },
+                { tz: '55px',  sc: '0.93' },
+                { tz: '0px',   sc: '1'    },
+                { tz: '-55px', sc: '0.93' },
+                { tz: '-110px',sc: '0.72' },
+                { tz: '-160px',sc: '0.45' },
+              ].map(({ tz, sc }, i) => (
+                <div key={`lat-${i}`} className="latitude" style={{ transform: `rotateX(90deg) translateZ(${tz}) scale(${sc})` }} />
+              ))}
+              {/* Globe equator glow ring */}
+              <div className="globe-equator" />
             </div>
           </div>
         </div>
+
+        {/* === LAYER 6: Scanning Line === */}
+        <div className="hero-scan-line" aria-hidden="true" />
 
         <div className="container hero-content">
           <motion.div 

@@ -1,110 +1,152 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import './HeroSlider.css';
 
 const slides = [
-  { id: 1, file: '/slider/1.png', link: 'https://www.youtube.com/@engineraydincografya', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Resim+1+(Haritalar)' },
-  { id: 2, file: '/slider/2.png', link: '#kitaplar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Resim+2+(Kitaplar)' },
-  { id: 3, file: '/slider/3.png', link: '#dokumanlar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Resim+3+(Dokumanlar)' },
-  { id: 4, file: '/slider/4.png', link: '#harita', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Resim+4+(Haritalar)' }
+  { id: 1, file: '/slider/1.png', link: 'https://www.youtube.com/@engineraydincografya', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+1' },
+  { id: 2, file: '/slider/2.png', link: '#kitaplar',   fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+2' },
+  { id: 3, file: '/slider/3.png', link: '#dokumanlar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+3' },
+  { id: 4, file: '/slider/4.png', link: '#harita',     fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+4' },
 ];
 
-const variants = {
-  enter: (direction) => ({
-    x: direction > 0 ? '100%' : '-100%',
-    opacity: 0,
-  }),
-  center: {
-    zIndex: 1,
-    x: 0,
-    opacity: 1,
-  },
-  exit: (direction) => ({
-    zIndex: 0,
-    x: direction < 0 ? '100%' : '-100%',
-    opacity: 0,
-  }),
-};
+const AUTO_DELAY = 6000; // ms per slide
 
 export default function HeroSlider() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(0);
+  const [current, setCurrent]     = useState(0);
+  const [progress, setProgress]   = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart]   = useState(0);
+  const [dragDelta, setDragDelta]   = useState(0);
+
+  const timerRef    = useRef(null);
+  const rafRef      = useRef(null);
+  const startTime   = useRef(null);
+  const trackRef    = useRef(null);
+
+  const count = slides.length;
+
+  // ── Auto-advance with progress bar ──────────────────────────
+  const startTimer = useCallback(() => {
+    clearInterval(timerRef.current);
+    cancelAnimationFrame(rafRef.current);
+    startTime.current = performance.now();
+    setProgress(0);
+
+    const tick = (now) => {
+      const elapsed = now - startTime.current;
+      const pct = Math.min((elapsed / AUTO_DELAY) * 100, 100);
+      setProgress(pct);
+      if (pct < 100) {
+        rafRef.current = requestAnimationFrame(tick);
+      } else {
+        setCurrent(prev => (prev + 1) % count);
+      }
+    };
+    rafRef.current = requestAnimationFrame(tick);
+  }, [count]);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setDirection(1);
-      setCurrentIndex((prev) => (prev + 1) % slides.length);
-    }, 20000); // 20 seconds
-    return () => clearInterval(timer);
-  }, []);
+    startTimer();
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+    };
+  }, [current, startTimer]);
 
-  const nextSlide = () => {
-    setDirection(1);
-    setCurrentIndex((prev) => (prev + 1) % slides.length);
+  const goTo = useCallback((idx) => {
+    if (idx === current) return;
+    setCurrent(((idx % count) + count) % count);
+  }, [current, count]);
+
+  const prev = () => goTo(current - 1);
+  const next = () => goTo(current + 1);
+
+  // ── Drag / swipe support ─────────────────────────────────────
+  const onPointerDown = (e) => {
+    setIsDragging(true);
+    setDragStart(e.clientX);
+    setDragDelta(0);
+    e.currentTarget.setPointerCapture(e.pointerId);
   };
-  
-  const prevSlide = () => {
-    setDirection(-1);
-    setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
+  const onPointerMove = (e) => {
+    if (!isDragging) return;
+    setDragDelta(e.clientX - dragStart);
+  };
+  const onPointerUp = () => {
+    if (!isDragging) return;
+    setIsDragging(false);
+    if (dragDelta < -60) next();
+    else if (dragDelta > 60) prev();
+    setDragDelta(0);
   };
 
-  const goToSlide = (idx) => {
-    if (idx === currentIndex) return;
-    setDirection(idx > currentIndex ? 1 : -1);
-    setCurrentIndex(idx);
-  };
+  // pixel offset: slides are 100% wide each
+  const baseOffset  = -current * 100;
+  const dragPercent = trackRef.current ? (dragDelta / trackRef.current.offsetWidth) * 100 : 0;
+  const offset      = baseOffset + (isDragging ? dragPercent : 0);
 
   return (
-    <div className="hero-slider-container">
-      <button className="slider-nav-btn prev" onClick={prevSlide}>
-        <ChevronLeft size={36} />
-      </button>
-      <button className="slider-nav-btn next" onClick={nextSlide}>
-        <ChevronRight size={36} />
-      </button>
-
-      <div className="slider-dots">
-        {slides.map((_, idx) => (
-          <button 
-            key={idx} 
-            className={`slider-dot ${idx === currentIndex ? 'active' : ''}`}
-            onClick={() => goToSlide(idx)}
-            aria-label={`Slayt ${idx + 1}`}
-          />
+    <div className="hs-container">
+      {/* ── Slide band ─────────────────────────────────── */}
+      <div
+        ref={trackRef}
+        className="hs-track"
+        style={{
+          transform: `translateX(${offset}%)`,
+          transition: isDragging ? 'none' : 'transform 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+        }}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onPointerCancel={onPointerUp}
+      >
+        {slides.map((slide, idx) => (
+          <a
+            key={slide.id}
+            href={slide.link}
+            target={slide.link.startsWith('http') ? '_blank' : undefined}
+            rel={slide.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+            className="hs-slide"
+            draggable={false}
+            onClick={(e) => { if (Math.abs(dragDelta) > 5) e.preventDefault(); }}
+          >
+            <img
+              src={slide.file}
+              alt={`Slayt ${idx + 1}`}
+              className="hs-image"
+              draggable={false}
+              onError={(e) => {
+                if (e.target.src !== slide.fallback) e.target.src = slide.fallback;
+              }}
+            />
+          </a>
         ))}
       </div>
 
-      <div className="slider-track">
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.a
-            key={currentIndex}
-            href={slides[currentIndex].link}
-            target={slides[currentIndex].link.startsWith('http') ? '_blank' : undefined}
-            rel={slides[currentIndex].link.startsWith('http') ? 'noopener noreferrer' : undefined}
-            className="slider-slide"
-            custom={direction}
-            variants={variants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            transition={{
-              x: { type: "tween", ease: "easeInOut", duration: 0.7 },
-              opacity: { duration: 0.7, ease: "easeInOut" }
-            }}
+      {/* ── Nav buttons ────────────────────────────────── */}
+      <button className="hs-btn hs-prev" onClick={prev} aria-label="Önceki">
+        <ChevronLeft size={28} />
+      </button>
+      <button className="hs-btn hs-next" onClick={next} aria-label="Sonraki">
+        <ChevronRight size={28} />
+      </button>
+
+      {/* ── Dot indicators + progress ──────────────────── */}
+      <div className="hs-dots">
+        {slides.map((_, idx) => (
+          <button
+            key={idx}
+            className={`hs-dot${idx === current ? ' active' : ''}`}
+            onClick={() => goTo(idx)}
+            aria-label={`Slayt ${idx + 1}`}
           >
-            <img 
-              src={slides[currentIndex].file} 
-              alt={`Slide ${currentIndex + 1}`} 
-              className="slider-image"
-              onError={(e) => {
-                if (e.target.src !== slides[currentIndex].fallback) {
-                  e.target.src = slides[currentIndex].fallback;
-                }
-              }}
-            />
-          </motion.a>
-        </AnimatePresence>
+            {idx === current && (
+              <span
+                className="hs-dot-fill"
+                style={{ width: `${progress}%` }}
+              />
+            )}
+          </button>
+        ))}
       </div>
     </div>
   );
