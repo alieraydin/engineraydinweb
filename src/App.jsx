@@ -637,7 +637,7 @@ function App() {
             <li><a href="#videolar" onClick={() => setIsMenuOpen(false)}>Videolar</a></li>
             <li><a href="#kitaplar" onClick={() => setIsMenuOpen(false)}>Kitaplar</a></li>
             <li><a href="#dokumanlar" onClick={() => setIsMenuOpen(false)}>Dökümanlar</a></li>
-            <li><a href="#testler" onClick={() => setIsMenuOpen(false)}>Test Yap</a></li>
+            <li><a href="#testler" onClick={() => setIsMenuOpen(false)}>Test Çöz</a></li>
             <li><a href="#harita" onClick={() => setIsMenuOpen(false)}>Haritalı Veriler</a></li>
             <li><a href="#etkinlikler" onClick={() => setIsMenuOpen(false)}>Etkinlikler</a></li>
             <li><a href="#hakkinda" onClick={() => setIsMenuOpen(false)}>Hakkında</a></li>
@@ -742,7 +742,9 @@ function App() {
                variants={staggerContainer}
                className="playlist-grid"
              >
-               {PLAYLISTS.map(playlist => (
+               {(() => {
+                 const playlistColors = ['#ef4444','#f59e0b','#06b6d4','#8b5cf6','#f97316','#ec4899','#10b981'];
+                 return PLAYLISTS.map((playlist, idx) => (
                  <motion.a 
                    variants={fadeInUp}
                    whileHover={{ y: -12, scale: 1.02, transition: { duration: 0.2 } }}
@@ -752,6 +754,7 @@ function App() {
                    rel="noopener noreferrer" 
                    key={playlist.id} 
                    className="playlist-card glass-card"
+                   style={{ borderColor: playlistColors[idx % playlistColors.length], borderWidth: '2px', borderStyle: 'solid' }}
                  >
                    <div className="playlist-thumbnail">
                      <img src={playlist.thumbnail} alt={playlist.title} />
@@ -768,7 +771,8 @@ function App() {
                      </div>
                    </div>
                  </motion.a>
-               ))}
+               ));
+               })()}
              </motion.div>
           </div>
         </div>
@@ -795,20 +799,24 @@ function App() {
             variants={staggerContainer}
             className="books-grid"
           >
-            {BOOKS.map(book => (
-              <motion.div 
-                variants={scaleIn}
-                whileHover={{ y: -10, scale: 1.03 }} 
-                key={book.id} 
-                className="book-card glass-card"
-              >
-                <img src={book.image} alt={book.title} />
-                <div className="book-info">
-                  <h4>{book.title}</h4>
-                  <a href={book.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Kitaba Git</a>
-                </div>
-              </motion.div>
-            ))}
+            {(() => {
+              const bookColors = ['#3b82f6','#f59e0b','#06b6d4','#8b5cf6','#f97316','#ec4899','#10b981','#ef4444','#84cc16','#0ea5e9','#a78bfa'];
+              return BOOKS.map((book, idx) => (
+                <motion.div 
+                  variants={scaleIn}
+                  whileHover={{ y: -10, scale: 1.03 }} 
+                  key={book.id} 
+                  className="book-card glass-card"
+                  style={{ borderColor: bookColors[idx % bookColors.length], borderWidth: '2px', borderStyle: 'solid' }}
+                >
+                  <img src={book.image} alt={book.title} />
+                  <div className="book-info">
+                    <h4>{book.title}</h4>
+                    <a href={book.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Kitaba Git</a>
+                  </div>
+                </motion.div>
+              ));
+            })()}
           </motion.div>
         </div>
       </section>
@@ -833,8 +841,11 @@ function App() {
             variants={staggerContainer}
             className="docs-grid"
           >
-            {DOCUMENTS.map(doc => (
-              <motion.div key={doc.id} variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card">
+            {(() => {
+              const docColors = ['#3b82f6','#f59e0b','#06b6d4','#8b5cf6','#f97316','#ec4899','#10b981','#ef4444','#84cc16','#0ea5e9'];
+              return DOCUMENTS.map((doc, idx) => (
+              <motion.div key={doc.id} variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card"
+                style={{ borderColor: docColors[idx % docColors.length], borderWidth: '2px', borderStyle: 'solid' }}>
                 <div className="doc-icon"><FileText size={40} /></div>
                 <h3>{doc.title}</h3>
                 <p>{doc.subtitle}</p>
@@ -857,7 +868,8 @@ function App() {
                   )}
                 </div>
               </motion.div>
-            ))}
+              ));
+            })()}
           </motion.div>
         </div>
       </section>
@@ -886,7 +898,7 @@ function App() {
             <motion.div variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card" style={{ borderColor: 'var(--primary)', borderWidth: '2px', borderStyle: 'solid' }}>
               <div className="doc-icon" style={{ background: 'transparent' }}><ColoredEarthIcon size={48} /></div>
               <h3>Coğrafi Konum</h3>
-              <p>Türkiye'nin matematik ve özel konumu ile ilgili genel pekiştirme testi.</p>
+              <p>Türkiye'nin matematik ve özel konumu ile ilgili 30 soruluk pekiştirme testi.</p>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                 <button 
                   className="btn btn-primary"
@@ -901,7 +913,7 @@ function App() {
             <motion.div variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card" style={{ borderColor: '#f59e0b', borderWidth: '2px', borderStyle: 'solid' }}>
               <div className="doc-icon" style={{ background: 'transparent' }}><ColoredMountainIcon size={48} /></div>
               <h3>Yer Şekilleri</h3>
-              <p>Türkiye'nin dağları, ovaları, platoları ve yeryzey şekilleri ile ilgili pekiştirme testi.</p>
+              <p>Türkiye'nin dağları, ovaları, platoları ve yeryüzü şekilleri ile ilgili 45 soruluk pekiştirme testi.</p>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                 <button className="btn btn-primary" style={{ background: '#22c55e', borderColor: '#22c55e', width: '100%' }} onClick={() => setActiveQuiz(yerSekilleriQuizData)}>
                   <Award size={18} style={{ marginRight: '8px' }} /> Teste Başla
@@ -923,7 +935,7 @@ function App() {
             <motion.div variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card" style={{ borderColor: '#8b5cf6', borderWidth: '2px', borderStyle: 'solid' }}>
               <div className="doc-icon" style={{ background: 'transparent' }}><ColoredRegionsIcon size={48} /></div>
               <h3>Bölgeler</h3>
-              <p>Türkiye'nin coğrafi ve istatistiki bölgeleri, bölgesel kalkınma projeleri ile ilgili 45 soruluk test.</p>
+              <p>Türkiye'nin coğrafi ve istatistiki bölgeleri, bölgesel kalkınma projeleri ile ilgili 23 soruluk test.</p>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                 <button className="btn btn-primary" style={{ background: '#22c55e', borderColor: '#22c55e', width: '100%' }} onClick={() => setActiveQuiz(bolgelerQuizData)}>
                   <Award size={18} style={{ marginRight: '8px' }} /> Teste Başla
@@ -1215,7 +1227,7 @@ function App() {
               <li><a href="#videolar">Videolar</a></li>
               <li><a href="#kitaplar">Kitaplar</a></li>
               <li><a href="#dokumanlar">Dökümanlar</a></li>
-              <li><a href="#testler">Test Yap</a></li>
+              <li><a href="#testler">Test Çöz</a></li>
               <li><a href="#harita">Haritalı Veriler</a></li>
               <li><a href="#etkinlikler">Etkinlikler</a></li>
               <li><a href="#hakkinda">Hakkında</a></li>
