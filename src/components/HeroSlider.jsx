@@ -7,6 +7,7 @@ const slides = [
   { id: 2, file: '/hero-images/2.png', link: '#kitaplar',   fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+2' },
   { id: 3, file: '/hero-images/3.png', link: '#dokumanlar', fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+3' },
   { id: 4, file: '/hero-images/4.png', link: '#harita',     fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Slide+4' },
+  { id: 5, file: '/hero-images/5.png?v=2', link: '#testler',    fallback: 'https://placehold.co/1200x600/001f3f/FFFFFF?text=Online+Testler' },
 ];
 
 const AUTO_DELAY = 6000; // ms per slide

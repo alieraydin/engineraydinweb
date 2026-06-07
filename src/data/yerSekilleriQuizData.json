@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "text": "Aşağıdaki dağlardan hangisi Toros Dağları kuşağı içindeki\ndağlardan biri değildir?",
+    "options": {
+      "A": "Bey Dağları",
+      "B": "Samanlı Dağları",
+      "C": "Aladağlar",
+      "D": "Bolkarlar",
+      "E": "Sultan Dağları"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "text": "Aşağıdaki haritada Türkiyede bulunan bazı platoların\nkonumları gösterilmiştir.\n\nBuna göre, verilen platolardan hangilerinin konumu yanlış\ngösterilmiştir?",
+    "options": {
+      "A": "Teke-Taşeli",
+      "B": "Haymana-Taşeli",
+      "C": "Cihanbeyli-Bozok",
+      "D": "Haymana-Cihanbeyli",
+      "E": "Teke-Bozok"
+    },
+    "answer": "D",
+    "image": "/yer_sekilleri_images/image_1.png"
+  },
+  {
+    "id": 3,
+    "text": "Karstlaşma\nsüreçlerine\nbağlı\nolarak\noluşan\ngaleri\nboşluklarının zamanla genişlemesiyle mağara adı verilen\nşekiller meydana gelmektedir. Bu şekillerin en yaygın olduğu\nillerden biri de Antalyadır.\n\nAşağıda verilen mağara oluşumlarından hangisi Antalya ilinde\nbulunmamaktadır?",
+    "options": {
+      "A": "Beldibi",
+      "B": "Öküzini",
+      "C": "Karain",
+      "D": "İnsuyu",
+      "E": "Damlataş"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "text": "Türkiye kıyılarında dalga ve akıntıların biriktirme faaliyetleri\nsonucu yarımada oluşumu olan tombololar ve göl oluşumu olan\nlagünler meydana gelmiştir.\n\nAşağıdakilerden hangisinin oluşumunda böyle bir süreç etkili\nolmamıştır?",
+    "options": {
+      "A": "Sinop yarımadası",
+      "B": "Büyükçekmece Gölü",
+      "C": "Kapıdağ yarımadası",
+      "D": "Durusu Gölü",
+      "E": "Datça yarımadası"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 5,
+    "text": "Aşağıdaki haritada Doğu Anadoluda bulunan volkan\nkonilerinin konumu gösterilmiştir.\n\nAşağıdakilerden hangisi bu volkan konilerinden biri değildir?",
+    "options": {
+      "A": "Ağrı",
+      "B": "Melendiz",
+      "C": "Tendürek",
+      "D": "Süphan",
+      "E": "Nemrut"
+    },
+    "answer": "B",
+    "image": "/yer_sekilleri_images/image_2.png"
+  },
+  {
+    "id": 6,
+    "text": "Karstik arazinin yaygın olduğu yörelerde, çözünme sürecine\nbağlı olarak karstik ovalar bulunur.\n\nAşağıdakilerden hangisi karstik ovalardan biri değildir?",
+    "options": {
+      "A": "Tercan",
+      "B": "Bucak",
+      "C": "Elmalı",
+      "D": "Kestel",
+      "E": "Acıpayam"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "text": "Rialı kıyılar eskiden akarsu vadisi olan yerlerin deniz\nbaskınlarına uğraması sonucunda oluşan kıyılardır.\n\nAşağıda verilen alanların hangisi rialı kıyılara örnek olarak\ngösterilebilir?",
+    "options": {
+      "A": "Antalya – Kaş kıyıları",
+      "B": "Kastamonu – İnebolu kıyıları",
+      "C": "Kırklareli – İğneada kıyıları",
+      "D": "Mersin – Silifke kıyıları",
+      "E": "Muğla – Gökova kıyıları"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 8,
+    "text": "Batı Anadoluda bulunan kırıklı yapıdaki dağlar arasında\ngraben adı verilen çöküntü alanları bulunmaktadır.\n\nKaz Dağları ile Madra Dağı arasında bulunan graben alanı\naşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bakırçay",
+      "B": "Edremit",
+      "C": "Küçük Menderes",
+      "D": "Gediz",
+      "E": "Büyük Menderes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "Dağların kıyı şeridine göre uzanışı kıyı tipinin farklılaşmasına\nneden olmaktadır.\n\nBatı Anadoluda kıyı ile iç kesimler arasında ulaşımın kolay ve\nlimanların hinterlandının geniş olması bu bölgede hangi kıyı\ntipinin görülmesinin bir sonucudur?",
+    "options": {
+      "A": "Boyuna kıyı",
+      "B": "Enine kıyı",
+      "C": "Ria kıyı",
+      "D": "Limanlı kıyı",
+      "E": "Dalmaçya kıyı"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "text": "Aşağıdaki haritada bazı kıyı bölgeleri numaralandırılarak\nkoyu renkle gösterilmiştir.\n\nBu bölgeler ile aşağıdaki kıyı tipleri eşleştirildiğinde hangisi\nyanlıştır?",
+    "options": {
+      "A": "I – Dalmaçya Kıyı",
+      "B": "II – Enine Kıyı",
+      "C": "III – Rialı Kıyı",
+      "D": "IV - Boyuna kıyı tipi",
+      "E": "V - Kalanlı Kıyı"
+    },
+    "answer": "E",
+    "image": "/yer_sekilleri_images/image_3.png"
+  },
+  {
+    "id": 11,
+    "text": "Türkiyede bulunan tektonik ovalar fay zonları boyunca\noluşan çökme alanlarında oluşmuştur.\n\nAşağıdaki\novalardan\nhangisinin\nbulunduğu\nfay\nzonu\ndiğerlerinden farklıdır?",
+    "options": {
+      "A": "Amik",
+      "B": "Afşin",
+      "C": "Bingöl",
+      "D": "Taşova",
+      "E": "Elazığ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 12,
+    "text": "Batı Anadoluda bulunan birden fazla kırık sistemine bağlı\nçökme çukuru içinde onlarca tektonik ova oluşmuştur.\n\nAşağıdaki ovalardan hangisinin bahsedilen alanda oluştuğu\nsöylenemez?",
+    "options": {
+      "A": "Nazilli",
+      "B": "Bergama",
+      "C": "Tosya",
+      "D": "Torbalı",
+      "E": "Alaşehir"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "text": "I. Kızılırmak ve Yeşilırmakın havzasında boğaz vadiler bulunur.\nII. Geniş tabanlı vadiler içinde menderes çizen akarsulara\nrastlanır.\nIII. Farklı direnç gösteren volkanik ve karstik arazilerde kanyon\nvadiler bulunur.\nIV. Ergene Havzasında çentik vadiler açan akarsular yaygındır.\n\nTürkiye akarsu havzaları ve vadi özellikleri ile ilgili yukarıda\nverilen bilgilerden hangileri doğru değildir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "I ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "text": "Türkiye'nin Paleozoik arazileri diğer zaman arazilerine\noranla daha az olmakla birlikte bazı yörelerde bulunmaktadır.\n\nYukarıdaki Türkiye haritasında numaralanmış alanlardan\nhangisi Paleozoik arazilere rastlanılmaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D",
+    "image": "/yer_sekilleri_images/image_4.png"
+  },
+  {
+    "id": 15,
+    "text": "I. Örtü buzulu\nII. Yardang\nIII. Kaldera\nIV. Maar\n\nTürkiyede yukarıda verilen yer şekillerinden hangileri\nbulunmaz?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I ve IV",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "text": "Aşağıda verilen şelale oluşumları ve bulundukları il\neşleştirmelerinden hangisi doğru değildir?",
+    "options": {
+      "A": "Düden – Antalya",
+      "B": "Muradiye – Van",
+      "C": "Girlevik – Erzincan",
+      "D": "Tatlıca – Sinop",
+      "E": "Manavgat - Mersin"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 17,
+    "text": "Türkiye arazisinin bulunduğu alanda biriken tortulların\nzamanla sert kütleler (masif) haline dönüştüğü ve Türkiye\narazisinin temelini oluşturduğu jeolojik zaman aşağı-\ndakilerden hangisidir?",
+    "options": {
+      "A": "Prekambriyen",
+      "B": "Paleozoik",
+      "C": "Mezozoik",
+      "D": "Tersiyer",
+      "E": "Kuvaterner"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "text": "I. Rüzgâr erozyonunun etkili olması\nII. Bitki örtüsünün yoğun olmaması\nIII. Sel ve selinti suları\n\nOrta Anadoluda kırgıbayır adı verilen yer şekillerine yaygın\nolarak rastlanmasında yukarıdakilerden hangileri etkili\nolmuştur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "text": "Kapıdağ Yarımadası\n\nErgene Ovası\n\nİkiyaka Sirki\n\nKarapınar kumulları\n\nYukarıdaki oluşumları meydana getiren dış kuvvetler arasında\naşağıdakilerden hangisi yoktur?",
+    "options": {
+      "A": "Buzullar",
+      "B": "Akarsular",
+      "C": "Rüzgârlar",
+      "D": "Dalga ve akıntılar",
+      "E": "Yer altı suları"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 20,
+    "text": "Taban seviyesi ovaları akarsuların getirdiği alüvyonları\ntaşkınlar ile çukur alanlara biriktirmesi ile oluşmuştur.\n\nYukarıdaki\ntanımlama\naşağıdaki\novalardan\nhangisinin\noluşumunu açıklamada kullanılır?",
+    "options": {
+      "A": "Ergene",
+      "B": "Çukurova",
+      "C": "Bafra",
+      "D": "Elmalı",
+      "E": "Bucak"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "text": "Aşağıdaki şekilde Türkiyedeki orojenik hareketler sonucu\noluşan bir dağ kesiti verilmiştir.\n\nAşağıdaki dağlardan hangisinin oluşumu bu görseldeki\noluşumla açıklanamaz?",
+    "options": {
+      "A": "Bozdağlar",
+      "B": "Beşparmak Dağları",
+      "C": "Badranbaba Dağları",
+      "D": "Karçal Dağları",
+      "E": "Aydın Dağları"
+    },
+    "answer": "D",
+    "image": "/yer_sekilleri_images/image_5.jpeg"
+  },
+  {
+    "id": 22,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritadaki\nnumaralı\nalanlardan\nhangileri\nEpirojenez\nsonucunda çökmektedir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A",
+    "image": "/yer_sekilleri_images/image_6.png"
+  },
+  {
+    "id": 23,
+    "text": "Volkan konilerinin üst kısmının basınçla havaya uçması\nsonucu krater oluşur. Kraterlerin patlamaların devam ederek\nbüyümesi ile kaldera oluşur.\n\nAşağıdaki dağlardan hangisinin üzerinde kaldera gölü\nbulunmaktadır?",
+    "options": {
+      "A": "Kaçkar",
+      "B": "Nemrut",
+      "C": "Bozdağlar",
+      "D": "Uludağ",
+      "E": "Menteşe"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "text": "Türkiyenin mutlak konumu buzulların etki alanını oldukça\nsınırlamıştır. Türkiyede belirli bir yükseltinin üzerindeki dağlık\nalanlarda buzullar tarafından oluşturulmuş yer şekillerine\nrastlamak mümkündür.\n\nAşağıdakilerden hangisi metinde sözü edilen dağlardan biri\nolamaz?",
+    "options": {
+      "A": "Uludağ",
+      "B": "Mercan Dağları",
+      "C": "Kaçkarlar",
+      "D": "Bozdağlar",
+      "E": "Bolkarlar"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "text": "Aşağıdakilerden hangisi Türkiye'deki volkanizma ile ilgili\ndoğru bir bilgi değildir?",
+    "options": {
+      "A": "Türkiye'de şiddetli volkanik faaliyetler Üçüncü Jeolojik\nZaman'da başlamıştır.",
+      "B": "Manisa-Kula yakınlarında genç volkanik kül konileri\nbulunmaktadır.",
+      "C": "Yıldız Dağlarında geniş lav örtüleri oluşmuştur.",
+      "D": "Orta Anadolu'da Tuz Gölünün doğusunda volkan konileri\nyaygındır.",
+      "E": "Nevşehir çevresinde Erciyes ve Hasan Dağı'ndan çıkan tüfler\ngeniş örtüler oluşturmuştur."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "text": "Aşağıdaki Türkiye haritasında üç farklı kıyı yöresi\nnumaralarla gösterilmiştir.\n\nHaritadaki numaralı kıyılarla ilgili aşağıda verilenlerden\nhangisi yanlıştır?",
+    "options": {
+      "A": "II numaralı yöredeki kıta sahanlığı I numaralı yöredeki kıta\nsahanlığından daha geniştir.",
+      "B": "I numaralı yörede Kalanklı kıyı tipi görülürken II numaralı\nyörede boyuna kıyı tipi görülmektedir.",
+      "C": "II ve III numaralı yörelerdeki kıyılarda dalga biriktirme\nşekillerinden olan tombololara rastlanılmaktadır.",
+      "D": "II numaralı yöredeki delta ovalarında kıyı set gölleri\noluşmuştur.\nD) II numaralı alandaki deltalar I numaralı alandaki deltadan\nbüyüktür.",
+      "E": "I numaralı yöredeki dağlar ile II numaralı yöredeki dağlar kıyı\nçizgisine paralel uzanmaktadır."
+    },
+    "answer": "C",
+    "image": "/yer_sekilleri_images/image_7.png"
+  },
+  {
+    "id": 27,
+    "text": "Kolay eriyebilen kayaçların bulunduğu arazilerde yer alan en\nbüyük aşındırma şekilleri polyelerdir. Polye tabanlarında\nAlüvyal malzemenin birikmesi ile karstik ovalar meydana\ngelmektedir.\n\nAşağıdaki\novalardan\nhangisinin\nPolye\nörneği\nolduğu\nsöylenemez?",
+    "options": {
+      "A": "Erbaa Ovası",
+      "B": "Muğla Ovası",
+      "C": "Acıpayam Ovası",
+      "D": "Korkuteli Ovası",
+      "E": "Elmalı Ovası"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "text": "I. Çankırıdaki tuz yatakları\nII. Kütahyadaki bor yatakları\nIII. Batmandaki petrol yatakları\nIV. Karadondaki taş kömürü yatakları\n\nYukarıda verilen yer altı zenginliklerinin hangilerinin oluştuğu\ndönem diğerlerinden farklıdır?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve II",
+      "C": "I ve IV",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "text": "Türkiyenin mutlak konumunun sonucu olarak ülkemizde\nbuzul aşındırma ve biriktirme şekillerine yaygın olarak\nrastlanmaz. Bazı dağların yüksek kesimlerinde bu şekiller gö-\nrülmektedir.\n\nAşağıdaki\ndağlardan\nhangisi\nüzerinde\nbuzul\nşekilleri\ngörülmez?",
+    "options": {
+      "A": "Rize Dağları",
+      "B": "Sündiken Dağları",
+      "C": "Aladağlar",
+      "D": "Mercan Dağları",
+      "E": "Sat Dağları"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "text": "Alp Orojenezi ile başlamış olup günümüzde de sürmekte\nolan karalaşma hareketi Afrika, Avrasya ve Arabistan levhaları\narasındaki Tetis denizi çökellerinin, bu levhaların birbirine\nyaklaşmasıyla sıkışması, kıvrılarak veya kırılarak su yüzeyine\nçıkmasıyla geçekleşmiştir. Türkiyede,\n\nI. Ortalama yükseltinin fazla olması\nII. Dağların doğu-batı yönünde uzanması\nIII. Tektonik olarak hareketli bir yerde bulunması\nIV. Masif arazilerin bulunması\nV. Dört mevsimin belirgin olarak yaşanması\n\ndurumlarından hangileri yukarıdaki metinde sözü edilen\ndurumla açıklanamaz?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "IV ve V"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 31,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar koyu renkle\ngösterilmiştir.\n\nYukarıdaki Türkiye haritasında dağılışı verilen alanlar ile ilgili\naşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kuvaterner buzullaşmasına uğrayan alanları göstermektedir.",
+      "B": "Yükseltisi 2000 metre üzerindeki alanları göstermektedir.",
+      "C": "Tamamında buzul aşındırmasıyla oluşan sirk göllerine\nrastlanılmaktadır.",
+      "D": "Ege\nve\nGüneydoğu\nAnadolu\nbölgelerinde\nrastlanılmamaktadır.",
+      "E": "Doğu Anadolu, Karadeniz ve Akdenizde yoğunlukları daha\nfazladır."
+    },
+    "answer": "C",
+    "image": "/yer_sekilleri_images/image_8.png"
+  },
+  {
+    "id": 32,
+    "text": "Aşağıdakilerden hangisi Orta Anadoluda yer alan volkanik\ndağlardan biri değildir?",
+    "options": {
+      "A": "Erciyes",
+      "B": "Hasan",
+      "C": "Süphan",
+      "D": "Melendiz",
+      "E": "Karadağ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "text": "Türkiyedeki platolar oluşum bakımından farklılıklar\ngösterir. Karstlaşma, volkanizma, aşınım ve yatay duruşlu\nplatolara rastlanılır.\n\nI. Erzurum – Kars\nII. Teke\nIII. Taşeli\nIV. Uzunyayla\n\nYukarıda verilen platolardan hangileri oluşum bakımından\naynı grup içerisinde yer alır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 34,
+    "text": "Türkiyedeki dağlar genellikle doğu-batı doğrultusunda\nuzanmaktadır.\n\nAşağıdaki dağlardan hangisi bu genellemeye uymamaktadır?",
+    "options": {
+      "A": "Küre Dağları",
+      "B": "Nur Dağları",
+      "C": "Canik Dağları",
+      "D": "Bozdağlar",
+      "E": "Köroğlu Dağları"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "text": "Türkiyenin Ege Denizi kıyılarında girinti çıkıntı, koy ve körfez\nsayısı fazladır. Bu durum kıyıların gerçek uzunluğu ile kuş uçuşu\nuzunluğu arasındaki farkın fazla olmasına neden olmuştur.\n\nBuna göre Kıyı Egede aşağıdakilerden hangisinin ortaya\nçıkması paragrafta sözü edilen durumla aynı nedene bağ-\nlanamaz?",
+    "options": {
+      "A": "Limanların hinterlandının geniş olması",
+      "B": "Kıta sahanlığının geniş olması",
+      "C": "İç kesimlerle ulaşımın kolay olması",
+      "D": "Denizel iklimin etki alanının geniş olması",
+      "E": "Kış mevsiminde cephe yağışlarının etkili olması"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 36,
+    "text": "Aşağıdaki Türkiye haritasında beş jeomorfolojik ünite\nnumaralarla gösterilmiştir.\n\nHaritadaki jeomorfolojik ünitelerle ilgili eşleştirmelerden\nhangisi yanlıştır?",
+    "options": {
+      "A": "I – Volkan Konisi",
+      "B": "II – Delta Ovası",
+      "C": "III – Kıvrım Dağı",
+      "D": "IV - Karstik Plato",
+      "E": "V – Dağ Eteği Ovası"
+    },
+    "answer": "E",
+    "image": "/yer_sekilleri_images/image_9.png"
+  },
+  {
+    "id": 37,
+    "text": "İç Kuvvetler\nYeryüzü Şekilleri\nI.\nTektonizma\nÇukurova\nII.\nOrojenez\nBolkar Dağları\nIII.\nVolkanizma\nErciyes Dağı\n\nYukarıda verilen iç kuvvetler ve sonucunda oluşan yeryüzü\nşekli eşleştirmelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 38,
+    "text": "Türkiyenin güneyindeki kıtalar tarafından sürekli\nsıkıştırılıyor olmasının aşağıdakilerden hangisi üzerinde etkisi\nyoktur?",
+    "options": {
+      "A": "Akarsuların yataklarını derine aşındırması",
+      "B": "Ortalama yükseltinin artması",
+      "C": "Tektonik faaliyetlerin devam etmesi",
+      "D": "Depremlerin yaşanması",
+      "E": "Yağışın normalin altında gerçekleşmesi"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 39,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritadaki\nnumaralandırılmış\nalanlardan\nhangisinde\nKuvaterner buzullaşması izlerine rastlanmamaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D",
+    "image": "/yer_sekilleri_images/image_10.png"
+  },
+  {
+    "id": 40,
+    "text": "Türkiyede buzulların oluşturduğu yer şekillerine yükseltisi\n2500-3000 metrenin üzerinde olan alanlarda rastlanmaktadır.\n\nBu durumuma neden olan temel faktör aşağıdakilerden\nhangisidir?",
+    "options": {
+      "A": "Mutlak Konum",
+      "B": "Dağların bulunduğu bölge",
+      "C": "Dağların oluşum biçimi",
+      "D": "Litolojik Yapı",
+      "E": "Karasallık"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 41,
+    "text": "Türkiyede Tersiyer ve Kuvaterner volkanizması sonucunda\nortaya çıkan arazilere farklı bölgelerde rastlanılmaktadır.\n\nHaritada numaralandırılmış alanlardan hangilerinde bu\narazilere yaygın olarak rastlanıldığı söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A",
+    "image": "/yer_sekilleri_images/image_11.png"
+  },
+  {
+    "id": 42,
+    "text": "I. Kurak ve yarı kurak bölgelerde etkilidir.\nII. Yükseltisi 2000 metre üzerinde olan sahalarda etkilidir.\nIII. Karstik arazilerin bulunduğu alanlarda etkilidir.\n\nYukarıda etki alanları verilen dış kuvvetler hangi seçenekte\ndoğru sıralanmıştır?\n\nI II\nIII",
+    "options": {
+      "A": "Rüzgârlar\nBuzullar\nAkıntılar",
+      "B": "Yer altı suları\nRüzgârlar\nAkarsular",
+      "C": "Buzullar Yer altı suları Rüzgârlar",
+      "D": "Buzullar\nAkıntılar\nRüzgârlar",
+      "E": "Rüzgârlar\nBuzullar Yer altı suları"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 43,
+    "text": "Bu dönemde boğazlar, Ege Denizi ve Karadeniz oluşurken\nAnadolu topluca yükselmiş ve yüksek düzlükler akarsu\nvadilerince parçalanarak platolara dönüşmüştür.\n\nYukarıda sözü edilen jeolojik zaman aşağıdakilerden\nhangisidir?",
+    "options": {
+      "A": "İlkel zaman",
+      "B": "Birinci Jeolojik Zaman",
+      "C": "İkinci Jeolojik Zaman",
+      "D": "Üçüncü Jeolojik Zaman",
+      "E": "Dördüncü Jeolojik Zaman"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 44,
+    "text": "Haritalar çizilirken yörelerin engebeli olması hata oranının\nartmasına neden olmaktadır.\n\nHaritada üzerinde numaralanmış yerlerden hangisinin haritası\nçizilirken bozulma en az olur?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B",
+    "image": "/yer_sekilleri_images/image_12.png"
+  },
+  {
+    "id": 45,
+    "text": "Renklendirme yöntemi ile çizilen Türkiye fiziki haritasında yükseltisi 500 metrenin altında olan sahalar yeşil renk ile gösterilmektedir.\n\nAşağıdaki illerin yükseltileri dikkate alındığında hangisinin fiziki haritasında yeşil renk kullanıldığı söylenemez?",
+    "options": {
+      "A": "Edirne",
+      "B": "Eskişehir",
+      "C": "Hatay",
+      "D": "Trabzon",
+      "E": "Sivas"
+    },
+    "answer": "E"
+  }
+]

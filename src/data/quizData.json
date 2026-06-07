@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "text": "Türkiye, mutlak konum itibariyle Kuzey Yarım Küre'nin orta enlemlerinde yer almaktadır.\nTürkiye'nin orta enlemlerde yer alması aşağıdakilerden hangisine neden olmamıştır?",
+    "options": {
+      "A": "Fiyordlu kıyı tiplerinin görülmemesine",
+      "B": "Yıl içinde mevsim geçişlerinin belirgin olmasına",
+      "C": "Kıyıda buzul izlerinin görülmemesine",
+      "D": "Batı rüzgârları kuşağında yer almasına",
+      "E": "Aktif tektonik kuşakta bulunmasına"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 2,
+    "text": "23 derece 27 dakika kuzey enlemine Yengeç Dönencesi denilmektedir. Türkiye 36 kuzey ve 42 kuzey enlemlerinde yer aldığından yengeç Dönencesi'nin kuzeyindedir.\nAşağıdakilerden hangisine bakılarak Türkiye'nin Yengeç Dönencesi'nin kuzeyinde olduğu söylenebilir?",
+    "options": {
+      "A": "Güneş ışınlarının yatay düzleme dik açı ile gelmemesi",
+      "B": "Dört mevsimin aynı anda yaşanması",
+      "C": "Yerel saatin başlangıç boylamından ileri olması",
+      "D": "Akdeniz ikliminin görülmesi",
+      "E": "Doğuya doğru yükseltinin artması"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "text": "Çizgisel dönüş hızı diğer bir ifade ile birim zamanda alınan yol demektir.\nAşağıdaki kentlerden hangisinde birim zamanda alınan yol daha azdır?",
+    "options": {
+      "A": "Muğla",
+      "B": "Van",
+      "C": "Hatay",
+      "D": "Bartın",
+      "E": "Şanlıurfa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "text": "Aşağıdaki Türkiye haritasında bazı illerin konumu gösterilmiştir.\nAşağıdakilerden hangisi yukarıdaki haritada gösterilen illerin mutlak konumuna bağlı ortaya çıkmamıştır?",
+    "image": "/quiz_images/image_1.png",
+    "options": {
+      "A": "Sinop'ta gölge boyunun diğer illere göre daha uzun olması",
+      "B": "Hatay'da çizgisel hızın İzmir'e göre fazla olması",
+      "C": "Ankara'da karın yerde kalma süresinin Erzurum'dan kısa olması",
+      "D": "Tekirdağ'da yerel saatin Ankara'ya göre geri olması",
+      "E": "Hatay'da tarım ürünlerinin Sinop'tan erken olgunlaşması"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "text": "Türkiye'de 30 Haziran ile 30 Ağustos tarihleri arasında gözlem yapan bir kişinin aşağıdakilerden hangisini yanlış gözlemlediği söylenebilir?",
+    "options": {
+      "A": "Ankara'daki gündüz uzunluğu Sinop'tan azdır.",
+      "B": "Gözlem süresi boyunca cisimlerin öğle vakti gölge yönü kuzeydir.",
+      "C": "Mersin'deki gece - gündüz süre farkı Amasya'dan fazladır.",
+      "D": "Tüm kentlerde gündüz uzunluğu bir önceki güne göre azalmaktadır.",
+      "E": "Aynı enlem üzerindeki kentlerde gündüz süresi aynıdır."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "text": "Aşağıdakilerden hangisi üzerinde Türkiye'nin enlem özellikleri etkili değildir?",
+    "options": {
+      "A": "Kuzeyde tarım ürünlerinin olgunlaşma süresinin uzun olmasında",
+      "B": "Gece - gündüz süre farkının kuzeyde daha uzun olmasında",
+      "C": "Güneş ışınlarının tutulma oranın güneyde daha kısa olmasında",
+      "D": "Dağların uzanış doğrultusunun doğu - batı yönlü uzanmasında",
+      "E": "Mersin kıyılarındaki deniz tuzluluğunun Zonguldak kıyılarından daha fazla olmasında"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "text": "Ekvator'dan uzaklaşıldıkça gece ile gündüz arasındaki süre farkı artmaktadır.\nHaritadaki numaralanmış yerlerden hangisinde gece - gündüz süre farkı diğerlerinden daha fazladır?",
+    "image": "/quiz_images/image_2.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "text": "I. Gölge boyu\nII. Gece - gündüz süre farkı\nIII. Tan ve Gurup süresi\nIV. Aynı anda dört mevsim\nYaklaşık aynı enlem üzerinde olduğu bilinen kentler ile ilgili hangilerinin aynı olduğu söylenemez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız IV",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "Aşağıdaki Türkiye Haritasında bazı merkezler numaralarla gösterilmiştir.\nHaritada işaretlenen merkezlerden hangisinde 28 Haziran'da yaşanan gündüz süresi diğer merkezlerden daha uzundur?",
+    "image": "/quiz_images/image_3.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "text": "Ardışık iki meridyen arasındaki sabit zaman farkı 4 dakikadır.\n38 Doğu boylamındaki Ordu ile arasında 28 dakika zaman farkı olan ve yerel saati daha geri olan Düzce'nin boylam derecesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "28",
+      "B": "31",
+      "C": "36",
+      "D": "39",
+      "E": "41"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "text": "Dünya'nın batıdan doğuya dönmesi sonucunda yerel saat farkları ortaya çıkmaktadır. Türkiye'de yıl boyunca kullanılan ortak saat ise Iğdır'a göre ayarlanmıştır.\nBuna göre, haritadaki numaralı merkezlerden hangisinde yerel saat ile ulusal saat arasındaki zaman farkı daha fazladır?",
+    "image": "/quiz_images/image_4.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "text": "Aşağıdaki Türkiye haritası üzerinde yaklaşık olarak aynı boylam üzerinde bulunan merkezler gösterilmiştir.\nTürkiye haritasında gösterilen merkezlerden hangi Başlangıç Boylamı'na diğerlerinden daha yakındır?",
+    "image": "/quiz_images/image_5.jpeg",
+    "options": {
+      "A": "Aydıncık",
+      "B": "Çankırı",
+      "C": "Kırıkkale",
+      "D": "Karapınar",
+      "E": "Şereflikoçhisar"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "text": "Elazığ ve Trabzon illerinin, aşağıdaki özelliklerinden hangisinin farklı olması matematik konum etkisiyle açıklanamaz?",
+    "options": {
+      "A": "Yerel saatlerinin",
+      "B": "Çizgisel hızlarının",
+      "C": "Gece-gündüz sürelerinin",
+      "D": "Kış sıcaklık ortalamalarının",
+      "E": "Aynı boydaki cisimlerin gölge boylarının"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "text": "Yer şekillerinin kısa mesafede çok fazla değiştiği alanlarda sıcaklık başta olmak üzere değişen durumlar, iklim, bitki, toprak ve ekonomik etkinliklerde de değişimlere neden olmaktadır.\nBuna göre, haritada numaralanmış alanlardan hangisinde bu değişimler daha azdır?",
+    "image": "/quiz_images/image_6.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "text": "Türkiye'de yaşanan bazı durumlar enlem etkisi ile çeliştiğinden dolayı mutlak konum ile açıklanamaz.\nAşağıdakilerden hangisinde mutlak konum ile açıklanamayan bir örnek durum verilmiştir?",
+    "options": {
+      "A": "Muğla'da deniz turizmi sezonunun Yalova'dan önce başlaması",
+      "B": "Doğu Karadeniz dağlarının kuzey yamaçlarındaki kış sıcaklıklarının güneyden yüksek olması",
+      "C": "Serik Ovası'ndaki tarım ürününün Niğde Ovası'ndan erken olgunlaşması",
+      "D": "Akdeniz Bölgesi'ndeki makilerin Marmara Bölgesi'ne göre daha yüksek rakımlarda yetişebilmesi",
+      "E": "Antalya'daki donlu gün sayısının Balıkesir'den daha az olması"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "text": "I. Akdeniz İkliminin görülmesi\nII. Dört mevsimin belirgin olarak yaşanması\nIII. Batıdan doğuya gidildikçe sıcaklık ortalamasının azalması\nIV. Kıyılarda sıcaklık farklarının iç kesimlere göre az olması\nYukarıda verilen iklim özelliklerinden hangilerinin oluşması Batı rüzgârlarının görülmesi ile aynı nedene bağlıdır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I ve III",
+      "E": "II ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "text": "Türkiye'de güneş ışınlarının geliş açısının güneyden kuzeye doğru gidildikçe daralması sonucunda sıcaklık azalmaktadır. Ancak bu sıcaklık azalışı düzenli değildir. Göreceli konuma bağlı olarak merkezlerin sıcaklıkları değişmektedir.\nAşağıdaki illerden hangisinin ortalama kış sıcaklık değerinin Yozgat'tan daha yüksek olması enlem sıcaklık ilişkisi ile çelişir?",
+    "options": {
+      "A": "Aydın",
+      "B": "Antalya",
+      "C": "Hatay",
+      "D": "Giresun",
+      "E": "Muğla"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "text": "Alacakaranlık süresi güneş doğmadan önceki zamanı ifade etmektedir. Bu süre çizgisel hız ile ters orantılıdır.\nBuna göre, yukarıdaki Türkiye haritasında numaralanmış merkezlerden hangisinde alacakaranlık süresi daha kısadır?",
+    "image": "/quiz_images/image_7.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "text": "Türkiye'de 23 Eylül ile 21 Mart arasındaki dönemde güneye doğru gidildikçe gündüz süresi uzamaktadır.\nBuna göre, aşağıdaki illerden hangisinde 21 Aralık tarihinde gündüz süresi daha uzun yerel saat daha ileridir?",
+    "options": {
+      "A": "Kütahya",
+      "B": "Karaman",
+      "C": "Şırnak",
+      "D": "Kastamonu",
+      "E": "Balıkesir"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "text": "Aşağıdakilerden hangisinin Türkiye'nin mutlak konumuna bağlı olduğu söylenemez?",
+    "options": {
+      "A": "Maki üst sınırının Antalya'ya göre Bursa'da daha düşük olması",
+      "B": "Güneş'in batışının Amasra'da Alanya'ya göre daha uzun süre izlenmesi",
+      "C": "Muğla kıyılarında deniz turizmine elverişli sürenin Yalova kıyılarından fazla olması",
+      "D": "Rize'de kısa mesafe içinde yaşanan değişimlerin Kilis'ten fazla olması",
+      "E": "Adıyaman'da güneşin Uşak'tan önce doğması"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 21,
+    "text": "İzmit kenti ile Finike kentinin Başlangıç Boylamı ile aralarındaki zaman farkı aynıdır.\nBu durum merkezlerin hangi özelliği ile açıklanabilir?",
+    "options": {
+      "A": "Aynı denize kıyıları vardır.",
+      "B": "Yükselti ortalamaları aynıdır.",
+      "C": "Boylam dereceleri aynıdır.",
+      "D": "Aynı coğrafi bölgede yer alırlar.",
+      "E": "Bitki türleri aynıdır."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "text": "Türkiye'nin boylam özellikler ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "26 doğu boylamı Gökçeada'dan geçer.",
+      "B": "45 Doğu Boylamı Iğdır'ın batısındadır.",
+      "C": "Osmanlı'nın başlangıç boylamı İstanbul'dan geçer.",
+      "D": "Uluslararası saat dilimlerinden 2. ve 3. Dilimleri kullanır.",
+      "E": "Doğusuna doğru meridyen dereceleri artar."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "text": "Aşağıda farklı merkezlere ait gölge boyu değişim grafikleri verilmiştir.\nBu merkezlerden hangilerinin Türkiye sınırları içinde yer aldığı savunulabilir?",
+    "images": [
+      "/quiz_images/image_8.png",
+      "/quiz_images/image_9.png",
+      "/quiz_images/image_10.png"
+    ],
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "text": "Doğu Batı yönlü genişliği fazla olan illerin doğusu ile batısı arasındaki yerel saat farkı daha fazladır.\nAşağıdaki illerden hangisinin doğusu ile batısı arasındaki zaman farkı daha fazladır?",
+    "options": {
+      "A": "Batman",
+      "B": "Edirne",
+      "C": "Niğde",
+      "D": "Antalya",
+      "E": "Bartın"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "text": "Türkiye topraklarının bulunduğu alan tarihi çağlardan itibaren önemli yerleşim alanları arasında ve ticaretin geliştiği yerler arasında yer almaktadır.\nI. Zengin bor minerali yataklarının bulunması\nII. Önemli yolların geçtiği yerde bulunması\nIII. Eski Dünya Karaları arasında yer alması\nTürkiye topraklarının bu özellikleri kazanmasında yukarıdakilerin hangileri etkili olmuştur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "Yalnız II",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 26,
+    "text": "Aşağıdaki harita üzerinde Türkiye'de yer alan bazı merkezler işaretlenmiştir.\nYukarıdaki haritada işaretli merkezlerle ilgili olarak aşağıdakilerden hangisi doğru değildir?",
+    "image": "/quiz_images/image_11.png",
+    "options": {
+      "A": "I numaralı merkezde çizgisel hız V numaralı merkeze göre daha azdır.",
+      "B": "II numaralı merkezde yerel saat IV numaralı merkeze göre daha ileridir.",
+      "C": "IV ve V numaralı merkezlerde aynı anda güneş ışınlarının düşme açısı aynıdır.",
+      "D": "III numaralı merkezde gölge boyu I numaralı merkeze göre daha kısadır.",
+      "E": "IV numaralı merkezde gurup ve tan süresi II numaralı merkeze göre daha kısadır."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 27,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla gösterilmiştir.\nYukarıdaki Türkiye haritasında numaralanmış yerlerin hangisinde;\n12 Ağustos'ta gündüz süresi en uzun,\nBaşlangıç Meridyeni ile zaman farkı en az,\nÇizgisel hız en az,\nözelliklerinden tümü görülür?",
+    "image": "/quiz_images/image_12.png",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "text": "Aşağıdaki tabloda bir bölgenin coğrafi koordinatları verilmiştir.\nEnlem: 12° Kuzey, 17° Kuzey\nBoylam: 6° Doğu, 18° Doğu\nYukarıda coğrafi koordinatları verilen bölge Türkiye'ye göre hangi yönde yer alır?",
+    "options": {
+      "A": "Kuzeydoğu",
+      "B": "Güneybatı",
+      "C": "Kuzeybatı",
+      "D": "Güneydoğu",
+      "E": "Güney"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "text": "I. Genç ve dinamik bir nüfus yapısına sahiptir.\nII. Ortalama yükselti ve engebe fazladır.\nIII. Geçmişten beri farklı medeniyetlere ev sahipliği yapmıştır.\nIV. Jeolojik yapısı oldukça genç ve çeşitlidir.\nTürkiye'nin yukarıda verilen göreceli konum özelliklerinden hangilerinde beşeri yönü vurgulanmıştır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "text": "Aşağıdaki haritada bazı merkezler numaralandırılarak gösterilmiştir.\nBu merkezlerle ilgili olarak aşağıdakilerden hangisine ulaşılamaz?",
+    "image": "/quiz_images/image_13.png",
+    "options": {
+      "A": "I ve II numaralı merkezlerde gündüz süresi aynıdır.",
+      "B": "II ve IV numaralı merkezlerde yerel saat aynıdır.",
+      "C": "I ve III numaralı merkezler başlangıç meridyenine eşit uzaklıktadır.",
+      "D": "III ve IV numaralı merkezler Ekvator'a eşit uzaklıktadır.",
+      "E": "I ve IV numaralı merkezlerde en uzun gündüzün yaşandığı tarih aynıdır."
+    },
+    "answer": "C"
+  }
+]

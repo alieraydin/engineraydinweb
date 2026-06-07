@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "text": "Türkiyede maden çeşidi fazla olmasına rağmen çoğu\nmadenin rezervi azdır. Maden çeşitliliğinin en fazla olduğu\nyer yukarı Fırat adı verilen Elazığ çevresidir.\n\nBahsedilen alanda maden çeşitliğinin fazla olmasında\naşağıdakilerden hangisi etkili olmuştur?",
+    "options": {
+      "A": "Bölgenin yükseltisinin fazla olması",
+      "B": "Jeolojik yapının çeşitlilik göstermesi",
+      "C": "Dar ve derin vadiler içinde yer alması",
+      "D": "İklim değişimlerinden etkilenmesi",
+      "E": "Akarsu havzasında yer alması"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "text": "I. Volkanik faaliyetler\nII. Tortulanma olayları\nIII. Metamorfizma (başkalaşm",
+    "options": {
+      "A": "olayları\n\nTürkiyedeki maden ve enerji kaynaklarının oluşmasında\nhangileri etkili olmuştur?\n\nA) Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 3,
+    "text": "Aşağıdaki Türkiye haritasında bazı madenlerin yeri\ngösterilmiştir.\n\nYukarıdaki Türkiye haritasında hangi madenin rezerv alanı\nyanlış gösterilmiştir?",
+    "options": {
+      "A": "Barit",
+      "B": "Demir",
+      "C": "Fosfat",
+      "D": "Bor",
+      "E": "Bakır"
+    },
+    "answer": "C",
+    "image": "/maden_enerji_images/image_1.png"
+  },
+  {
+    "id": 4,
+    "text": "I. Kütahya\nII. Balıkesir\nIII. Muğla\nIV. Elazığ\n\nYukarıda verilen illerden hangilerinde bor yatakları\nbulunmamaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 5,
+    "text": "Aşağıdaki Türkiye haritasında beş merkezin yeri\ngösterilmiştir.\n\nYukarıdaki Türkiye haritasında konumları gösterilen\nmerkezlerden hangisinde boksit yatakları bulunmaktadır?",
+    "options": {
+      "A": "Akseki",
+      "B": "Küre",
+      "C": "Murgul",
+      "D": "Mazıdağ",
+      "E": "Susurluk"
+    },
+    "answer": "A",
+    "image": "/maden_enerji_images/image_2.png"
+  },
+  {
+    "id": 6,
+    "text": "Türkiyede altın yatakları küçük rezervler halinde dağınık\nhalde bulunmaktadır.\n\nAşağıdakilerden hangisi Türkiyede altın üretimi yapılan\nişletmelerin bulunduğu alanlardan biri değildir?",
+    "options": {
+      "A": "İzmir - Bergama",
+      "B": "Artvin - Cerattepe",
+      "C": "Uşak - Kışladağ",
+      "D": "Erzincan - İliç",
+      "E": "Antalya - Akseki"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 7,
+    "text": "Trona olarak da bilinen Soda külü madeni, cam sanayisi\nbaşta olmak üzere ekonomik değeri yüksek olan bir\nmadendir.\n\nYukarıdaki Türkiye haritasında bu madenin bilinen tek\nyatakları bulunmaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C",
+    "image": "/maden_enerji_images/image_3.png"
+  },
+  {
+    "id": 8,
+    "text": "Volkanik kökenli bir maden olan perlit inşaat sektörü başta\nolmak üzere pek çok sanayi kuruluşunda ham madde olarak\nkullanılmaktadır.\n\nBuna göre, aşağıdaki illerden hangisinde perlit madeni\nyatakları bulunduğu söylenemez?",
+    "options": {
+      "A": "İzmir",
+      "B": "Ankara",
+      "C": "Erzurum",
+      "D": "Van",
+      "E": "Antalya"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 9,
+    "text": "Aşağıdaki Türkiye haritasında bazı merkezler numaralarla\ngösterilmiştir.\n\nHaritada\nnumaralandırılarak\ngösterilen\nmerkezlerin\nhangisinde krom madenin çıkarımı yapılmamaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A",
+    "image": "/maden_enerji_images/image_4.png"
+  },
+  {
+    "id": 10,
+    "text": "Aşağıdaki haritada bir madenin Türkiyedeki önemli\nrezerv alanları gösterilmiştir.\n\nBuna göre söz konusu maden aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Trona",
+      "B": "Kükürt",
+      "C": "Demir",
+      "D": "Krom",
+      "E": "Boksit"
+    },
+    "answer": "C",
+    "image": "/maden_enerji_images/image_5.png"
+  },
+  {
+    "id": 11,
+    "text": "I. Jeolojik yapı\nII. Yer şekilleri\nIII. İklim\n\nTürkiyede jeotermal enerji potansiyelinin yüksek olması\nyukarıdakilerden hangileriyle ilgilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve II"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "text": "Türkiyenin coğrafi konumu ve iklim özelikleri güneş\nenerjisi potansiyelinin fazla olmasına neden olmuştur. Bu\ndurum özelikle son yıllarda güneş enerjisi santrallerine\nyapılan yatırımları artırmıştır.\n\nBuna göre, güneş enerjisi santrali kurmak isteyen bir\nyatırımcı aşağıdaki illerden hangisini tercih ederse yanlış bir\nyatırım yapmış olur?",
+    "options": {
+      "A": "Konya",
+      "B": "Şanlıurfa",
+      "C": "Aydın",
+      "D": "Bartın",
+      "E": "Mardin"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "text": "Jeotermal enerji sadece elektrik enerjisi üretiminden\ndeğil, aynı zamanda konutların ve seraların ısıtılmasında da\nkullanılmaktadır.\n\nBuna göre aşağıdaki merkezlerden hangisinde jeotermal\nenerji potansiyeli bulunmamaktadır?",
+    "options": {
+      "A": "İzmir - Seferihisar",
+      "B": "Aydın - Germencik",
+      "C": "Çanakkale - Babadere",
+      "D": "Zonguldak – Devrek",
+      "E": "Denizli - Kızıldere"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "text": "Aşağıdaki Türkiye haritasında fosil yakıtlardan üretim\nyapan bazı termik santraller gösterilmiştir.\n\nYukarıdaki\nTürkiye\nhangisinde\nkonumları\nverilen\nsantrallerden hangisinde linyit ile çalışan termik santraller\nyoktur?",
+    "options": {
+      "A": "Çan",
+      "B": "Su Gözü",
+      "C": "Yatağan",
+      "D": "Çayırhan",
+      "E": "Elbistan"
+    },
+    "answer": "B",
+    "image": "/maden_enerji_images/image_6.png"
+  },
+  {
+    "id": 15,
+    "text": "Star\nİpraş\nAtaş\nOrta Anadolu\n\nYukarıda verilen petrol rafinerileri aşağıdaki illerle eşleştirildiğinde hangi il dışarıda kalır?",
+    "options": {
+      "A": "Kırıkkale",
+      "B": "İzmir",
+      "C": "Batman",
+      "D": "İzmit",
+      "E": "Mersin"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "text": "I. Irak – Türkiye\nII. Bakü – Tiflis Ceyhan\nIII. Mavi Akım\nIV. Türk Akımı\n\nYukarıda verilen boru\nhatlarından hangileri\npetrol\ntaşımacılığı amacıyla kurulmuştur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "text": "Türkiye elektrik üretiminde doğal gaz geçmiş yıllarda en\nbüyük paya sahip iken günümüzde en fazla konut ısıtmasında\nkullanılmaktadır. Ancak hala elektrik üretimi yapan santraller\nbulunmaktadır.\n\nAşağıdaki santrallerden hangisinde doğal gaza bağlı elektrik\nüretimi yoktur?",
+    "options": {
+      "A": "Hamitabat",
+      "B": "Aliağa",
+      "C": "Ovaakça",
+      "D": "Silopi",
+      "E": "Ambarlı"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "text": "I. Linyit\nII. Jeotermal\nIII. Asfaltit\nIV. Biyokütle\n\nYukarıdaki enerji kaynaklarından hangisinin kullanımının\nartması karbon salınımını artırmaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "text": "I. Kozlu\nII. Karadon\nIII. Amasra\n\nYukarıda verilen havzalardan hangilerinde taş kömürü\n(maden kömürü) yatakları bulunmaktadır?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 20,
+    "text": "Petrol kökenli katı bir yakıt olan asfaltit enerji kaynağı\nolarak kullanılmaktadır.\n\nBuna göre aşağıdaki merkezlerden hangisinde hem asfaltit\nçıkarımı yapılmakta hem de asfaltitle işletilen bir termik\nsantral bulunmaktadır?",
+    "options": {
+      "A": "Şırnak-Silopi",
+      "B": "Mardin-Kızıltepe",
+      "C": "Hatay-Dörtyol",
+      "D": "Ağrı-Doğubayazıt",
+      "E": "Bitlis-Tatvan"
+    },
+    "answer": "A"
+  }
+]

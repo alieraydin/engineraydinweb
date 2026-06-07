@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "text": "Endüstri kuruluşlarının dağılışında çeşitli faktörler etkili\nolmaktadır.\n\nTürkiyede endüstri kuruluşlarının yer seçiminde aşağıdaki\nözelliklerden hangisi dikkate alınmamıştır?",
+    "options": {
+      "A": "Ulaşım",
+      "B": "Sermaye",
+      "C": "Deprem riski",
+      "D": "Ham madde",
+      "E": "Pazar"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "text": "Aşağıdaki Türkiye haritasında bir sanayi kolunun kurulu\nolduğu alanlar işaretlenmiştir.\n\nYukarıdaki\nharitada\ndağılışı\ngösterilen\nsanayi\nkolu\naşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Petrokimya",
+      "B": "Çimento",
+      "C": "Otomotiv",
+      "D": "Gübre",
+      "E": "Demir-çelik"
+    },
+    "answer": "A",
+    "image": "/sanayi_ticaret_images/image_1.png"
+  },
+  {
+    "id": 3,
+    "text": "I. Yeni iş olanakları yaratması\nII. Ülke içinde ve ülkeler arası ticaretin gelişmesi\nIII. Ham maddenin ülke içinde işlenmesi ile değer\nkaybetmesi\nIV. Büyük kentlerin çevrelerinde çarpık kentleşmenin olması\n\nYukarıda\nverilen\ndurumlardan\nhangileri\nTürkiyede\nsanayileşmenin gelişmesinin ülke ekonomisine katkıları\narasındadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "text": "İstanbul, Ankara, Kayseri, İzmir ve İnegölde\n\nKocaeli, Sakarya, Kırşehir\n\nAnkara, Kırıkkale, Çankırı\n\nEreğli, Karabük, İskenderun, İzmir\n\nYukarıda gruplandırılan merkezlerle aşağıdaki sanayi\ntesisleri eşleştirildiğinde hangisi açıkta kalır?",
+    "options": {
+      "A": "Silah ve mühimmat fabrikaları",
+      "B": "Motorlu araç lastiği fabrikaları",
+      "C": "Demir-çelik fabrikaları",
+      "D": "Şeker fabrikaları",
+      "E": "Mobilya fabrikaları"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "text": "Türkiyede bazı endüstri kuruluşları ham maddenin elde\nedildiği yerlerle paralellik gösterir.\n\nAşağıdaki ürünlerden hangisini işleyen kuruluşlarda ham\nmadde dağılışına bağlılık daha fazladır?",
+    "options": {
+      "A": "Tütün",
+      "B": "Pamuk",
+      "C": "Zeytin",
+      "D": "Buğday",
+      "E": "Şekerpancarı"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 6,
+    "text": "Türkiyede iç ticaretin yönü üretimin bölgesel dağılışına\ngöre şekillenmektedir.\n\nBuna göre, Mersinde üretilen tarım ürünlerinin aşağıdaki\nillerden hangisi ile yapılan ticarete diğerleri kadar konu\nolması beklenmez?",
+    "options": {
+      "A": "Ankara",
+      "B": "Yozgat",
+      "C": "Trabzon",
+      "D": "Ağrı",
+      "E": "İzmir"
+    },
+    "answer": "E",
+    "image": "/sanayi_ticaret_images/image_2.png"
+  },
+  {
+    "id": 7,
+    "text": "Aksu\n(Giresun),\nÇaycuma\n(Zonguldak),\nTaşköprü\n(Kastamonu), Dalaman (Muğl",
+    "options": {
+      "A": ", Taşucu (Mersin), kâğıt –\nselüloz endüstrisinin kurulduğu yerlerdir.\n\nKâğıt-selüloz fabrikalarının kuruluş yerini belirleyen temel\nfaktör aşağıdakilerden hangisidir?\n\nA) Pazar",
+      "B": "Enerji",
+      "C": "Ham madde",
+      "D": "Ulaşım",
+      "E": "İş gücü"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "text": "Aşağıdaki Türkiye haritasında beş farklı sanayi kolunun\nkurulu olduğu alanlar işaretlenmiştir.\n\nHaritada konumları gösterilen sanayi kollarından hangisinin\nbulunduğu alandaki varlığı ham maddeye yakınlık ilkesi ile\naçıklanamaz?",
+    "options": {
+      "A": "Yağ",
+      "B": "Mobilya",
+      "C": "Bakır İzabe",
+      "D": "Süt",
+      "E": "Unlu Mamuller"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "Türkiye gerek enerji gerekse sanayi üretimi için\nihracatından daha fazla ithalat yapmaktadır.\n\nTürkiyenin ithalatında aşağıdaki fasıllardan hangisinin payı\ndiğerlerine göre daha fazladır?",
+    "options": {
+      "A": "Eczacılık ürünleri",
+      "B": "Motorlu kara taşıtları, traktörler, motosikletler",
+      "C": "Mineral yakıtlar, mineral yağlar",
+      "D": "Optik, fotoğraf, sinema, ölçü, kontrol, ayar, tıbbi alet",
+      "E": "Kâğıt ve karton, kâğıt hamurundan, kâğıttan eşya"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "text": "Sanayinin\ngelişmesi\niçin\ngerekli\nolan\nulaşım\nkoşullarından liman fonksiyonunun gelişmiş olması dikkate\nalındığında aşağıdaki illerden hangisinin bu fonksiyona\nsahip olduğu söylenemez?",
+    "options": {
+      "A": "Muğla",
+      "B": "İzmir",
+      "C": "Mersin",
+      "D": "Kocaeli",
+      "E": "İstanbul"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "text": "Aşağıdaki Türkiye haritasında beş sanayi kolunun kurulu\nolduğu lokasyonlar gösterilmiştir.\n\nHaritada kurulum yerleri gösterilen sanayi kollarından\nhangisinin kurulum yeri seçiminde etkili olan faktör\ndiğerlerinden farklıdır?",
+    "options": {
+      "A": "Bakır",
+      "B": "Gübre",
+      "C": "Krom",
+      "D": "Demir – çelik",
+      "E": "Petro - kimya"
+    },
+    "answer": "D",
+    "image": "/sanayi_ticaret_images/image_3.png"
+  },
+  {
+    "id": 12,
+    "text": "I. Denizli\nII. Kayseri\nIII. Aydın\nIV. Adana\n\nYukarıdaki illerden hangilerinde kurulmuş olan pamuklu\ndokuma sanayisinin kurulum yeri seçiminde ham madde\nüretimi etkili olmamıştır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "II ve IV"
+    },
+    "answer": "B",
+    "image": "/sanayi_ticaret_images/image_4.jpeg"
+  },
+  {
+    "id": 13,
+    "text": "Türkiyede ihracatın ithalatı karşılama oranı %70\ncivarındadır. Bu durum Türkiyenin dış ticaret açığı verdiğini\ngöstermektedir.\n\nI. Üretim kalitesi ve standardının artırılması\nII. İthalattan alınan verginin düşürülmesi\nIII. Turizm yatırımlarının artırılması\nIV. Ülke içinde üretilen ürünlerin kullanımının teşvik edilmesi\n\nYukarıdakilerden hangileri ihracatın ithalatı karşılama\noranının\nartırılması\niçin\nyapılması\ngerekenlerden\nuygulamalardan değildir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "text": "Demir-çelik ürünlerinin kullanıldığı en önemli metal\nsanayi kollarından biri silah sanayisidir.\n\nTürkiyenin savunma sanayisine ait tesislerin bulunduğu\niller arasında aşasıdakilerden hangisi bulunmaz?",
+    "options": {
+      "A": "Ankara",
+      "B": "Kırıkkale",
+      "C": "Çankırı",
+      "D": "Eskişehir",
+      "E": "Karabük"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 15,
+    "text": "Aşağıdaki tabloda Türkiyede yer alan bazı fabrikaların\nbulunduğu iller ve kuruluşunda etkili olan faktörler\nverilmiştir.\n\nBuna göre yukarıdaki tabloda numaralarla gösterilen\nfabrikalardan hangilerinin kuruluşunda etkili olan faktör\nyanlış verilmiştir?",
+    "options": {
+      "A": "Yalnız V",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "III ve V"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "text": "I. Sivas\nII. Eskişehir\nIII. Sakarya\n\nYukarıdaki illerden hangilerinde demir yolu taşıtlarının\naksam ve parçalarını üreten tesisler bulunmaktadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 17,
+    "text": "Bursa, Gaziantep, Mersin, Samsun Denizli illeri\nTürkiyenin önemli tarım, sanayi ve ticaret illeridir.\n\nYukarıdaki illerin ortak özelliği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Otomotiv sanayisinin bulunması",
+      "B": "Deniz kıyısında olmaları",
+      "C": "Serbest ticaret bölgesine sahip olmaları",
+      "D": "Aynı iklim özelliklerinin görülmesi",
+      "E": "Hızlı tren ulaşımının olması"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "text": "I. Dış satımda sanayi ürünlerinin payı tarım ve madencilik\nürünlerine göre fazladır.\nII. En çok ihracat yapılan ülke Almanyadır.\nIII. Coğrafi konum transit ticaretin gelişmesini engellemiştir.\n\nTürkiyenin ticaretiyle ilgili yukarıda verilenlerden hangileri\nyanlıştır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "text": "Sanayi tesislerinin yer seçiminde önemli olan faktörlerden\nbiri de ham maddeye yakınlıktır. Bu faktör çabuk\nbozulabilecek ürünlerin bozulmadan işlenmesine yardımcı\nolduğu gibi ham maddenin taşıma maliyetini de azaltır.\n\nBuna göre aşağıdaki fabrikalardan hangisinin kuruluşunda\nyukarıda sözü edilen durum etkili olmamıştır?",
+    "options": {
+      "A": "Balıkesir - Zeytinyağı Fabrikası",
+      "B": "Karabük- Demir Çelik Fabrikası",
+      "C": "Adana- Pamuklu Dokuma Fabrikası",
+      "D": "Çanakkale - Konserve Gıda Fabrikası",
+      "E": "Seydişehir - Alüminyum Fabrikası"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "text": "Aşağıda Türkiyedeki sanayi tesislerinin yer seçimiyle ilgili\nolarak bazı durumlar verilmiştir.\n\nI.\nBatı Karadenizde\ndemir\nçıkarılmamasına\nrağmen\nKarabükte demir-çelik sanayi tesisi vardır.\n\nII. Türkiyede genellikle tarım ürünlerini işleyen sanayi\ntesisleri bu ürünlerin yetiştirildiği alanlarda kurulmaktadır.\n\nIII. İzmit ve İzmirde ham petrolü işleyen ve petrol türevleri\nüreten rafineriler kurulmuştur.\n\nBu durumların ortaya çıkmasında etkili olan faktörler\naşağıdakilerden hangisinde doğru eşleştirilmiştir?\n\nI\nII\nIII",
+    "options": {
+      "A": "Enerji\nHam madde\nUlaşım",
+      "B": "Ham madde\nUlaşım\nEnerji",
+      "C": "Ulaşım\nHam madde\nEnerji",
+      "D": "Ham madde\nEnerji\nUlaşım",
+      "E": "Enerji\nUlaşım\nHam madde"
+    },
+    "answer": "A"
+  }
+]

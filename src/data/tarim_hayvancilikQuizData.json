@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "text": "Türkiyenin milli ve bağımsız ekonomi politikalara sahip\nolması görüşü daha Cumhuriyet ilan edilmeden önce ortaya\nkonulmuştur.\n\nBu kapsamda yapılan ilk çalışma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I. Beş yıllık sanayi planı",
+      "B": "I. Beş yıllık kalkınma planı",
+      "C": "Devlet Planlama Teşkilatının kurulması",
+      "D": "İzmir İktisat Kongresinin toplanması",
+      "E": "Devletçilik politikasına geçilmesi"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "text": "Dünya ekonomik buhranından sonraki dönemde devletçilik\npolitikası benimsenmiş ve devlet eliyle birçok banka ve kurum\nkurulmuştur.\n\nSümerbank, Etibank ve Maden Tetkik Arama Enstitüsünün\nkurulması\naşağıdaki\nekonomi\npolitikalarının\nhangisi\nkapsamında değerlendirilir?",
+    "options": {
+      "A": "1923-1930 Dönemi Ekonomi Politikaları",
+      "B": "1930-1950 Dönemi Ekonomi Politikaları",
+      "C": "1950-1960 Dönemi Ekonomi Politikaları",
+      "D": "1960-1980 Dönemi Ekonomi Politikaları",
+      "E": "1980 sonrası Dönemi Ekonomi Politikaları"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "text": "Aşağıdaki haritada bazı alanlar taranarak gösterilmiştir.\n\nYukarıdaki\nharitada\ntaranarak\ngösterilen\nalanların\nhangisinde intansif tarım yönteminin daha az kullanıldığı\nsöylenebilir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C",
+    "image": "/tarim_hayvancilik_images/image_1.png"
+  },
+  {
+    "id": 4,
+    "text": "Türkiyede tarımın en büyük sorunlarından biri de\ntoprakların bir yıl boş bırakılması uygulaması olan nadastır.\n\nAşağıdaki\nillerin\ncoğrafi\nözellikleri\ndüşünüldüğünde\nhangisinde\ntoprakların nadasa\ndaha fazla\nayrıldığı\nsöylenebilir?",
+    "options": {
+      "A": "Kırklareli",
+      "B": "Bartın",
+      "C": "Adana",
+      "D": "Konya",
+      "E": "Rize"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "text": "Türkiyede sulamanın geliştiği yörelerde;\n\nI. ürün çeşidi,\nII. nadas alanları,\nIII. tarımsal gelir,\nIV. iklime bağımlılık\n\ndurumlarından hangilerinde azalma yaşanması beklenir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "text": "Tarımda sulama imkânlarının artması ürün çeşitliliği ve\nverimliliğin artmasına yardımcı olur.\n\nBu durumun haritada işaretlenen alanlardan hangisinde\ndaha az yaşanması beklenir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D",
+    "image": "/tarim_hayvancilik_images/image_2.png"
+  },
+  {
+    "id": 7,
+    "text": "Aşağıdaki Türkiye haritasında dört alan numaralarla\ngösterilmiştir.\n\nTarımda makineleşme çalışmalarının artması kırsal kesimde\nişsizliğin artmasına ve kırdan kente doğru göçe neden\nolmaktadır.\n\nYukarıdaki haritada taranarak gösterilen alanlardan\nhangilerinde bu durum daha az yaşanmaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D",
+    "image": "/tarim_hayvancilik_images/image_3.png"
+  },
+  {
+    "id": 8,
+    "text": "Türkiyede temel ekim amacı tarımsal endüstriye ham\nmadde sağlamak olan ve bu nedenle tüketiminin endüstriyel\nişlemeye tabi olduğu tarım ürünlerine sanayi bitkisi\ndenilmektedir.\n\nBuna göre, aşağıdaki tarım ürünlerinden hangisinin sanayi\nürünü olduğu söylenemez?",
+    "options": {
+      "A": "Haşhaş",
+      "B": "Muz",
+      "C": "Kenevir",
+      "D": "Pamuk",
+      "E": "Şeker Pancarı"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "Türkiyede tarımın en önemli sorunu sulamadır. Sulama\nkoşullarının iyileştirilmesi ve makine kullanımının artırılması\nile tarımsal verimin artırılacağı öngörülmektedir.\n\nBu sorunların çözülmesiyle ortaya çıkacak olumlu etkiler\naşağıdaki illerden hangisinde daha az görülür?",
+    "options": {
+      "A": "Kırşehir",
+      "B": "Edirne",
+      "C": "Karaman",
+      "D": "Kastamonu",
+      "E": "Adıyaman"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "text": "I. Kanola – Kolza\nII. Soya Fasulyesi\nIII. Aspir\nIV. Haşhaş\n\nYukarıda verilen tarım ürünlerinden hangileri yağlık bitkiler\nsınıfında yer almaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "text": "Aşağıdaki haritada bazı alanlar numaralandırılarak koyu\nrenkle gösterilmiştir.\n\nBu alanlarda gelişen yağ sanayi kolları aşağıdakilerden\nhangisinde doğru eşleştirilmiştir?\n\nI\n\nII\n\nIII",
+    "options": {
+      "A": "Zeytin\nAyçiçeği\nMısır",
+      "B": "Ayçiçeği\nMısır\nZeytin",
+      "C": "Mısır\nZeytin\nAyçiçeği",
+      "D": "Ayçiçeği\nZeytin\nMısır",
+      "E": "Zeytin\nMısır\nAyçiçeği"
+    },
+    "answer": "A",
+    "image": "/tarim_hayvancilik_images/image_4.png"
+  },
+  {
+    "id": 12,
+    "text": "Karadeniz ikliminde yetişen ve bir yalancı maki türü olan\nfındık, Türkiyenin Dünya üretiminde birinci sırada olduğu\ntarım ürünüdür. Bu ürün Karadeniz iklimi görülen illerin\ntamamında yetişmektedir.\n\nKaradeniz iklimi görülen aşağıdaki illerden hangisinde fındık\nüretimi diğerlerinden daha azdır?",
+    "options": {
+      "A": "Giresun",
+      "B": "Samsun",
+      "C": "Rize",
+      "D": "Sakarya",
+      "E": "Kocaeli"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "text": "Soya fasulyesi gıda sanayisinde katkı maddesi olarak\nkullanılan, yağ ve protein değeri çok yüksek bir tarım\nürünüdür.\n\nYukarıdaki haritada numaralarla gösterilen alanlardan\nhangisi Türkiyenin en çok soya fasulyesi üretimi yapılan\nyeridir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C",
+    "image": "/tarim_hayvancilik_images/image_5.png"
+  },
+  {
+    "id": 14,
+    "text": "Türkiyede üretimin yeterli olmaması kırmızı et\nfiyatlarınınn artmasına ve Türkiyenin yurt dışından karkas et\nithal etmesine neden olmuştur.\n\nAşağıdakilerden hangisi Türkiyenin karkas et ithalatının\nazaltılması için yapılması gerekenlerden değildir?",
+    "options": {
+      "A": "Besi ve ahır hayvancılığının yaygınlaştırılması",
+      "B": "Mera alanlarının genişletilmesi",
+      "C": "Hayvan soylarının ıslah edilmesi",
+      "D": "Hayvan hastalıklarıyla mücadele edilmesi",
+      "E": "Yem üretiminin artırılması"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "text": "I. Konya\nII. Erzurum\nIII. İzmir\n\nTürkiyede büyükbaş hayvan türlerinden olan sığırın en çok\nbeslendiği iller arasında hangileri bulunmaktadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 16,
+    "text": "I. Yağış rejiminin düzenli olması\nII. Engebeli arazi yapısına sahip olması\nIII. Yıkanmış asitli toprakların bulunması\nIV. Tarlaların dar ve parçalı olması\n\nTürkiyede çay yetişebilen tek alanın Doğu Karadeniz\nolmasında bölgenin yukarıda verilen özelliklerinden\nhangileri etkili olmuştur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritadaki numaralanmış yerlerden hangisi kıl keçisi\nyetiştiriciliği yapılan alanlar arasında gösterilemez?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A",
+    "image": "/tarim_hayvancilik_images/image_6.png"
+  },
+  {
+    "id": 18,
+    "text": "Türkiyede kümes hayvancılığı ile nüfus miktarı arasında\ndoğru orantı vardır.\n\nHaritadaki numaralanmış yerlerden hangisinde kümes\nhayvancılığı diğerleri kadar gelişme göstermemiştir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E",
+    "image": "/tarim_hayvancilik_images/image_7.png"
+  },
+  {
+    "id": 19,
+    "text": "Ergene ve Çatalca bölümündeki hayvancılık faaliyetleri\nile ilgili aşağıdakilerden hangisine ulaşamaz?",
+    "options": {
+      "A": "Kültür ve melez kültür türlerinin daha fazla beslendiğine",
+      "B": "Üretimde birim hayvandan alınan verimin yüksek\nolduğuna",
+      "C": "Pazarlama olanaklarının kolaylığından dolayı bu alanda\ngeliştiğine",
+      "D": "Doğal koşulların üretimdeki belirleyiciliğinin yüksek\nolduğuna",
+      "E": "Üretimde teknolojiden yararlanma olanağının fazla\nolduğuna"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 20,
+    "text": "Pamuk yaz kuralığı isteyen ve sulama ile yetişen bir tarım\nürünüdür.\n\nBuna göre, haritada numaralanmış yerlerden hangisinde\npamuk üretimi yapılmaz?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "A",
+    "image": "/tarim_hayvancilik_images/image_8.png"
+  }
+]

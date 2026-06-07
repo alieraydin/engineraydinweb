@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "text": "Antalyanın Temmuz ayı sıcaklık ortalaması Şanlıurfaya\ngöre daha düşüktür.\n\nAşağıdakilerden hangisi yukarıda verilen açıklamanın\nnedenlerinden biri değildir?",
+    "options": {
+      "A": "Güneydoğu Anadolunun kuzeyinde yer alan dağ sıralarının\nkuzeyden gelen soğuk havaları engellemesi",
+      "B": "Karasallık etkisi ile Güneydoğu Anadolunun Akdenize\ngöre fazla ısınması",
+      "C": "Muson sisteminin bir parçası olan Basra Termik Alçak\nBasıncının Güneydoğu Anadoluyu etkisi altına alması",
+      "D": "Enlem etkisine bağlı olarak Güneydoğu Anadolunun güneş\nışınlarını daha büyük açıyla alması",
+      "E": "Güneydoğudan esen Samyeli(Keşişleme) rüzgârının\nGüneydoğu Anadoluda sıcaklık ne kuraklığı artırması"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "text": "I. Gece ile gündüz arasında yön değiştirirler.\nII. Batı Anadolu kıyılarında imbat adıyla bilinirler.\nIII. Dağ ve vadi, deniz ve kara isimleriyle bilinir.\nIV. Kıyı kesimlerde fırtınalı sağanakların görülmesine neden\nolurlar.\nTürkiyedeki meltem rüzgârları ile ilgili verilen bilgilerden\nhangilerinin doğru olduğu söylenemez?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla\ngösterilmiştir.\n\nHaritadaki numaralanmış alanlardan hangisinin toplam\nyağış miktarı diğerlerinden daha azdır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B",
+    "image": "/iklim_images/image_1.png"
+  },
+  {
+    "id": 4,
+    "text": "Bir merkezin gerçek sıcaklığı ile indirgenmiş sıcaklığı\narasındaki fark yükseltiyle doğru orantılıdır.\n\nBuna göre aşağıdaki illerden hangisinde gerçek sıcaklık\nindirgenmiş sıcaklığa eşittir?",
+    "options": {
+      "A": "Bilecik",
+      "B": "Sinop",
+      "C": "Van",
+      "D": "Ardahan",
+      "E": "Sivas"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla\ngösterilmiştir.\n\nTemmuz ayı sıcaklık ortalamalarına göre yukarıdaki\nharitada taranarak gösterilen alanlarda hangisinde havanın\nnem taşıma kapasitesi diğerlerinden fazladır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E",
+    "image": "/iklim_images/image_2.png"
+  },
+  {
+    "id": 6,
+    "text": "Çukurova denize yakın olmasına rağmen yıllık yağış miktarı\nAladağlar ve Amanoslara göre daha azdır.\nBu durumun meydana gelmesinde aşağıdakilerden hangisi\netkili olmuştur?",
+    "options": {
+      "A": "Bitki örtüsünün bozkır olması",
+      "B": "Ekvatora uzak olması",
+      "C": "Çevresine göre alçakta olması",
+      "D": "Su kaynakları bakımından fakir olması",
+      "E": "Buharlaşma miktarının fazla olması"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "text": "Yukarıdaki Türkiye haritasında beş rüzgârın eşiş yönü\nnumaralarla gösterilmiştir.\n\nHaritada\nverilen\nnumaralı\nrüzgârlarla\nilgili\nyapılan\neşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "I – Poyraz",
+      "B": "II – Karayel",
+      "C": "III – Lodos",
+      "D": "IV – Kıble",
+      "E": "V - Samyeli"
+    },
+    "answer": "E",
+    "image": "/iklim_images/image_3.png"
+  },
+  {
+    "id": 8,
+    "text": "I. Eğim ve bakı\nII. Boylam derecesi\nIII. Günün saati\nIV. Okyanus akıntıları\nYukarıdaki faktörlerden hangilerinin Türkiyede sıcaklık\ndeğişimi üzerinde etkili olduğu söylenemez?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve IV"
+    },
+    "answer": "E",
+    "image": "/iklim_images/image_4.png"
+  },
+  {
+    "id": 9,
+    "text": "Türkiyede kuzeyden esen rüzgârlara verilen isimdir.\nDiğer adı Keşişleme olan rüzgârdır.\nGüneybatı yönlü rüzgâr denizden estiğinde yağış getirebilir.\nKuzeybatıdan esen bu rüzgâr deniz ulaşımını ve balıkçılığı\nolumsuz yönde etkileyebilir.\nYukarıdaki öncüllerde aşağıdaki rüzgârlardan hangisi\nhakkında bilgi verilmemiştir?",
+    "options": {
+      "A": "Samyeli",
+      "B": "Karayel",
+      "C": "Yıldız",
+      "D": "Poyraz",
+      "E": "Lodos"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "text": "Türkiyeyi etkileyen önemli bir basınç sistemi olan\nİzlanda Basınç Sisteminin özellikleri ve Türkiyedeki etkileri\nile\nilgili\naşağıdakilerden\nhangisinin\ndoğru\nolduğu\nsöylenemez?",
+    "options": {
+      "A": "Türkiyeyi yıl boyunca etkilemekle birlikte kış aylarında\netkisi daha fazladır.",
+      "B": "Kuzeybatı yönünden sokularak yağışlı hava kütlesini\nTürkiyeye getirir.",
+      "C": "Dinamik kökenli alçak basınç sistemidir.",
+      "D": "Yükselici hava hareketlerinin görülmesi nedeniyle yağışlı\nbir sistemdir.",
+      "E": "Kaynağını 30 enlemleri çevresinden almaktadır."
+    },
+    "answer": "E"
+  },
+  {
+    "id": 11,
+    "text": "Aşağıdaki Türkiye haritasında dört alan numaralarla\ngösterilmiştir.\n\nYukarıdaki haritada taranarak gösterilen\nalanlardan\nhangisinde iklim koşularının kısa mesafelerde farklılık\ngösterdiği söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "text": "Ocak ayı sıcaklık ortalamalarının dağılışı incelendiğinde en\nyüksek sıcaklıkların Akdeniz kıyı kuşağında yaşandığı görülür.\nBu durumun ortaya çıkmasında,\nI. Ekvatora yakınlık\nII. Karasallık\nIII. Nemlilik\nIV. Eğim ve Bakı\nfaktörlerinden hangileri etkili olmuştur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "text": "Türkiyede etkili olan basınç sistemlerine bağlı görülen\nyerel rüzgârlar Türkiyeye geldikleri yön ve etkileri\nbakımından benzerlik gösterir.\nAşağıda verilen basınç merkezlerinin Türkiyeye geldiği yön\nile rüzgârların yönleri eşleştirildiğinde hangisinin doğru\nolduğu söylenemez?",
+    "options": {
+      "A": "Seçenek A (PDF'de eksik)",
+      "B": "Seçenek B (PDF'de eksik)",
+      "C": "Seçenek C (PDF'de eksik)",
+      "D": "Seçenek D (PDF'de eksik)",
+      "E": "Seçenek E (PDF'de eksik)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "text": "Aşağıdaki Türkiye haritasında bir iklimin yayılış alanı\ngösterilmiştir.\n\nHaritadaki yayılış alanı gösterilen iklim ile ilgili verilen\nbilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Oluşumunda mutlak konum etkilidir.",
+      "B": "En fazla yağışını kış aylarında cephe sistemlerine bağlı alır.",
+      "C": "Kış sıcaklık ortalamaları 8 – 10 C civarındadır.",
+      "D": "Yaz aylarında bağıl nem en yüksektir.",
+      "E": "Birden fazla coğrafi bölgede görülmektedir."
+    },
+    "answer": "D",
+    "image": "/iklim_images/image_5.png"
+  },
+  {
+    "id": 15,
+    "text": "Aşağıdaki illerden hangisinde en fazla yağışın düştüğü ay\nile sıcaklığın en fazla olduğu ayın aynı olduğu savunulabilir?",
+    "options": {
+      "A": "Ankara",
+      "B": "Kars",
+      "C": "Antalya",
+      "D": "Diyarbakır",
+      "E": "Rize"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "text": "I. Karayel\nII. Keşişleme\nIII. Poyraz\nIV. Lodos\nİstanbul ve Çanakkale boğazların uzanış doğrultusu dikkate\nalındığında hâkim rüzgâr yönünün hangileri olduğu\nsöylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 17,
+    "text": "Aşağıda bir ile ait yağışın aylara dağılışını gösteren grafik\nverilmiştir.\n\nBuna göre yukarıdaki grafik aşağıdaki illerden hangisine ait\nolabilir?",
+    "options": {
+      "A": "Mersin",
+      "B": "Balıkesir",
+      "C": "Zonguldak",
+      "D": "Ardahan",
+      "E": "Konya"
+    },
+    "answer": "C",
+    "image": "/iklim_images/image_6.png"
+  },
+  {
+    "id": 18,
+    "text": "Erzurum – Kars platolarında görülen sert karasal iklim ile\nilgili,\nI. en fazla yağış yaz aylarında düşmektedir.\nII. kış sıcaklık ortalamaları 0 derece altındadır.\nIII. yıllık sıcaklık farkı azdır.\nIV. toplam yağış miktarı 1000 mm üzerindedir.\nBilgilerinden hangileri yanlıştır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV\n\nBasınç\nRüzgâr\nGeldiği Yön\nA)\nİzlanda\nKarayel\nKuzeybatı\nB)\nBasra\nSamyeli\nGüneydoğu\nC)\nAkdeniz\nYıldız\nKuzey\nD)\nAzor\nLodos\nGüneybatı\nE)\nSibirya\nPoyraz\nKuzeydoğu"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 19,
+    "text": "Türkiye, çevresinde oluşan çeşitli hava kütlelerin etkisi\naltında kalır. Türkiye çevresindeki;\nI. Basra\nII. Sibirya\nIII. Asor\nIV. İzlanda\ngibi alanlarda oluşan hava kütlelerinden hangileri yaz\nkuraklığının artmasına neden olur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "text": "Aşağıdaki haritada bazı merkezler numaralandırılarak\nkoyu renkle gösterilmiştir.\n\nOcak ayı ortalaması en düşüktür.\nOcak ayı sıcaklık ortalaması en yüksektir.\nTemmuz ayı sıcaklık ortalaması en yüksektir.\nYıllık sıcaklık farkı en azdır.\nBuna\ngöre\nverilen\nbilgiler\nharitadaki\nmerkezlerle\neşleştirildiğinde hangisi açıkta kalır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B",
+    "image": "/iklim_images/image_7.png"
+  }
+]

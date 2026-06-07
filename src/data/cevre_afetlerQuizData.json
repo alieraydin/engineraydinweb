@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "text": "Yer kabuğu içindeki kırılmalar sonucu ani olarak ortaya\nçıkan titreşimlerin dalgalar hâlinde yayılmasına deprem adı\nverilir. Depremlerim yıkıcılığı üzerinde doğal ve beşeri\nfaktörler bulunmaktadır.\n\nAşağıdakilerden\nhangisi\nTürkiyede\nmeydana\ngelen\ndepremlerin yıkıcı etkisi üzerinde etkili olan doğal\nfaktörlerden değildir?",
+    "options": {
+      "A": "Depremin süresi",
+      "B": "Yapılarda kullanılan malzeme kalitesi",
+      "C": "Depremin magnitüdü",
+      "D": "Odak noktasısın derinliği",
+      "E": "Zeminin jeolojik yapısı"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "text": "Aşağıda Türkiyede yer alan bazı alanlar numaralarla\ngösterilmiştir.\n\nYukarıdaki haritada numaralarla gösterilen alanlardan\nhangisinde tektonik deprem riski diğerlerinden daha azdır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D",
+    "image": "/cevre_afetler_images/image_1.png"
+  },
+  {
+    "id": 3,
+    "text": "Deniz altında meydana gelen depremler ve/veya tetiklediği\nheyelanlar Tsunamiye neden olmaktadır.\n\nYukarıdaki Türkiye haritasında numaralandırılmış kıyılardan\nhangisinde jeolojik yapı dikkate alındığında Tsunami riski\ndiğerlerinden azdır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E",
+    "image": "/cevre_afetler_images/image_2.png"
+  },
+  {
+    "id": 4,
+    "text": "Türkiyede heyelanların risk alanlarına bakıldığında\nKaradeniz başta olmak üzere Doğu Anadolu ve Akdenizin\ndağlık sahaları yer almaktadır.\n\nBuna göre, aşağıdaki illerden hangisi oluşturulacak bir\nheyelan afet bölgesi içinde yer almaz?",
+    "options": {
+      "A": "Iğdır",
+      "B": "Artvin",
+      "C": "Giresun",
+      "D": "Çorum",
+      "E": "Tunceli"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "text": "Su ve rüzgâr etkisiyle toprağın aşındırılması ve taşınması\nolarak bilinen erozyon toprak veriminin azalmasına neden\nolmaktadır.\n\nAşağıdakilerden hangisi bu sorunla mücadelede yapılması\ngerekenlerden biri değildir?",
+    "options": {
+      "A": "Bitki\nörtüsünden\nyoksun\neğimli\nyamaçların\nağaçlandırılması",
+      "B": "Eğimin fazla olduğu alanlarda taraçalandırma çalışmaları\nyapılması",
+      "C": "Meraların aşırı otlatılmasının önüne geçilmesi",
+      "D": "Tarım alanlarının eğim yönüne paralel olarak sürülmesi",
+      "E": "Nadas alanlarını azaltarak nöbetleşe ekim faaliyetlerinin\nartırılması"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "text": "I. Arazinin jeolojik olarak genç olması\nII. Levhaların karşılaşma alanında yer alması\nIII. Zemin yapısının alüvyal dolgulardan oluşması\n\nTürkiyede bir doğal afet olarak depremin sıkça yaşanması\nyukarıdakilerden hangilerinin sonucudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "answer": "D",
+    "image": "/cevre_afetler_images/image_3.png"
+  },
+  {
+    "id": 7,
+    "text": "Kuraklık ve erozyon uzun vadede çölleşmeye neden\nolmaktadır.\n\nI. Iğdır\nII. Şanlıurfa\nIII. Malatya\nIV. Kütahya\n\nBuna göre verilen illerden hangileri çölleşme tehlikesiyle\nkarşı karşıyadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "text": "Kar kütlelerinin çeşitli nedenlerle yamaçtan aşağı doğru\nhızla kaymasına çığ denir.\n\nBuna\ngöre\nharitada\nnumaralandırılarak\ngösterilen\nalanlardan hangilerinde çığ oluşma ihtimali daha yüksektir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "III ve V",
+      "E": "IV ve V"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "text": "Türkiyede yaşanan bir doğal afet başka bir afetin\noluşmasına neden olarak çoklu afete dönüşebilmektedir.\n\nI. Orman yangını\nII. Deprem\nIII. Çığ\n\nBuna göre yukarıdaki afetlerden hangileri Türkiyede etkili\nolan yerel rüzgârlarla birlikte ortaya çıkabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "answer": "E",
+    "image": "/cevre_afetler_images/image_4.png"
+  },
+  {
+    "id": 10,
+    "text": "Aşağıdaki illerden hangisinde yaşanabilecek bir deprem\nfarklı bir fay kuşağı ile ilişkilendirilir?",
+    "options": {
+      "A": "Kocaeli",
+      "B": "Tokat",
+      "C": "Erzincan",
+      "D": "Çankırı",
+      "E": "Kahramanmaraş"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 11,
+    "text": "Göçmen kuşların göç yollarında bulunan sulak alanların\nkorunması amacıyla Ramsar Alanı ilan edilmektedir.\n\nAşağıdaki sulak alanlardan hangisi aynı zamanda bir milli\nparktır?",
+    "options": {
+      "A": "Manyas Gölü",
+      "B": "Burdur Gölü",
+      "C": "Nemrut Gölü",
+      "D": "Meke Gölü",
+      "E": "Seyfe Gölü"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "text": "Aşağıdaki Türkiye haritasında beş milli parkın konumu\nnumaralarla gösterilmiştir.\n\nHaritada numaralandırılmış yerlerde bulunan milli parklar\nhangi seçenekte doğru verilmemiştir?",
+    "options": {
+      "A": "I - Abant Milli Parkı",
+      "B": "II - Yozgat Çamlık Milli parkı",
+      "C": "III - Nemrut Dağı Milli Parkı",
+      "D": "IV - Gala Gölü Milli Parkı",
+      "E": "V - Dilek Yarımadası Milli Parkı"
+    },
+    "answer": "C",
+    "image": "/cevre_afetler_images/image_5.png"
+  },
+  {
+    "id": 13,
+    "text": "İklimde meydana gelen değişimler sonucu yaz\ndönemlerinde yaşanan yüksek sıcaklıklar şiddetli rüzgârlar ve\nyıldırımlar orman yangınlarını artıran doğal olaylardır.\n\nBuna göre aşağıdaki illerden hangisinde orman yangını\nhassasiyeti diğerlerinden daha fazladır?",
+    "options": {
+      "A": "Mersin",
+      "B": "Konya",
+      "C": "Diyarbakır",
+      "D": "Sivas",
+      "E": "Rize"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "text": "I. Heyelan\nII. Kuraklık\nIII. Don\nIV. Sel\n\nYukarıda verilen afetlerden hangileri ilkbahar aylarında\nsağanak yağışlara ve kar erimelerine bağlı daha fazla\ngörülmektedir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "text": "Aşağıda Türkiyede yer alan bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritada numaralandırılmış alanlardan hangisinde heyelan\ngörülme ihtimali yoktur?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "text": "I. Yağış miktarının az olması\nII. Bitki örtüsü seyrek olması\nIII. Jeolojik yapının çeşitli olması\nIV. Yatak eğiminin az olması\n\nYukarıda verilen özelliklerden hangileri Türkiyedeki\nakarsuların taşkın yapma riskleri üzerinde etkili olmaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 17,
+    "text": "Türkiyenin iklim özelliklerinin yanı sıra jeolojik ve\njeomorfolojik özellikleri, kütle hareketlerinin özellikle de\nheyelanların oluşumunu artırmaktadır.\n\nBuna göre aşağıdaki illerden hangisinde heyelan görülme\nsıklığı daha azdır?",
+    "options": {
+      "A": "Rize",
+      "B": "Kars",
+      "C": "Artvin",
+      "D": "Erzurum",
+      "E": "Kastamonu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "text": "Orman yangınları Akdeniz ve Ege kıyılarında genellikle yaz\nmevsiminde yaşanmaktadır.\n\nI. Yaz mevsiminin sıcak ve kurak olması\nII. Fön rüzgârlarının sıcaklığı artırıcı etki yapması\nIII. Yangına neden olabilecek cisimlerin yol kenarlarına\nbırakılması\nIV. Ormanlık alanlarda insan faaliyetlerine izin verilmesi\nV. İhmal, tedbirsizlik ve kasıt\n\nBu durumun doğal nedenleri arasında yukarıdakilerden\nhangileri sayılabilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve V"
+    },
+    "answer": "A",
+    "image": "/cevre_afetler_images/image_6.png"
+  },
+  {
+    "id": 19,
+    "text": "I. Yer şekillerinin engebeli olması\nII. Bitki örtüsünün tahrip edilmesi\nIII. Meraların aşırı otlatılması\nIV. Toprağın kuru ve gevşek dokulu olması\nV. Yağışların sağanak şeklinde düşmesi\n\nYukarıdakilerden hangileri erozyona yol açan doğal\nnedenler arasında sayılamaz?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "III ve V",
+      "E": "IV ve V"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "text": "Aşağıda Türkiyede yer alan bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritadaki numaralandırılmış alanlarda sıklıkla yaşanan\nafetlerle ilgili eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "I – Kütle hareketleri",
+      "B": "II – Orman yangını",
+      "C": "III - Kuraklık",
+      "D": "IV – Çığ olayı",
+      "E": "V – Don olayı"
+    },
+    "answer": "E"
+  }
+]

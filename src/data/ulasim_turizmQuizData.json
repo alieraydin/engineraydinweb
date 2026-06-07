@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "text": "Cumhuriyetin ilk yıllarında ağırlıklı olmak üzere inşa edilen\ndemir yolları yer şekillerinin engebeli olması nedeniyle\ngünümüzde\nhala\npek\nçok\nile\ndemir\nyolu\nulaşımı\nyapılmamaktadır.\n\nBuna göre, aşağıdaki illerden hangisine demir yolu ağı\nbulunmamaktadır?",
+    "options": {
+      "A": "Karabük",
+      "B": "Sinop",
+      "C": "Mersin",
+      "D": "Sivas",
+      "E": "Kars"
+    },
+    "answer": "B",
+    "image": "/ulasim_turizm_images/image_1.png"
+  },
+  {
+    "id": 2,
+    "text": "I. Antalya – Burdur\nII. Adana – Niğde\nIII. Bayburt – Erzurum\n\nYukarıdaki iller arasında kara yolları üzerinde bulunan\ngeçitler hangi seçenekte doğru olarak verilmiştir?\n\nI\nII\nIII",
+    "options": {
+      "A": "Gülek\nÇubuk\nBelen",
+      "B": "Çubuk\nGülek\nGeyve",
+      "C": "Sertavul Geyve\nZigana",
+      "D": "Çubuk\nGülek\nKop",
+      "E": "Kop\nÇubuk\nSertavul"
+    },
+    "answer": "D",
+    "image": "/ulasim_turizm_images/image_2.png"
+  },
+  {
+    "id": 3,
+    "text": "Cumhuriyetin ilk yıllarında ağırlıklı olmak üzere inşa edilen\ndemir yolları günümüzde 10 bin kilometrenin üzerine\nçıkmıştır. Buna rağmen yer şekilleri etkisi ile günümüzde hala\npek çok ile demir yolu ulaşımı yapılmamaktadır.\n\nBuna göre, aşağıdaki illerden hangisine demir yolu ağı\nolmaması yer şekillerinin olumsuz etkisi ile açıklanamaz?",
+    "options": {
+      "A": "Antalya",
+      "B": "Trabzon",
+      "C": "Hakkâri",
+      "D": "Iğdır",
+      "E": "Gümüşhane"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "text": "Yer şekillerinin yüksek ve engebeli olduğu, kış aylarında kar\nyağış oranının fazla ve karın yerde kalma süresinin uzun\nolduğu yerlerde kış turizmine bağlı kayak tesislerinin\nkurulması ile bu turizm türü gelişme göstermektedir.\n\nAşağıdaki illerin topografik ve Klimatik koşulları dikkate\nalındığında hangisinde kış turizminin gelişme göstermesi\nbeklenmez?",
+    "options": {
+      "A": "Kastamonu",
+      "B": "Isparta",
+      "C": "Tekirdağ",
+      "D": "Kocaeli",
+      "E": "Erzurum"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "text": "Aşağıdaki Türkiye haritasında bazı havalimanlarının\nkonumu gösterilmiştir.\n\nYukarıdaki\nTürkiye\nharitasında\nhangi\nhavalimanının\nbulunduğu yer yanlış gösterilmiştir?",
+    "options": {
+      "A": "Sabiha Gökçen",
+      "B": "Dalaman",
+      "C": "Ferit Melen",
+      "D": "Esenboğa",
+      "E": "Ordu - Gülyalı"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "text": "Türkiyede\nturizmi\ngeliştirmek\namacıyla\nturizm\nfaaliyetlerinin tüm yıla yayılması planlanmaktadır. Bu\nnedenle kış turizminin de geliştirilmesi ve yaygınlaştırılması\ngerekmektedir.\n\nAşağıdaki illerden hangisinde kış turizminin gelişmesi daha\nzordur?",
+    "options": {
+      "A": "Antalya",
+      "B": "Edirne",
+      "C": "Erzincan",
+      "D": "Hakkâri",
+      "E": "Isparta"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "text": "Aşağıdaki Türkiye haritasında Unesco Miras Listesinde yer\nalan iller verilmiştir.\n\nHaritadaki konumları verilen illerde bulunan UNESCO Miras\nalanları arasında hangisi yer almaz?",
+    "options": {
+      "A": "Divriği Ulu Camii ve Darüşşifası",
+      "B": "Bergama",
+      "C": "Aslantepe Höyüğü",
+      "D": "Göreme Milli Parkı",
+      "E": "Safranbolu Şehri"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 8,
+    "text": "Türkiyenin ulaşım sistemlerinin gelişimi farklı dönemlerde\nfarklı yatırımlarla gelişme göstermiştir.\n\nUlaşım sistemlerinin gelişimi ve özellikleri ile ilgili\naşağıdakilerden hangisinin doğru olduğu söylenemez?",
+    "options": {
+      "A": "Hava yolunda ilk yurt dışı uçuş Yunanistana yapılmıştır.",
+      "B": "Cumhuriyetin ilk yıllarında en fazla gelişim demir yollarında\nyaşanmıştır.",
+      "C": "İlk hızlı tren seferi 2009 yılında Ankara ile İstanbul arasında\nyapılmıştır.",
+      "D": "Dağların kıyıya paralel uzandığı Akdeniz ve Karadenizden\niç kesimlere olan ulaşımda geçitler kullanılmaktadır.",
+      "E": "Deniz yolları en fazla dış ticarette kullanılmaktadır."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "text": "Sardes Antik Kenti ve Bin Tepe Lidya Tümülüsleri, 12\nTemmuz 2025 tarihinde gerçekleşen UNESCO Dünya Mirası\nKomitesi 47. Oturumunda UNESCO Dünya Mirası Listesine\nTürkiyeden kaydedilen yirmi ikinci miras alanı olmuştur.\n\nYukarıda bahsedilen miras alanı aşağıdaki illerden\nhangisinde bulunmaktadır?",
+    "options": {
+      "A": "Nevşehir",
+      "B": "Malatya",
+      "C": "Kars",
+      "D": "Bursa",
+      "E": "Manisa"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 10,
+    "text": "Aşağıdaki iller arasında yer alan tünellerin eşleştirmesi\nhangi seçenekte yanlış verilmiştir?",
+    "options": {
+      "A": "İzmir – Aydın arasında 75. Yıl Selatin Tüneli",
+      "B": "Kocaeli – Yalova arasında Orhangazi Tüneli",
+      "C": "Erzurum – Rize arasında Nefise Akçelik Tüneli",
+      "D": "Trabzon – Gümüşhane arasında Zigana Tüneli",
+      "E": "Niğde – Adana arasında Gülek Tüneli"
+    },
+    "answer": "C",
+    "image": "/ulasim_turizm_images/image_3.png"
+  },
+  {
+    "id": 11,
+    "text": "Aşağıdaki Türkiye haritasında İzmirden yola çıkan ve dört\nfarklı kente giden araçların güzergâhları verilmiştir.\n\nBu araçlardan hangilerinin yolculuğu otoyolları kullanarak\nyaptığı söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 12,
+    "text": "İki farklı uçak yolculuğu sonunda ulaştığı hava\nlimanlarının deniz üzerine dolgu yöntemi ile yapıldığını\nsöyleyen bir kişinin;\n\nI. Muğla - Dalaman\nII. Ordu - Gülyalı\nII. Artvin - Rize\nIV. Tekirdağ – Çorlu\n\nhangilerini görmüş olduğu söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "text": "Sinop Limanı\nKocaeli Limanı\nKuşadası Limanı\nTrabzon Limanı\n\nAşağıdaki bilgilerden hangisi yukarıda verilen ulaşım\nmerkezlerinden herhangi biriyle ilgili değildir?",
+    "options": {
+      "A": "Doğal bir liman olduğu halde gelişememiştir.",
+      "B": "En büyük ithalat limanıdır.",
+      "C": "En büyük petrol ihraç limanıdır.",
+      "D": "Önemli bir kurvaziyer limanıdır.",
+      "E": "İran-Transit Ticaret yolunun limanıdır."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "text": "Türkiyede günümüzde oldukça gelişme gösteren turizm\ntürlerinden biri de Kruvaziyer turizmidir.\n\nAşağıdaki limanlardan hangisinin Kruvaziyer limanı olduğu\nsöylenemez?",
+    "options": {
+      "A": "Kuşadası",
+      "B": "Çeşme",
+      "C": "Marmaris",
+      "D": "Ceyhan",
+      "E": "İstanbul"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "text": "Bir tur kapsamında Karain Mağarası, Dim Çayı, Beldibi\nmağarası ve Aspendos Tiyatrosu görülmüştür.\n\nYukarıdaki bilgilere göre bu tur aşağıdaki illerden\nhangisinde yapılmış olmalıdır?",
+    "options": {
+      "A": "Burdur",
+      "B": "Denizli",
+      "C": "Antalya",
+      "D": "Mersin",
+      "E": "Hatay"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "text": "I. Urartu Bölgesi Kültür Turizmi Gelişim Bölgesi\nII. Frigya Kültür ve Termal Turizm Gelişim Bölgesi\nIII. Aphrodisia Kültür ve Termal Turizm Gelişim\nBölgesi\n\n2023 Turizm Stratejisi Kavramsal Eylem Planında yer alan\nyukarıdaki mekânları ziyaret eden kişilerin gittikleri iller\nhangi seçenekte doğru sıralanmıştır?\n\nI\nII\nIII",
+    "options": {
+      "A": "Mardin\nKonya\nMuğla",
+      "B": "Muğla\nAğrı\nAnkara",
+      "C": "Van\nAnkara\nAydın",
+      "D": "Ağrı\nAnkara\nMuğla",
+      "E": "Konya\nMuğla\nVan"
+    },
+    "answer": "C",
+    "image": "/ulasim_turizm_images/image_4.png"
+  },
+  {
+    "id": 17,
+    "text": "Aşağıdaki Türkiye haritasında kara yolları üzerinde\nbulunan geçitlerin yerleri işaretlenmiştir.\n\nKonumlar\ndikkate\nalındığında\naşağıdaki\ngeçitlerden\nhangisinin gösterildiği söylenemez?",
+    "options": {
+      "A": "Gülek",
+      "B": "Çeltikçi",
+      "C": "Belen",
+      "D": "Ecevit",
+      "E": "Zigana"
+    },
+    "answer": "A",
+    "image": "/ulasim_turizm_images/image_5.png"
+  },
+  {
+    "id": 18,
+    "text": "Aşağıdaki Türkiye haritasında otoyol kullanılarak yapılan\nbir yolculuğun güzergâhı gösterilmiştir.\n\nHaritadaki güzergâh dikkate alındığında aşağıdaki illerden\nhangisinin bulunduğu söylenemez?",
+    "options": {
+      "A": "Niğde",
+      "B": "Kocaeli",
+      "C": "Bursa",
+      "D": "Gaziantep",
+      "E": "Konya"
+    },
+    "answer": "E",
+    "image": "/ulasim_turizm_images/image_6.png"
+  },
+  {
+    "id": 19,
+    "text": "Türkiyenin 2023 turizm stratejisindeki yer alan\nKapadokya kültür turizmi bölgesi farklı inançlara ait\nmekânların bir hat boyunca ziyaret edildiği koridora inanç\nkoridoru denir.\n\nAşağıdaki illerden hangisi bu koridor içinde yer alan illerden\nbiri değildir?",
+    "options": {
+      "A": "Konya",
+      "B": "Mersin",
+      "C": "Hatay",
+      "D": "Gaziantep",
+      "E": "Mardin"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "text": "Aşağıdaki Türkiye haritasında beş turizm koridoru\ngüzergâhı gösterilmiştir.\n\nYukarıdaki haritada numaralanmış koridorlardan hangisi\nipek yolu koridorunu göstermektedir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 21,
+    "text": "Türkiyenin 2023 turizm stratejisindeki yer alan\nKapadokya kültür turizmi bölgesinde 4 il yer almaktadır.\n\nAşağıdakilerden\nhangisi\nbahsedilen\nturizm\ngelişim\nbölgesinde yer alan illerden biri değildir?",
+    "options": {
+      "A": "Kırşehir",
+      "B": "Kayseri",
+      "C": "Aksaray",
+      "D": "Nevşehir",
+      "E": "Çorum"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 22,
+    "text": "St. Pierre Kilisesi\nSt. Nicolas Kilisesi\nDayrülzeferan Manastırı\nSümela Manastırı\n\nYukarıdaki inanç merkezlerinin bulunduğu iller arasında hangisi yer almaz?",
+    "options": {
+      "A": "Hatay",
+      "B": "Antalya",
+      "C": "Trabzon",
+      "D": "İzmir",
+      "E": "Mardin"
+    },
+    "answer": "C",
+    "image": "/ulasim_turizm_images/image_7.png"
+  },
+  {
+    "id": 23,
+    "text": "I. Ani harabeleri\nII. Hattuşaş (Boğazköy) – Hitit Başkenti\nIII. Hierapolis Antik Kenti\n\nYukarıdaki mekânları ziyaret eden bir turist grubunun\nsırasıyla hangi illere gittiği söylenebilir?",
+    "options": {
+      "A": "Ankara – Çorum – Aydın",
+      "B": "Kars – Çorum – Denizli",
+      "C": "Karabük – Nevşehir – İzmir",
+      "D": "Kayseri – Yozgat – Muğla",
+      "E": "Van – Yozgat - Çanakkale"
+    },
+    "answer": "B",
+    "image": "/ulasim_turizm_images/image_8.png"
+  },
+  {
+    "id": 24,
+    "text": "Türkiyenin 2023 Turizm Stratejisi Kavramsal Eylem Planı\nturizm hedefleri arasında aşağıdakilerden hangisi yer\nalmaz?",
+    "options": {
+      "A": "Dünyanın en fazla turist alan ilk beş ülkesi içinde yer almak",
+      "B": "Alternatif turizm türlerine öncelik sağlamak",
+      "C": "Yerel ve bölgesel marka kentler yaratmak",
+      "D": "Turizmden en fazla gelir sağlayan ülkeler arasında yer\nalmak",
+      "E": "Turizm amacıyla kullanılabilecek alanları kamulaştırmak"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 25,
+    "text": "Kara yolu bağlantısı ile birlikte demir yollarının da ulaştığı\nlimanlar diğer limanlara oranla daha fazla beslenme ve\nbüyüme imkânı bulmaktadır.\n\nAşağıdaki limanlardan hangisi hem kara yolu hem de demir\nyolu bağlantısına sahip gelişmiş bir liman değildir?",
+    "options": {
+      "A": "Mersin",
+      "B": "İzmir",
+      "C": "Samsun",
+      "D": "Çanakkale",
+      "E": "İskenderun"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 26,
+    "text": "Türkiyede turizmin gelişmesi için Türkiyeyi sembolize\neden\nmekânların\ntanıtımını\namaçlayan\nbir\nbroşür\nhazırlanmıştır. Bu broşürde,\n\nTroya Antik Kenti,\n\nSardes Antik Kenti,\n\nÇatalhöyük Neolitik Yerleşmesi\n\nHattuşaş – Boğazkale yer almıştır.\n\nBuna göre aşağıdakilerden hangisi söz konusu mekânların\nyer aldığı illerden biri değildir?",
+    "options": {
+      "A": "Çanakkale",
+      "B": "Manisa",
+      "C": "Çorum",
+      "D": "Konya",
+      "E": "Aksaray"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 27,
+    "text": "Aşağıdaki Türkiye haritasında gösterilen dört güzergâhta\naynı uzunlukta ve aynı kalitede kara yolu yapılması\nplanlanmıştır.\n\nBuna göre, kaç numaralı güzergâhlarda yapılacak yolun\nyapım maliyeti daha fazla olacaktır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla\ngösterilmiştir.\n\nHaritadaki alanlardan hangisinde kara yolları üzerinde daha\nfazla tünel bulunmaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E"
+  }
+]

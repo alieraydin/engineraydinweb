@@ -1,0 +1,490 @@
+[
+  {
+    "id": 1,
+    "text": "Ülkeler kalkınma hızları ile nüfusları arasında denge\nkurmak, doğal kaynakları etkili ve verimli kullanmak ve\ngeleceği planlamak amacıyla nüfus sayımları yaparlar.\n\nBuna göre, Cumhuriyet Döneminin ilk nüfus sayımı hangi\nyılda yapılmıştır?",
+    "options": {
+      "A": "1831",
+      "B": "1923",
+      "C": "1927",
+      "D": "1930",
+      "E": "1935"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "text": "Aşağıdakilerden hangisi köyden küçük köye bağlı\nyerleşmelerden\nbiri\nolan\nobayı\ntanımlamak\niçin\nkullanılabilir?",
+    "options": {
+      "A": "Bir veya birkaç ev, ambar ve tarım arazisinden oluşan özel\nmülkiyete dayalı kırsal yerleşmelerdir.",
+      "B": "Doğu Anadolu'da hayvancılık faaliyetleri için çoğunlukla\nyazın kullanılan, köye bağlı yerleşmelerdir.",
+      "C": "Birkaç mahallenin tek bir muhtarlık olarak birleştiği kır\nyerleşmeleridir.",
+      "D": "Genellikle yaz aylarında hayvancılık faaliyetleri için\nkullanılan turizmle de anılan köy altı yerleşmesidir.",
+      "E": "Göçebe hayvancılık faaliyetleriyle uğraşan ailelerin\nçadırlarından oluşan köy altı yerleşmeleridir."
+    },
+    "answer": "E"
+  },
+  {
+    "id": 3,
+    "text": "Kıyı yöreleri ılıman iklime sahip olması sayesinde sık\nnüfuslanmış alanlardır.\n\nHaritadaki numaralandırılmış alanlardan hangisi bu ifadeye\nuymaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B",
+    "image": "/beseri_cografya_images/image_1.png"
+  },
+  {
+    "id": 4,
+    "text": "I. Nüfusun nicelik özellikleri\nII. Çalışan nüfusun sektörel dağılımı\nIII. Kişi başına düşen milli gelir\nIV. Aritmetik nüfus yoğunluğu\n\nNüfus\nsayımları\nsonucunda\nelde\nedilen yukarıdaki\nsonuçlardan hangileri sayımın dolaylı sonucudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 5,
+    "text": "Türkiyede sık nüfuslanmış yerlerden bazılarının sık\nnüfuslanma nedenleri benzerlik göstermektedir.\n\nAşağıda verilen alanların hangisinde nüfusun yoğun olması\nÇukurova ve çevresinde nüfus yoğunluğunun fazla olmasıyla\naynı nedene bağlıdır?",
+    "options": {
+      "A": "Çatalca-Kocaeli platosu",
+      "B": "Ankara çevresi",
+      "C": "Orta Karadeniz kıyıları",
+      "D": "Antalya çevresi",
+      "E": "Eskişehir çevresi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "text": "Nüfus projeksiyonlarına göre Türkiyede 2021 yılında\n%15,3 olan 15-24 yaş grubundaki genç nüfusun toplam nüfus\niçindeki oranının 2025 yılında %14,3, 2030 yılında %14,0,\n2040 yılında %13,4, 2060 yılında %11,8 ve 2080 yılında\n%11,1e düşeceği öngörülmüştür.\n\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nüfus artış hızının düşmesi",
+      "B": "Ortanca yaşın yükselmesi",
+      "C": "Göçmen nüfus oranının yükselmesi",
+      "D": "Bebek ölüm oranlarının azalması",
+      "E": "Kaba doğum hızının artması"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "text": "Türkiyede kırdan kentte yoğun yaşanan göçler sonucunda\ngöçün mekânsal etkileri ortaya çıkmıştır. Kırsal kesimde\nmeydana gelen mekânsal etkiler ile kentlerdeki birbirinden\nfarklıdır.\n\nAşağıdaki göç sonucunda ortaya çıkan durumlar dikkate\nalındığında hangisinin diğerlerinden farklı bir mekânda\nyaşandığı söylenebilir?",
+    "options": {
+      "A": "Sanayinin yerleşmelerin içinde kalması",
+      "B": "Çarpık ve düzensiz kentleşmenin ortaya çıkması",
+      "C": "Eğitim ve sağlık yatırımlarının atıl kalması",
+      "D": "Gürültü, görüntü ve ışık kirliliğini",
+      "E": "Verimli tarım arazilerini yerleşmelerin işgal etmesi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "text": "Aşağıdakilerden hangisi Türkiyede kırdan kente göçü\nazaltmak için alınması gereken önlemlerden biri değildir?",
+    "options": {
+      "A": "Tarımda sulama imkânlarını artırmak",
+      "B": "Tarıma dayalı sanayi tesislerini kırsala yönlendirmek",
+      "C": "Besi ve ahır hayvancılığını geliştirmek",
+      "D": "Kırsal\nkesimde\neğitim\nve\nsağlık\nhizmetlerini\nyaygınlaştırmak",
+      "E": "Tarımda makine kullanımını yaygınlaştırmak"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 9,
+    "text": "Doğurganlık oranının yüksek olduğu alanlarda doğal nüfus\nartış hızı daha yüksektir.\n\nHaritadaki numaralanmış yerlerden hangisinde doğal nüfus\nartışı diğerlerinden daha yüksektir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E",
+    "image": "/beseri_cografya_images/image_2.png"
+  },
+  {
+    "id": 10,
+    "text": "Aşağıdakilerden hangisi Türkiyede nüfus artış hızının\nfazla olmasının olumlu sonuçlarından biri değildir?",
+    "options": {
+      "A": "İşçi ücretlerinin düşmesi",
+      "B": "Üretimin artması",
+      "C": "Mal ve hizmetlere olan talebin artması",
+      "D": "Demografik yatırımların artması",
+      "E": "Vergi gelirlerinin artması"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 11,
+    "text": "Aşağıdaki haritada bazı yerleşmeler numaralandırılarak\nkoyu renkle gösterilmiştir.\n\nBu yerleşmelerin gelişmesinde etkili olan fonksiyonlardan\nhangisi aşağıda yanlış eşleştirilmiştir?\n\nYerleşme\nFonksiyon",
+    "options": {
+      "A": "I\nUlaşım",
+      "B": "II\nMadencilik",
+      "C": "III\nSanayi",
+      "D": "IV\nTurizm",
+      "E": "V\nTarım"
+    },
+    "answer": "A",
+    "image": "/beseri_cografya_images/image_3.png"
+  },
+  {
+    "id": 12,
+    "text": "1940 – 1945 yılları arasında II. Dünya Savaşı dönemi\nolarak ülkelerin en bunalımlı dönemleri yaşanmıştır. Bu\ndönemde ortaya çıkan ortam nüfus üzerinde de etkiler\nbırakmıştır.\n\nTürkiyenin 1940 – 1945 yılları arasındaki nüfus özellikleri ile\nilgili aşağıda verilenler den hangisi doğrudur?",
+    "options": {
+      "A": "Kentleşme oranı %50nin üzerindedir.",
+      "B": "Çalışanların büyük bölümü sanayi sektöründedir.",
+      "C": "Nüfus artış hızı bir önceki döneme göre düşmüştür.",
+      "D": "Kadın okuryazar oranı erkeklerden yüksektir.",
+      "E": "Toplam nüfus içinde yaşlıların oranı en yüksektir."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "text": "Aşağıdakilerden hangisi Türkiyede ortanca yaşın\nyükselmesinin nedenlerinden biri değildir?",
+    "options": {
+      "A": "Doğum oranlarının azalması",
+      "B": "Nüfus artış hızının düşmesi",
+      "C": "Ölüm oranlarının yükselmesi",
+      "D": "Beslenme ve sağlık koşullarının iyileşmesi",
+      "E": "Ortalama yaşam süresinin uzaması"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "text": "İklim, su kaynakları ve arazi yapısı nedeniyle yerleşime\nuygun olmayan alanlara anökümen denilmektedir.\n\nBuna göre, haritadaki numaralanmış yerlerden hangisi\nanökümen alana örnek değildir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C",
+    "image": "/beseri_cografya_images/image_4.png"
+  },
+  {
+    "id": 15,
+    "text": "Cumhuriyet tarihi boyunca en yüksek nüfus artış hızı II.\nDünya Savaşının sonrası olan 1955 – 1960 arası dönemdir.\n\n1955-1960 yılları arasında nüfus artış hızın en yüksek\nseviyeye\nulaşmasında\naşağıdakilerden\nhangisi\netkili\nolmamıştır?",
+    "options": {
+      "A": "Ekonomik refah seviyesinin yükselmesi",
+      "B": "Sağlık koşullarının iyileşmesi",
+      "C": "Beslenme koşullarının iyileşmesi",
+      "D": "Bebek ölüm oranlarının azalması",
+      "E": "Aile planlamasının yaygınlaşması"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 16,
+    "text": "I. Almanya işçi göçleri\nII. Lozan nüfus mübadelesi\nIII. Batı Trakya Türk göçleri\n\nYukarıda verilen göç hareketlerinden hangileri nüfus artış\nhızını düşürmeye yönelik çalışmaların yapıldığı dönemde\nazalmayı sağladığı için teşvik edilmiştir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "text": "Türkiyede özellikle 1970li yıllardan itibaren kırdan kente\nolan göçler artmış ve günümüzde ülke nüfusunun %93ünden\nfazlası kentlerde yaşamaktadır.\n\nBuna göre, aşağıdakilerden hangisi kırdan kente olan bu\ngöçlerin nedenlerinden değildir?",
+    "options": {
+      "A": "Tarımda makineleşme",
+      "B": "Çarpık kentleşme",
+      "C": "Veraset ile tarım arazilerinin parçalanması",
+      "D": "Kentlerdeki iş olanaklarının fazla olması",
+      "E": "Kırsalda eğitim hizmetlerinin yetersiz olması"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "text": "1965 yılından sonra önceki döneme ait olan nüfus\ngörüşleri terkedilmeye başlanmıştır. Bu durumun bazı\ngerekçeleri bulunmaktadır.\n\nAşağıdakilerden hangisi 1965 yılından sonra nüfus artış\nhızının azaltılmak istenmesinin nedenlerinden değildir?",
+    "options": {
+      "A": "Kişi başına düşen milli gelirin azalması",
+      "B": "Eğitim ve sağlık hizmetlerinin aksaması",
+      "C": "Asker ihtiyacının azalması",
+      "D": "Bebek ölüm oranlarının artması",
+      "E": "Doğal kaynakların azalmaya başlaması"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "text": "Türkiyeden başta Almanya olmak üzere sanayileşmiş\nAvrupa ülkelerine yapılan göçler işçi göçleri olarak\nsınıflandırılmaktadır.\n\nI. İşgücü açığı\nII. Daha iyi yaşam standartları\nIII. Ekonomik sıkıntılar\nIV. Hızlı nüfus artış artışı\n\nYukarıdakilerden hangileri bu göçlerin itici nedenleri\narasında sayılabilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E",
+    "image": "/beseri_cografya_images/image_5.png"
+  },
+  {
+    "id": 20,
+    "text": "Türkiyede büyükşehirler 1984 yılında çıkarılan 2972 sayılı\nkanun ve 195 sayılı kanun hükmünde kararname ile\nkurulmuştur. 2012 yılında çıkan kanun ile 14 yeni büyükşehir\nbelediyesi kurulmuştur.\n\nAşağıdaki büyükşehirlerden hangisi diğerlerinden daha\nsonra büyükşehir belediyesi statüsüne kavuşmuştur?",
+    "options": {
+      "A": "İstanbul",
+      "B": "Ankara",
+      "C": "İzmir",
+      "D": "Adana",
+      "E": "Mardin"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 21,
+    "text": "Türkiyede 1980 yılından itibaren yaşanan sosyal ve\nekonomik gelişmeler ile göç olgusu nüfusun dinamiklerinde\ndaha önceki dönemlere göre bir takım azalmaları ve daha\nönce yaşanmayan artışları meydana getirmiştir.\n\n1980den\nitibaren\nTürkiye\nnüfusu\nincelendiğinde\naşağıdakilerden hangisinde genel bir artış yaşandığı\nsöylenemez?",
+    "options": {
+      "A": "Kentsel nüfus oranı",
+      "B": "Ortalama yaşam süresi",
+      "C": "Nüfus artış hızı",
+      "D": "Ortanca yaş",
+      "E": "Evlilik yaşı"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "text": "Türkiye nüfusunun genel eğilimleri ve kırılımları dikkate\nalındığında ilerleyen dönemde,\n\nI. yaşlı bakım hizmetleri\nII. okul öncesi eğitim hizmetleri\nIII. genel sağlık hizmetleri\nIV. gençlik ve spor hizmetleri\n\nSınıflarından hangilerine olan yatırımlar daha fazla\nolacaktır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "text": "Türkiyede yaygın olan yerleşmelerden biri de yayladır.\nYayla yerleşmeleri ilkbahar sonu yaz başı ile sonbahar dönemi\narasında temelde hayvancılık etkinlerinin yürütüldüğü geçici\nyerleşmelerdir.\n\nHaritadaki numaralandırılmış alanlardan hangisinde bu\nyerleşmelere en az rastlanılmaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "text": "I. Antalya\nII. Karabük\nIII. Muğla\nIV. Rize\n\nYukarıda verilen illerden hangilerinin mevsimlik turizme\nbağlı daha fazla göç aldığı söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "text": "I. 1965\nII. 1980\nIII. 2025\n\nYukarıda verilen yıllardan hangileri öncesinde nüfus artış\nhızını artırma politikaları uygulanmıştır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "text": "Türkiyede doğurganlık oranı bölgeler ve iller arasında\nfarklılık göstermektedir.\n\nAşağıdaki\nillerden\nhangisinde\ndoğurganlık\noranı\ndiğerlerinden daha düşüktür?",
+    "options": {
+      "A": "Ağrı",
+      "B": "Mardin",
+      "C": "Şırnak",
+      "D": "Tunceli",
+      "E": "Şanlıurfa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 27,
+    "text": "I. Artvin çevresi\nII. Adıyaman çevresi\nIII. Rize Yöresi\nIV. Ergene havzası\n\nYukarıda verilen alanlardan hangileri iklim ve yer şekillerine\nbağlı olarak toplu yerleşmelerin görüldüğü alanlardandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D",
+    "image": "/beseri_cografya_images/image_6.png"
+  },
+  {
+    "id": 28,
+    "text": "I. Nüfusun cinsiyet oranı\nII. Nüfusun yaş gruplarına oranı\nIII. Yaşlı nüfusun toplam nüfusa oranı\nIV. Aktif nüfus oranı\n\nNüfus piramitleri yukarıdakilerden hangilerine dair bilgi\nvermektedir?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "I, II ve III"
+    },
+    "answer": "E",
+    "image": "/beseri_cografya_images/image_7.png"
+  },
+  {
+    "id": 29,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar numaralarla\ngösterilmiştir.\n\nHaritadaki numaralanmış yerlerden hangisinde doğum\noranlarının yüksek olmasına bağlı olarak ortanca yaş\ndüşüktür?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "text": "Aşağıdaki kentlerden hangisinin gelişiminde diğerlerine\ngöre daha farklı bir fonksiyon etkili olmuştur?",
+    "options": {
+      "A": "Seydişehir",
+      "B": "Soma",
+      "C": "Maden",
+      "D": "İnegöl",
+      "E": "Hekimhan"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 31,
+    "text": "Türkiyede çalışanların sektörel dağılıma göre hizmet\nsektöründe\nistihdam\nedilenlerin\noranı\nhangi\nilde\ndiğerlerinden daha düşüktür?",
+    "options": {
+      "A": "Kocaeli",
+      "B": "Bursa",
+      "C": "Ankara",
+      "D": "Çanakkale",
+      "E": "Eskişehir"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "text": "Tarım veya turizme bağlı mevsimlik göç alan;\n\nI. Palandöken\nII. Uludağ\nIII. Ayder Yaylası\nIV. Çukurova\n\nmerkezlerden hangilerinin yaz mevsiminde göç aldığı\nsöylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 33,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla\ngösterilmiştir.\n\nYukarıdaki Türkiye haritasında numaralanmış yerlerden\nhangisinde okur – yazar oranı diğerlerinden daha düşüktür?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 34,
+    "text": "Ekonomik sektörler temel olarak birincil, ikincil ve üçüncül\nolarak ayrılır.\n\nAşağıdaki kişiler sektörlere göre eşleştirildiğinde hangisi\neşleştirmenin dışında kalır?",
+    "options": {
+      "A": "Karadenizdeki kıyı balıkçısı",
+      "B": "Çukurovada çalışan mevsimlik işçi",
+      "C": "Somada maden ocağında çalışan işçi",
+      "D": "Otobüs firmasında çalışan şoför",
+      "E": "Zonguldaktaki orman işçisi"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 35,
+    "text": "I. Kırdan kente göçler\nII. Küçük yerleşmelerin büyümesi\nIII. Büyükşehir yasası\n\nTürkiyede kentleşme oranının %93ün üzerine çıkmasında\nhangileri etkili olmuştur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 36,
+    "text": "Türkiyede yerleşme tarihi çok eskilere dayanmaktadır. İlk\nyerleşmeler paleolitik dönemde ortaya çıkan mağaralar\nolmuştur. Karain, Yarımburgaz,\nBallıca ve Tekkeköy\nmağaraları buna örnektir.\n\nAşağıdakilerden\nhangisi\nparagrafta\nsözü\nedilen\nyerleşmelerin bulunduğu illerden biri değildir?",
+    "options": {
+      "A": "Samsun",
+      "B": "Antalya",
+      "C": "İstanbul",
+      "D": "Tokat",
+      "E": "Yozgat"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 37,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlarda bulunan köy\naltı yerleşmeleri eşleştirilmiştir.\n\nHaritadaki köy altı yerleşmeleri eşleştirmelerinden hangisi\nyanlıştır?",
+    "options": {
+      "A": "I – Mezra",
+      "B": "II – Ağıl",
+      "C": "III – Oba",
+      "D": "IV – Kom",
+      "E": "V – Divan"
+    },
+    "answer": "D",
+    "image": "/beseri_cografya_images/image_8.png"
+  },
+  {
+    "id": 38,
+    "text": "Aşağıdakilerden hangisi siyasi nedenli ve sürekli göçlere\nörnektir?",
+    "options": {
+      "A": "1989 yılında Bulgaristandan Türkiyeye yapılan Türk\ngöçleri",
+      "B": "Güneydoğudan tarım işçilerinin fındık hasat döneminde\nGiresun ve Orduya yaptığı göçler",
+      "C": "1960lı yıllarda Türkiyeden Almanyaya yapılan işçi göçleri",
+      "D": "Tayini çıkan bir memurun yaşadığı şehirden başka bir şehre\ngöçü",
+      "E": "2011 Van depreminden sonra buradan diğer illere yapılan\ngöçler"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "text": "Aşağıdakilerden hangisi Türkiye nüfusu ile ilgili hangisi\nyanlıştır?",
+    "options": {
+      "A": "Nüfusun büyük çoğunluğu şehirlerde ikamet etmektedir.",
+      "B": "Yaşlı nüfus içinde kadınların oranı erkeklerden fazladır.",
+      "C": "Çalışan nüfusun sektörel dağılımında en büyük pay hizmet\nsektörüne aittir.",
+      "D": "Aritmetik nüfus yoğunluğu illere göre değişkenlik\ngöstermektedir.",
+      "E": "Okuryazar oranı kadınlarda erkeklere göre daha yüksektir."
+    },
+    "answer": "E"
+  },
+  {
+    "id": 40,
+    "text": "Türkiye tarihi boyunca aşağıdaki ülkelerden hangisinden\nTürkiyeye göç yaşanmamıştır?",
+    "options": {
+      "A": "Romanya",
+      "B": "Ukrayna",
+      "C": "Yunanistan",
+      "D": "Suriye",
+      "E": "Sırbistan"
+    },
+    "answer": "E"
+  }
+]

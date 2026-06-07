@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "text": "Aşağıdakilerden hangisi Türkiye akarsularının genel\nözelliklerinden birisi değildir?",
+    "options": {
+      "A": "Denge profiline ulaşmamışlardır.",
+      "B": "Yatak eğimleri ve akış hızları fazladır.",
+      "C": "Taşımacılığa elverişli değillerdir.",
+      "D": "Dar ve derin vadilerden akarlar.",
+      "E": "Havzalarında erozyon şiddeti azdır."
+    },
+    "answer": "E"
+  },
+  {
+    "id": 2,
+    "text": "Basra açık havzasında yer alır.\n\nKolları Karasu ve Murat nehirleridir.\n\nKaynağını yurt içinden alıp yurt dışından denize dökülür.\n\nYukarıda genel özellikleri verilen akarsu aşağıdakilerden\nhangisidir?",
+    "options": {
+      "A": "Kızılırmak",
+      "B": "Dicle",
+      "C": "Kura",
+      "D": "Meriç",
+      "E": "Fırat"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 3,
+    "text": "Aşağıdaki Türkiye haritasında göllerin yaygın olduğu bir\nalan koyu renkle gösterilmiştir.\n\nYukarıdaki\nharitada\ntaranarak\ngösterilen\nalanlarda\naşağıdaki göl tiplerinden biri yoktur?",
+    "options": {
+      "A": "Tektonik",
+      "B": "Volkanik set",
+      "C": "Karstik",
+      "D": "Buzul",
+      "E": "Heyelan Set"
+    },
+    "answer": "B",
+    "image": "/toprak_su_bitki_images/image_1.png"
+  },
+  {
+    "id": 4,
+    "text": "I. Kıyı derinliği az, kıta sahanlığı oldukça geniştir.\nII. Koy, körfez ve liman sayısı fazladır.\nIII. Kuş uçumu kıyı uzunluğu en fazladır.\nIV. Tuzluluk oranı en yüksek, balık çeşitliliği en fazladır.\n\nYukarıda verilen bilgilerden hangileri Ege Denizine aittir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "text": "Aşağıdaki göller oluşum türlerine göre kendi içlerinde\nikişerli gruplandırılırsa hangisi açıkta kalır?",
+    "options": {
+      "A": "Tortum gölü",
+      "B": "Mogan gölü",
+      "C": "Köyceğiz gölü",
+      "D": "Salda gölü",
+      "E": "Abant gölü"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "text": "Aşağıdaki Türkiye haritasında dört akarsu gösterilmiştir.\n\nHaritada aşağıdaki akarsulardan hangisi gösterilmemiştir?",
+    "options": {
+      "A": "Çoruh",
+      "B": "Büyük Menderes",
+      "C": "Göksu",
+      "D": "Ergene",
+      "E": "Dicle"
+    },
+    "answer": "C",
+    "image": "/toprak_su_bitki_images/image_2.png"
+  },
+  {
+    "id": 7,
+    "text": "I. Van Gölü\nII. Beyşehir Gölü\nIII. Burdur Gölü\nIV. Eğirdir Gölü\nYeraltı ve yerüstü gideğenleri olan göllerin suları tatlı olur.\n\nBuna göre, yukarıda verilen göllerin hangilerinin sularının\ntatlı olduğu söylenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 8,
+    "text": "Aşağıdaki Türkiye haritasında beş gölün konumu\nnumaralarla gösterilmiştir.\n\nHaritadaki numaralı göllerle ilgili yapılan eşleştirmelerden\nhangisi yanlıştır?",
+    "options": {
+      "A": "I – İznik",
+      "B": "II – Burdur",
+      "C": "III – Seyfe",
+      "D": "IV – Erçek",
+      "E": "V - Salda"
+    },
+    "answer": "E",
+    "image": "/toprak_su_bitki_images/image_3.png"
+  },
+  {
+    "id": 9,
+    "text": "I. Gala – Alüvyal Set\nII. Otlukbeli – Traverten Set\nIII. Suğla – Heyelan Set\nIV. Köyceğiz – Kıyı Set\n\nYukarıdaki göller ve oluşumunda etkili olan süreçlerle ilgili\nyapılan eşleştirmelerden hangileri yanlıştır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "E",
+    "image": "/toprak_su_bitki_images/image_4.png"
+  },
+  {
+    "id": 10,
+    "text": "I. Boyları uzundur.\nII. Rejimleri düzensizdir.\nIII. Yatak eğimleri ve enerji potansiyelleri fazladır.\nIV. Denge profiline ulaşmışlardır.\nV. Ulaşıma elverişli değillerdir.\n\nTürkiye akarsularının genel özellikleriyle ilgili olarak\nyukarıda verilen bilgilerden hangileri yanlıştır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "III ve V",
+      "E": "IV ve V"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "text": "I. Akdeniz ikliminin etkisiyle oluşurlar.\nII. Tüm kıyı bölgelerde bulunurlar.\nIII. Demiroksit bakımından zengindir.\nIV. Ortalama 2000 metrenin üzerinde görülürler.\n\nTürkiyede görülen terra rossa topraklarının genel\nözellikleriyle ilgili yukarıdakilerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve V"
+    },
+    "answer": "B",
+    "image": "/toprak_su_bitki_images/image_5.png"
+  },
+  {
+    "id": 12,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlardaki toprak\ntipleri numaralarla gösterilmiştir.\n\nYukarıdaki haritada numaralarla gösterilen alanlarda toprak\noluşum süreçleriyle ilgili aşağıda verilen bilgilerden hangisi\nyanlıştır?",
+    "options": {
+      "A": "I numaralı alanda killi topraklar görülmektedir.",
+      "B": "II numaralı alanda podzolleşme görülmektedir.",
+      "C": "III numaralı alanda toprak organik madde bakımından\nzengindir.",
+      "D": "IV numaralı alandaki toprakta kireçlenme görülmektedir.",
+      "E": "V numaralı alanda toprak oluşumunda akarsu biriktirmesi\netkili olmaktadır."
+    },
+    "answer": "E"
+  },
+  {
+    "id": 13,
+    "text": "Yağış miktarının az olduğu alanlarda topraktaki tuz ve\nkireç birikimi daha fazladır.\n\nBuna göre Türkiyede görülen aşağıdaki toprak tiplerinden\nhangisinde tuz ve kireç birikimi daha azdır?",
+    "options": {
+      "A": "Kahverengi orman toprakları",
+      "B": "Halomorfik topraklar",
+      "C": "Kahverengi bozkır toprakları",
+      "D": "Kalsimorfik topraklar",
+      "E": "Kestane renkli bozkır toprakları"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "text": "Podzolik topraklar serin ve yağışlı iklimlerde yaprağını\ndöken kısmen de iğne yapraklı ormanlar altında oluşan asitli\ntopraklardır.\n\nYukarıdaki Türkiye haritasındaki numaralanmış yerlerden\nhangisinde bu toprak tipine rastlanmaktadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "text": "Akdeniz ve Ege kıyılarında kırmızı renkli topraklar\nyaygındır.\n\nI. Bitki örtüsü\nII. Ana kaya\nIII. Engebe\n\nKırmızı toprakların (terra ross",
+    "options": {
+      "A": "oluşumunda yukarıda\nverilen özelliklerden hangileri etkili olmuştur?\n\nA) Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "text": "I. Afyonkarahisar\nII. Malatya\nIII. Kırklareli\nIV. Balıkesir\n\nYukarıdaki illerden hangilerindeki toprak oluşumunu\nsağlayan çözülme türü mekanik çözülmedir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "text": "Yıllık yağış miktarının fazla olduğu alanlarda topraklar\nyıkanmaya uğrayarak üst katlarında bulunan humus, tuz ve\nkireç alt katmanlara sızmaktadır.\n\nAşağıda verilen alanlardan hangisinde yer alan toprakların\ndiğerlerine göre daha az yıkandığı söylenebilir?",
+    "options": {
+      "A": "Küre Dağlarının kuzey yamaçları",
+      "B": "Doğu Karadeniz Dağlarının güney yamaçları",
+      "C": "Batı Torosların güney yamaçları",
+      "D": "Istranca Dağlarının kuzey yamaçları",
+      "E": "Bolkar Dağlarının güney yamaçları"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "text": "Aşağıdaki Türkiye haritasında dört alan taralı olarak\ngösterilmiştir.\n\nHaritadaki taralı alanlarda aşağıdaki toprak tiplerinden\nhangisi görülmez?",
+    "options": {
+      "A": "Regosol Toprak",
+      "B": "Çernezyom Toprak",
+      "C": "Vertisol Toprak",
+      "D": "Kahverengi Orman Toprağı",
+      "E": "Alüvyal Toprak"
+    },
+    "answer": "D",
+    "image": "/toprak_su_bitki_images/image_6.png"
+  },
+  {
+    "id": 19,
+    "text": "Doğu Karadeniz Dağlarının kuzey yamaçlarında bitki\nörtüsünün güney yamaçlarına göre daha yoğun olduğu\ngörülmektedir.\n\nBu durumun ortaya çıkmasında aşağıdakilerden hangisi\netkili olmuştur?",
+    "options": {
+      "A": "Bakı",
+      "B": "Litolojik yapı",
+      "C": "Güneş ışınlarının düşme açısı",
+      "D": "Toprak",
+      "E": "Nemlilik ve yağış"
+    },
+    "answer": "E"
+  },
+  {
+    "id": 20,
+    "text": "Bitkilerin yayılışını belirleyen temel koşul iklimdir.\nTürkiyede görülen iklim tiplerinin yayılış alanının genişliği\nağaç türlerinin alanını belirlemektedir.\n\nAşağıdaki\nağaçlardan\nhangisi\nTürkiye\normanlarında\ndiğerlerine göre daha fazla alan kaplar?",
+    "options": {
+      "A": "Kızılçam",
+      "B": "Karaçam",
+      "C": "Ladin",
+      "D": "Meşe",
+      "E": "Sarıçam"
+    },
+    "answer": "D"
+  }
+]
