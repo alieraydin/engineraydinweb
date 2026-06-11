@@ -87,11 +87,11 @@
     "id": 8,
     "text": "I. Türkiye’nin sınır komşularından hangisinin yüz ölçümü ve nüfusu Türkiye’den daha fazladır?\nII. Türkiye’nin en uzun sınırı hangi ülkeyledir?\nYukarıdaki soruların cevabı aşağıdaki seçeneklerden hangisinde sırası ile verilmiştir?",
     "options": {
-      "A": "Suriye - İran",
-      "B": "İran - Suriye",
-      "C": "Yunanistan - Bulgaristan",
-      "D": "Irak - İran",
-      "E": "Bulgaristan - Suriye"
+      "A": "I-Suriye II-İran",
+      "B": "I-İran II-Suriye",
+      "C": "I-Yunanistan II-Bulgaristan",
+      "D": "I-Irak II-İran",
+      "E": "I-Bulgaristan II-Suriye"
     },
     "answer": "B"
   },
@@ -99,11 +99,11 @@
     "id": 9,
     "text": "I. Türkiye’nin en güney ucunda yer almaktadır.\nII. Türkiye’nin en doğu ucunda yer almaktadır.\nYukarıda verilen bilgilere göre bu bölgeler hangi seçenekte doğru olarak verilmiştir?",
     "options": {
-      "A": "Eşme Köyü - İnceburun",
-      "B": "Topraktutan Köyü - Avlaka Burnu",
-      "C": "Dil Yöresi - Topraktutan Köyü",
-      "D": "Dil Yöresi - İnceburun",
-      "E": "Topraktutan Köyü - Dil Yöresi"
+      "A": "I-Eşme Köyü II-İnceburun",
+      "B": "I-Topraktutan Köyü II-Avlaka Burnu",
+      "C": "I-Dil Yöresi II-Topraktutan Köyü",
+      "D": "I-Dil Yöresi II-İnceburun",
+      "E": "I-Topraktutan Köyü II-Dil Yöresi"
     },
     "answer": "E"
   },
@@ -111,11 +111,11 @@
     "id": 10,
     "text": "I. Ovalık bölge\nII. Orman bölgesi\nIII. Dağlık Bölge\nYukarıda verilen bölge tiplerine en uygun olan iller hangi seçenekte doğru sırayla verilmiştir?",
     "options": {
-      "A": "Samsun - Konya - Tunceli",
-      "B": "Iğdır - Konya - Rize",
-      "C": "Tunceli - Rize - Konya",
-      "D": "Samsun - Iğdır - Konya",
-      "E": "Konya - Rize - Tunceli"
+      "A": "I-Samsun II-Konya III-Tunceli",
+      "B": "I-Iğdır II-Konya III-Rize",
+      "C": "I-Tunceli II-Rize III-Konya",
+      "D": "I-Samsun II-Iğdır III-Konya",
+      "E": "I-Konya II-Rize III-Tunceli"
     },
     "answer": "E"
   },

@@ -528,8 +528,14 @@ function CountdownCard({ exam }) {
         </p>
       </div>
       <div className="day-counter">
-        <span className="days" style={{ color: getDayColor(timeLeft) }}>{timeLeft}</span>
-        <span className="label">GÜN KALDI</span>
+        {timeLeft > 0 ? (
+          <>
+            <span className="days" style={{ color: getDayColor(timeLeft) }}>{timeLeft}</span>
+            <span className="label">GÜN KALDI</span>
+          </>
+        ) : (
+          <span className="label" style={{ color: '#ef4444', fontSize: '1.1rem', fontWeight: 'bold' }}>Sınav Yapıldı</span>
+        )}
       </div>
     </div>
   );
@@ -924,7 +930,7 @@ function App() {
             <motion.div variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card" style={{ borderColor: '#06b6d4', borderWidth: '2px', borderStyle: 'solid' }}>
               <div className="doc-icon" style={{ background: 'transparent' }}><ColoredClimateIcon size={48} /></div>
               <h3>Türkiye İklimi</h3>
-              <p>Türkiye'deki iklim türleri, yağış rejimleri ve sıcaklık özellikleri ile ilgili 20 soruluk test.</p>
+              <p>Türkiye'deki iklim türleri, yağış rejimleri ve sıcaklık özellikleri ile ilgili 24 soruluk test.</p>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                 <button className="btn btn-primary" style={{ background: '#22c55e', borderColor: '#22c55e', width: '100%' }} onClick={() => setActiveQuiz(iklimQuizData)}>
                   <Award size={18} style={{ marginRight: '8px' }} /> Teste Başla
@@ -1001,7 +1007,7 @@ function App() {
             <motion.div variants={fadeInUp} whileHover={{ y: -12 }} className="doc-card glass-card" style={{ borderColor: '#10b981', borderWidth: '2px', borderStyle: 'solid' }}>
               <div className="doc-icon" style={{ background: 'transparent' }}><ColoredNatureIcon size={48} /></div>
               <h3>Toprak, Su ve Bitki</h3>
-              <p>Türkiye'nin toprak tipleri, akarsu sistemleri ve bitki örtüsü ile ilgili 20 soruluk test.</p>
+              <p>Türkiye'nin toprak tipleri, akarsu sistemleri ve bitki örtüsü ile ilgili 24 soruluk test.</p>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                 <button className="btn btn-primary" style={{ background: '#22c55e', borderColor: '#22c55e', width: '100%' }} onClick={() => setActiveQuiz(toprak_su_bitkiQuizData)}>
                   <Award size={18} style={{ marginRight: '8px' }} /> Teste Başla

@@ -70,14 +70,13 @@
       "D": "Ağrı",
       "E": "İzmir"
     },
-    "answer": "E",
-    "image": "/sanayi_ticaret_images/image_2.png"
+    "answer": "E"
   },
   {
     "id": 7,
-    "text": "Aksu\n(Giresun),\nÇaycuma\n(Zonguldak),\nTaşköprü\n(Kastamonu), Dalaman (Muğl",
+    "text": "Aksu (Giresun), Çaycuma (Zonguldak), Taşköprü (Kastamonu), Dalaman (Muğla), Taşucu (Mersin), kâğıt – selüloz endüstrisinin kurulduğu yerlerdir.\n\nKâğıt-selüloz fabrikalarının kuruluş yerini belirleyen temel faktör aşağıdakilerden hangisidir?",
     "options": {
-      "A": ", Taşucu (Mersin), kâğıt –\nselüloz endüstrisinin kurulduğu yerlerdir.\n\nKâğıt-selüloz fabrikalarının kuruluş yerini belirleyen temel\nfaktör aşağıdakilerden hangisidir?\n\nA) Pazar",
+      "A": "Pazar",
       "B": "Enerji",
       "C": "Ham madde",
       "D": "Ulaşım",
@@ -95,7 +94,8 @@
       "D": "Süt",
       "E": "Unlu Mamuller"
     },
-    "answer": "B"
+    "answer": "B",
+    "image": "/sanayi_ticaret_images/image_2.png"
   },
   {
     "id": 9,
@@ -144,8 +144,7 @@
       "D": "II ve III",
       "E": "II ve IV"
     },
-    "answer": "B",
-    "image": "/sanayi_ticaret_images/image_4.jpeg"
+    "answer": "B"
   },
   {
     "id": 13,
@@ -181,7 +180,8 @@
       "D": "III ve IV",
       "E": "III ve V"
     },
-    "answer": "A"
+    "answer": "A",
+    "image": "/sanayi_ticaret_images/image_4.jpeg"
   },
   {
     "id": 16,
@@ -233,13 +233,13 @@
   },
   {
     "id": 20,
-    "text": "Aşağıda Türkiyedeki sanayi tesislerinin yer seçimiyle ilgili\nolarak bazı durumlar verilmiştir.\n\nI.\nBatı Karadenizde\ndemir\nçıkarılmamasına\nrağmen\nKarabükte demir-çelik sanayi tesisi vardır.\n\nII. Türkiyede genellikle tarım ürünlerini işleyen sanayi\ntesisleri bu ürünlerin yetiştirildiği alanlarda kurulmaktadır.\n\nIII. İzmit ve İzmirde ham petrolü işleyen ve petrol türevleri\nüreten rafineriler kurulmuştur.\n\nBu durumların ortaya çıkmasında etkili olan faktörler\naşağıdakilerden hangisinde doğru eşleştirilmiştir?\n\nI\nII\nIII",
+    "text": "Aşağıda Türkiyedeki sanayi tesislerinin yer seçimiyle ilgili\nolarak bazı durumlar verilmiştir.\n\nI.\nBatı Karadenizde\ndemir\nçıkarılmamasına\nrağmen\nKarabükte demir-çelik sanayi tesisi vardır.\n\nII. Türkiyede genellikle tarım ürünlerini işleyen sanayi\ntesisleri bu ürünlerin yetiştirildiği alanlarda kurulmaktadır.\n\nIII. İzmit ve İzmirde ham petrolü işleyen ve petrol türevleri\nüreten rafineriler kurulmuştur.\n\nBu durumların ortaya çıkmasında etkili olan faktörler\naşağıdakilerden hangisinde doğru eşleştirilmiştir?",
     "options": {
-      "A": "Enerji\nHam madde\nUlaşım",
-      "B": "Ham madde\nUlaşım\nEnerji",
-      "C": "Ulaşım\nHam madde\nEnerji",
-      "D": "Ham madde\nEnerji\nUlaşım",
-      "E": "Enerji\nUlaşım\nHam madde"
+      "A": "I-Enerji II-Ham madde III-Ulaşım",
+      "B": "I-Ham madde II-Ulaşım III-Enerji",
+      "C": "I-Ulaşım II-Ham madde III-Enerji",
+      "D": "I-Ham madde II-Enerji III-Ulaşım",
+      "E": "I-Enerji II-Ulaşım III-Ham madde"
     },
     "answer": "A"
   }

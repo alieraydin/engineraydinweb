@@ -96,8 +96,7 @@
       "D": "I ve III",
       "E": "II ve IV"
     },
-    "answer": "E",
-    "image": "/iklim_images/image_4.png"
+    "answer": "E"
   },
   {
     "id": 9,
@@ -133,7 +132,8 @@
       "D": "II ve IV",
       "E": "III ve IV"
     },
-    "answer": "A"
+    "answer": "A",
+    "image": "/iklim_images/image_4.png"
   },
   {
     "id": 12,
@@ -149,13 +149,13 @@
   },
   {
     "id": 13,
-    "text": "Türkiyede etkili olan basınç sistemlerine bağlı görülen\nyerel rüzgârlar Türkiyeye geldikleri yön ve etkileri\nbakımından benzerlik gösterir.\nAşağıda verilen basınç merkezlerinin Türkiyeye geldiği yön\nile rüzgârların yönleri eşleştirildiğinde hangisinin doğru\nolduğu söylenemez?",
+    "text": "Türkiyede etkili olan basınç sistemlerine bağlı görülen\nyerel rüzgârlar Türkiyeye geldikleri yön ve etkileri\nbakımından benzerlik gösterir.\nAşağıda verilen basınç merkezlerinin Türkiyeye geldiği yön\nile rüzgârların yönleri eşleştirildiğinde hangisinin doğru\nolduğu söylenemez? (Basınç-Rüzgar-Geldiği Yön)",
     "options": {
-      "A": "Seçenek A (PDF'de eksik)",
-      "B": "Seçenek B (PDF'de eksik)",
-      "C": "Seçenek C (PDF'de eksik)",
-      "D": "Seçenek D (PDF'de eksik)",
-      "E": "Seçenek E (PDF'de eksik)"
+      "A": "İzlanda - Karayel - Kuzeybatı",
+      "B": "Basra - Samyeli - Güneydoğu",
+      "C": "Akdeniz - Yıldız - Kuzey",
+      "D": "Azor - Lodos - Güneybatı",
+      "E": "Sibirya - Poyraz - Kuzeydoğu"
     },
     "answer": "C"
   },
@@ -217,7 +217,7 @@
       "B": "I ve III",
       "C": "II ve III",
       "D": "II ve IV",
-      "E": "III ve IV\n\nBasınç\nRüzgâr\nGeldiği Yön\nA)\nİzlanda\nKarayel\nKuzeybatı\nB)\nBasra\nSamyeli\nGüneydoğu\nC)\nAkdeniz\nYıldız\nKuzey\nD)\nAzor\nLodos\nGüneybatı\nE)\nSibirya\nPoyraz\nKuzeydoğu"
+      "E": "III ve IV"
     },
     "answer": "E"
   },
@@ -245,5 +245,54 @@
     },
     "answer": "B",
     "image": "/iklim_images/image_7.png"
+  },
+  {
+    "id": 21,
+    "text": "Bulunduğu bölgenin genel iklim özelliklerinden farklı olarak göreceli konum etkisiyle oluşmuş küçük iklim alanlarına mikroklima denir.\n\nAşağıdakilerden hangisinde yetiştirilen tarım ürünü mikroklima ile ilişkili değildir?",
+    "options": {
+      "A": "Çoruh vadisinde zeytin",
+      "B": "Anamur'da muz",
+      "C": "Iğdır'da pamuk",
+      "D": "Ergene'de ayçiçeği",
+      "E": "Rize'de turunçgiller"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 22,
+    "text": "I. Yaz kuraklığı belirgin değildir.\nII. En fazla yağış yazın düşer.\nIII. Sıcaklık farkı fazladır.\n\nYukarıdakilerden hangileri sert karasal iklim ile Karadeniz ikliminin benzer özellikleri arasında yer almaktadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "text": "Aşağıdaki Türkiye haritasında bazı alanlar numaralarla gösterilmiştir.\n\nYukarıdaki haritada taranarak gösterilen alanların yağış özellikleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "I numaralı alanın yıllık yağış miktarı diğerlerinden azdır.",
+      "B": "II numaralı alana en çok yağış sonbaharda düşer.",
+      "C": "III numaralı alanda yaz yağışları Konveksiyonel oluşumludur.",
+      "D": "IV numaralı alana kış yağışları yağmur şeklinde düşer.",
+      "E": "V numaralı alanda sonbahar yağışları kış yağışlarından fazladır."
+    },
+    "answer": "E",
+    "image": "/iklim_images/image_8.png"
+  },
+  {
+    "id": 24,
+    "text": "I. Kış sıcaklıklarının 0 derecenin üzerinde olması\nII. Yağışın mevsimlere dağılımının düzenli olması\nIII. Yaz kuraklığının belirgin olması\n\nYukarıdakilerden hangileri Akdeniz iklimi ile Karadeniz ikliminin benzer özellikleri arasında yer almaktadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "answer": "A"
   }
 ]

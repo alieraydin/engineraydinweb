@@ -108,8 +108,7 @@
       "D": "II ve IV",
       "E": "III ve IV"
     },
-    "answer": "E",
-    "image": "/toprak_su_bitki_images/image_4.png"
+    "answer": "E"
   },
   {
     "id": 10,
@@ -133,8 +132,7 @@
       "D": "II ve IV",
       "E": "III ve V"
     },
-    "answer": "B",
-    "image": "/toprak_su_bitki_images/image_5.png"
+    "answer": "B"
   },
   {
     "id": 12,
@@ -146,7 +144,8 @@
       "D": "IV numaralı alandaki toprakta kireçlenme görülmektedir.",
       "E": "V numaralı alanda toprak oluşumunda akarsu biriktirmesi\netkili olmaktadır."
     },
-    "answer": "E"
+    "answer": "E",
+    "image": "/toprak_su_bitki_images/image_4.png"
   },
   {
     "id": 13,
@@ -170,13 +169,14 @@
       "D": "IV",
       "E": "V"
     },
-    "answer": "B"
+    "answer": "B",
+    "image": "/toprak_su_bitki_images/image_5.png"
   },
   {
     "id": 15,
-    "text": "Akdeniz ve Ege kıyılarında kırmızı renkli topraklar\nyaygındır.\n\nI. Bitki örtüsü\nII. Ana kaya\nIII. Engebe\n\nKırmızı toprakların (terra ross",
+    "text": "Akdeniz ve Ege kıyılarında kırmızı renkli topraklar\nyaygındır.\n\nI. Bitki örtüsü\nII. Ana kaya\nIII. Engebe\n\nKırmızı toprakların (terra rossa) oluşumunda yukarıda\nverilen özelliklerden hangileri etkili olmuştur?",
     "options": {
-      "A": "oluşumunda yukarıda\nverilen özelliklerden hangileri etkili olmuştur?\n\nA) Yalnız I",
+      "A": "Yalnız I",
       "B": "Yalnız II",
       "C": "I ve III",
       "D": "II ve III",
@@ -244,5 +244,54 @@
       "E": "Sarıçam"
     },
     "answer": "D"
+  },
+  {
+    "id": 21,
+    "text": "Türkiye'de yer alan sarıçamlarla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Türkiye ve Dünya'daki en güney sınırı Kayseri Pınarbaşı'dır.",
+      "B": "Doğu Anadolu'da üst sınırı 2700 metreye kadar ulaşır.",
+      "C": "Orman içindeki oranı Meşe'den daha fazladır.",
+      "D": "Kuzey Anadolu dağlarının yüksek kesimlerinde yayılış göstermektedir.",
+      "E": "Dona ve kuraklığa karşı dayanıklı bir çam türüdür."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "text": "I. Amanos Dağları – Kayın\nII. Küre Dağları – Kızılçam\nIII. Yıldız Dağları – Meşe\nIV. Menteşe Dağları – Fıstık Çamı\n\nYukarıda verilen alanlarda eşleştirilen türlerden hangileri o alanda relikt tür olarak bulunmaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "text": "Aşağıdaki Türkiye haritasında beş alan numaralarla gösterilmiştir.\n\nHaritadaki numaralanmış yerlerden hangisinde eşleştirilen ağaç türü yanlıştır?",
+    "options": {
+      "A": "I – Karaçam",
+      "B": "II – Sarıçam",
+      "C": "III – Kızılçam",
+      "D": "IV – Kayın",
+      "E": "V – Meşe"
+    },
+    "answer": "B",
+    "image": "/toprak_su_bitki_images/image_7.png"
+  },
+  {
+    "id": 24,
+    "text": "Bir dağ yamacı boyunca yolculuk yapan bir kişi şu bilgileri vermiştir: \"Dağın denize dönük yamaçlarında deniz seviyesinden itibaren geniş yapraklı ormanlar başlamıştır. Kestane, gürgen, kızılağaç gibi türler yaygındır. Dağın orta yükseltilerinde karma yapraklı ormanlar yaygın iken yüksek kesimlerde sarıçam ve ladin gibi türler bulunmaktadır.\"\n\nBuna göre bu kişinin yaptığı yolculuk aşağıdaki dağlardan hangisi olmalıdır?",
+    "options": {
+      "A": "Kaz Dağları",
+      "B": "Amanoslar",
+      "C": "Kaçkarlar",
+      "D": "Bey Dağları",
+      "E": "Menteşe Dağları"
+    },
+    "answer": "C"
   }
 ]

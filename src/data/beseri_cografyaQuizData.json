@@ -123,13 +123,13 @@
   },
   {
     "id": 11,
-    "text": "Aşağıdaki haritada bazı yerleşmeler numaralandırılarak\nkoyu renkle gösterilmiştir.\n\nBu yerleşmelerin gelişmesinde etkili olan fonksiyonlardan\nhangisi aşağıda yanlış eşleştirilmiştir?\n\nYerleşme\nFonksiyon",
+    "text": "Aşağıdaki haritada bazı yerleşmeler numaralandırılarak\nkoyu renkle gösterilmiştir.\n\nBu yerleşmelerin gelişmesinde etkili olan fonksiyonlardan\nhangisi aşağıda yanlış eşleştirilmiştir?",
     "options": {
-      "A": "I\nUlaşım",
-      "B": "II\nMadencilik",
-      "C": "III\nSanayi",
-      "D": "IV\nTurizm",
-      "E": "V\nTarım"
+      "A": "I - Ulaşım",
+      "B": "II - Madencilik",
+      "C": "III - Sanayi",
+      "D": "IV - Turizm",
+      "E": "V - Tarım"
     },
     "answer": "A",
     "image": "/beseri_cografya_images/image_3.png"
@@ -229,8 +229,7 @@
       "D": "II ve IV",
       "E": "III ve IV"
     },
-    "answer": "E",
-    "image": "/beseri_cografya_images/image_5.png"
+    "answer": "E"
   },
   {
     "id": 20,
@@ -278,7 +277,8 @@
       "D": "IV",
       "E": "V"
     },
-    "answer": "C"
+    "answer": "C",
+    "image": "/beseri_cografya_images/image_5.png"
   },
   {
     "id": 24,
@@ -326,8 +326,7 @@
       "D": "II ve IV",
       "E": "III ve IV"
     },
-    "answer": "D",
-    "image": "/beseri_cografya_images/image_6.png"
+    "answer": "D"
   },
   {
     "id": 28,
@@ -339,8 +338,7 @@
       "D": "II ve IV",
       "E": "I, II ve III"
     },
-    "answer": "E",
-    "image": "/beseri_cografya_images/image_7.png"
+    "answer": "E"
   },
   {
     "id": 29,
@@ -352,7 +350,8 @@
       "D": "IV",
       "E": "V"
     },
-    "answer": "B"
+    "answer": "B",
+    "image": "/beseri_cografya_images/image_6.png"
   },
   {
     "id": 30,
@@ -400,7 +399,8 @@
       "D": "IV",
       "E": "V"
     },
-    "answer": "E"
+    "answer": "E",
+    "image": "/beseri_cografya_images/image_7.png"
   },
   {
     "id": 34,

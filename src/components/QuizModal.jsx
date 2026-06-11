@@ -9,6 +9,9 @@ const QuizModal = ({ quizData, onClose }) => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [results, setResults] = useState({ correct: 0, incorrect: 0, blank: 0 });
   const [isFinished, setIsFinished] = useState(false);
+  const [userAnswers, setUserAnswers] = useState([]);
+  const [showAnswersList, setShowAnswersList] = useState(false);
+  const [reviewingQuestionIdx, setReviewingQuestionIdx] = useState(null);
 
   const question = quizData[currentIndex];
 
@@ -20,6 +23,13 @@ const QuizModal = ({ quizData, onClose }) => {
 
   const recordResult = (overrideOption = null) => {
     const optionToEval = overrideOption || selectedOption || 'BLANK';
+    
+    setUserAnswers(prev => {
+      const newAnswers = [...prev];
+      newAnswers[currentIndex] = optionToEval;
+      return newAnswers;
+    });
+
     if (optionToEval === 'BLANK') {
       setResults(prev => ({ ...prev, blank: prev.blank + 1 }));
     } else if (optionToEval === question.answer) {
@@ -58,7 +68,135 @@ const QuizModal = ({ quizData, onClose }) => {
     setIsFinished(true);
   };
 
+  if (reviewingQuestionIdx !== null) {
+    const revQuestion = quizData[reviewingQuestionIdx];
+    const uAnswer = userAnswers[reviewingQuestionIdx];
+
+    return (
+      <div className="quiz-overlay">
+        <motion.div 
+          className="quiz-modal glass-card"
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+        >
+          <button className="quiz-close" onClick={() => setReviewingQuestionIdx(null)}><X size={24} /></button>
+          
+          <div className="quiz-header">
+            <span className="question-counter">Soru {reviewingQuestionIdx + 1} İncelemesi</span>
+          </div>
+
+          <div className="quiz-body">
+            <p className="question-text">{revQuestion.text}</p>
+            
+            {revQuestion.image && (
+              <div className="question-image-container">
+                <img src={revQuestion.image} alt="Soru Görseli" className="question-image" />
+              </div>
+            )}
+            
+            {revQuestion.images && (
+              <div className="question-images-grid">
+                {revQuestion.images.map((img, idx) => (
+                  <img key={idx} src={img} alt={`Görsel ${idx+1}`} className="question-image" />
+                ))}
+              </div>
+            )}
+
+            <div className="options-container">
+              {Object.entries(revQuestion.options).map(([key, value]) => {
+                let btnClass = 'option-btn';
+                if (key === revQuestion.answer) {
+                  btnClass += ' correct';
+                } else if (uAnswer === key) {
+                  btnClass += ' incorrect';
+                }
+
+                return (
+                  <button 
+                    key={key} 
+                    className={btnClass}
+                    disabled={true}
+                  >
+                    <span className="option-key">{key}</span>
+                    <span className="option-text">{value}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="quiz-footer">
+            <div style={{ display: 'flex', gap: '1rem', width: '100%', justifyContent: 'center' }}>
+              <button className="btn btn-primary" onClick={() => setReviewingQuestionIdx(null)}>
+                Geri Dön
+              </button>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    );
+  }
+
   if (isFinished) {
+    if (showAnswersList) {
+      return (
+        <div className="quiz-overlay">
+          <motion.div 
+            className="quiz-modal glass-card"
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            style={{ maxWidth: '800px', width: '95%' }}
+          >
+            <button className="quiz-close" onClick={onClose}><X size={24} /></button>
+            <div className="quiz-result-container">
+              <h2>Cevaplar</h2>
+              <div style={{ marginTop: '1rem', maxHeight: '55vh', overflowY: 'auto', padding: '0 1rem' }}>
+                <table style={{ width: '100%', textAlign: 'center', borderCollapse: 'collapse' }}>
+                  <thead style={{ position: 'sticky', top: 0, background: 'rgba(255, 255, 255, 0.95)', zIndex: 1 }}>
+                    <tr>
+                      <th style={{ padding: '0.8rem', borderBottom: '2px solid #e2e8f0', color: '#1e293b', fontSize: '1.1rem', textAlign: 'left' }}>Soru No</th>
+                      <th style={{ padding: '0.8rem', borderBottom: '2px solid #e2e8f0', color: '#1e293b', fontSize: '1.1rem', textAlign: 'center' }}>Doğru Cevap</th>
+                      <th style={{ padding: '0.8rem', borderBottom: '2px solid #e2e8f0', color: '#1e293b', fontSize: '1.1rem', textAlign: 'center' }}>Sizin Cevabınız</th>
+                      <th style={{ padding: '0.8rem', borderBottom: '2px solid #e2e8f0', color: '#1e293b', fontSize: '1.1rem', textAlign: 'right' }}>İşlem</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {quizData.map((q, idx) => {
+                      const uAnswer = userAnswers[idx];
+                      const isCorrect = uAnswer === q.answer;
+                      const isBlank = !uAnswer || uAnswer === 'BLANK';
+                      const color = isCorrect ? '#16a34a' : (isBlank ? '#94a3b8' : '#ef4444');
+                      const displayAnswer = isBlank ? 'Boş' : uAnswer;
+                      return (
+                        <tr key={idx} style={{ borderBottom: '1px solid #f1f5f9' }}>
+                          <td style={{ padding: '0.8rem', fontWeight: 'bold', color: '#334155', textAlign: 'left' }}>Soru {idx + 1}</td>
+                          <td style={{ padding: '0.8rem', fontWeight: 'bold', color: '#16a34a', textAlign: 'center' }}>{q.answer}</td>
+                          <td style={{ padding: '0.8rem', fontWeight: 'bold', color: color, textAlign: 'center' }}>{displayAnswer}</td>
+                          <td style={{ padding: '0.8rem', textAlign: 'right', minWidth: '80px' }}>
+                            {!isCorrect && !isBlank && (
+                              <button 
+                                onClick={() => setReviewingQuestionIdx(idx)}
+                                style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem', background: '#3b82f6', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'normal' }}
+                              >
+                                İncele
+                              </button>
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+              <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '1.5rem' }}>
+                <button className="btn btn-secondary" onClick={() => setShowAnswersList(false)}>Geri Dön</button>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      );
+    }
+
     return (
       <div className="quiz-overlay">
         <motion.div 
@@ -86,7 +224,9 @@ const QuizModal = ({ quizData, onClose }) => {
                 <span className="stat-label">Boş</span>
               </div>
             </div>
-            <button className="btn btn-primary mt-4" onClick={onClose}>Testi Kapat</button>
+            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
+              <button className="btn btn-secondary" onClick={() => setShowAnswersList(true)}>Cevapları Gör</button>
+            </div>
           </div>
         </motion.div>
       </div>

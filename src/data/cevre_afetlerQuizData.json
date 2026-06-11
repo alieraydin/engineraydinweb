@@ -71,8 +71,7 @@
       "D": "I ve II",
       "E": "I, II ve III"
     },
-    "answer": "D",
-    "image": "/cevre_afetler_images/image_3.png"
+    "answer": "D"
   },
   {
     "id": 7,
@@ -96,7 +95,8 @@
       "D": "III ve V",
       "E": "IV ve V"
     },
-    "answer": "D"
+    "answer": "D",
+    "image": "/cevre_afetler_images/image_3.png"
   },
   {
     "id": 9,
@@ -108,8 +108,7 @@
       "D": "I ve II",
       "E": "I ve III"
     },
-    "answer": "E",
-    "image": "/cevre_afetler_images/image_4.png"
+    "answer": "E"
   },
   {
     "id": 10,
@@ -146,7 +145,7 @@
       "E": "V - Dilek Yarımadası Milli Parkı"
     },
     "answer": "C",
-    "image": "/cevre_afetler_images/image_5.png"
+    "image": "/cevre_afetler_images/image_4.png"
   },
   {
     "id": 13,
@@ -182,7 +181,8 @@
       "D": "IV",
       "E": "V"
     },
-    "answer": "D"
+    "answer": "D",
+    "image": "/cevre_afetler_images/image_7.png"
   },
   {
     "id": 16,
@@ -218,8 +218,7 @@
       "D": "II ve IV",
       "E": "III ve V"
     },
-    "answer": "A",
-    "image": "/cevre_afetler_images/image_6.png"
+    "answer": "A"
   },
   {
     "id": 19,
@@ -243,6 +242,7 @@
       "D": "IV – Çığ olayı",
       "E": "V – Don olayı"
     },
-    "answer": "E"
+    "answer": "E",
+    "image": "/cevre_afetler_images/image_6.png"
   }
 ]

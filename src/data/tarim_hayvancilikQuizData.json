@@ -124,13 +124,13 @@
   },
   {
     "id": 11,
-    "text": "Aşağıdaki haritada bazı alanlar numaralandırılarak koyu\nrenkle gösterilmiştir.\n\nBu alanlarda gelişen yağ sanayi kolları aşağıdakilerden\nhangisinde doğru eşleştirilmiştir?\n\nI\n\nII\n\nIII",
+    "text": "Aşağıdaki haritada bazı alanlar numaralandırılarak koyu\nrenkle gösterilmiştir.\n\nBu alanlarda gelişen yağ sanayi kolları aşağıdakilerden\nhangisinde doğru eşleştirilmiştir?",
     "options": {
-      "A": "Zeytin\nAyçiçeği\nMısır",
-      "B": "Ayçiçeği\nMısır\nZeytin",
-      "C": "Mısır\nZeytin\nAyçiçeği",
-      "D": "Ayçiçeği\nZeytin\nMısır",
-      "E": "Zeytin\nMısır\nAyçiçeği"
+      "A": "I-Zeytin II-Ayçiçeği III-Mısır",
+      "B": "I-Ayçiçeği II-Mısır III-Zeytin",
+      "C": "I-Mısır II-Zeytin III-Ayçiçeği",
+      "D": "I-Ayçiçeği II-Zeytin III-Mısır",
+      "E": "I-Zeytin II-Mısır III-Ayçiçeği"
     },
     "answer": "A",
     "image": "/tarim_hayvancilik_images/image_4.png"
