@@ -37,6 +37,7 @@ const InstagramIcon = ({ size = 24 }) => (
 import { motion, AnimatePresence } from 'framer-motion';
 import enginImg from './assets/engin-eraydin-transparent.png';
 import eventEskisehirImg from './assets/events/eskisehir_fuar.jpg';
+import eventDiyarbakirImg from '/diyarbakir-kamp.jpg';
 import kpssThumb from './assets/playlist-kpss-2026.png';
 import hizliTekrarThumb from './assets/playlist-hizli-tekrar.jpg';
 import haritalarThumb from './assets/playlist-haritalar.png';
@@ -337,6 +338,13 @@ const ColoredDisasterIcon = ({ size = 40 }) => (
 
 const BOOKS = [
   {
+    id: 12,
+    title: "2026 KPSS Coğrafya Konu Konu Kritik 10ar Soru +5 Kritik Deneme Sınavı",
+    price: "79,50 TL",
+    image: "/kritik-deneme.jpeg",
+    link: "https://www.yargiyayinevi.com/yargi-yayinlari-2026-kpss-cografya-konu-konu-kritik-10ar-soru-5-kritik-deneme-sinavi"
+  },
+  {
     id: 1,
     title: "2026 KPSS Coğrafya Konu Anlatımı (Engin Eraydın)",
     price: "195,00 TL",
@@ -544,6 +552,7 @@ function CountdownCard({ exam }) {
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showEventModal, setShowEventModal] = useState(false);
+  const [showDiyarbakirModal, setShowDiyarbakirModal] = useState(false);
   const [infographicModal, setInfographicModal] = useState(null);
   const [showPromoPopup, setShowPromoPopup] = useState(() => {
     // Sadece ilk girişte göster (oturum başına bir kez)
@@ -580,17 +589,17 @@ function App() {
                 <X size={20} />
               </button>
 
-              {/* Resme tıklayınca YouTube kanalına git */}
+              {/* Resme tıklayınca kitap sayfasına git */}
               <a
-                href="https://www.youtube.com/@engineraydincografya"
+                href="https://www.yargiyayinevi.com/yargi-yayinlari-2026-kpss-cografya-konu-konu-kritik-10ar-soru-5-kritik-deneme-sinavi"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closePromoPopup}
                 className="promo-link"
               >
                 <img
-                  src="/youtube-tanitim.png"
-                  alt="YouTube Kanalımıza Davetlisiniz"
+                  src="/konu-konu-promo.jpg"
+                  alt="2026 KPSS Coğrafya Konu Konu Kritik 10'ar Soru +5 Kritik Deneme"
                   className="promo-img"
                 />
               </a>
@@ -1057,6 +1066,7 @@ function App() {
             <p>Söyleşi, konferans ve imza günü etkinliklerinden haberdar olun.</p>
           </motion.div>
           <div className="events-grid">
+            {/* Diyarbakır Kampı */}
             <motion.div 
               initial="hidden"
               whileInView="visible"
@@ -1066,6 +1076,31 @@ function App() {
               className="event-card glass-card"
             >
               <div className="event-date-badge">
+                <span className="full-date">22 Haziran 2026</span>
+              </div>
+              <div className="event-info">
+                <h4>Ateş Yargı Akademi - 2026 KPSS Genel Tekrar Kampı</h4>
+                <p><Calendar size={14} /> 22 Haziran Pazartesi | Diyarbakır</p>
+                <p className="description">Dicle Üniversitesi'nde Engin Eraydın ile Coğrafya Genel Tekrar Kampı. Kayıt için: 0554 930 99 89</p>
+                <button 
+                  className="btn btn-outline"
+                  onClick={() => setShowDiyarbakirModal(true)}
+                >
+                  Detaylar
+                </button>
+              </div>
+            </motion.div>
+
+            {/* Eskişehir */}
+            <motion.div 
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={scaleIn}
+              whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }} 
+              className="event-card glass-card"
+            >
+              <div className="event-date-badge" style={{ background: '#9ca3af' }}>
                 <span className="full-date">16 Mayıs 2026</span>
               </div>
               <div className="event-info">
@@ -1097,6 +1132,23 @@ function App() {
               <X size={24} />
             </button>
             <img src={eventEskisehirImg} alt="Eskişehir Kitap Fuarı" className="modal-img" />
+          </motion.div>
+        </div>
+      )}
+
+      {/* Diyarbakır Kamp Modal */}
+      {showDiyarbakirModal && (
+        <div className="modal-overlay" onClick={() => setShowDiyarbakirModal(false)}>
+          <motion.div 
+            className="modal-content"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="modal-close" onClick={() => setShowDiyarbakirModal(false)}>
+              <X size={24} />
+            </button>
+            <img src={eventDiyarbakirImg} alt="Ateş Yargı Akademi Diyarbakır Kampı" className="modal-img" />
           </motion.div>
         </div>
       )}
