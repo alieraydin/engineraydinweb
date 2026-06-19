@@ -504,27 +504,27 @@ const EXAMS = [
 ];
 
 function CountdownCard({ exam }) {
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [msLeft, setMsLeft] = useState(calculateMsLeft());
 
-  function calculateTimeLeft() {
-    const difference = +exam.date - +new Date();
-    if (difference > 0) {
-      return Math.floor(difference / (1000 * 60 * 60 * 24));
-    }
-    return 0;
+  function calculateMsLeft() {
+    return +exam.date - +new Date();
   }
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000 * 60 * 60); // Update every hour is enough now
+      setMsLeft(calculateMsLeft());
+    }, 1000 * 60 * 60); // Saatte bir güncelle
     return () => clearInterval(timer);
   }, []);
 
+  const daysLeft = msLeft > 0 ? Math.floor(msLeft / (1000 * 60 * 60 * 24)) : 0;
+  const isYarin = msLeft > 0 && daysLeft === 0;   // 0-24 saat arası: yarın sınav
+  const isDone  = msLeft <= 0;                     // Sınav vakti geçti
+
   const getDayColor = (days) => {
-    if (days >= 100) return '#22c55e';   // yeşil
-    if (days >= 50)  return '#f97316';   // turuncu
-    return '#ef4444';                    // kırmızı
+    if (days >= 100) return '#22c55e';
+    if (days >= 50)  return '#f97316';
+    return '#ef4444';
   };
 
   return (
@@ -536,16 +536,19 @@ function CountdownCard({ exam }) {
         </p>
       </div>
       <div className="day-counter">
-        {timeLeft > 0 ? (
+        {isDone ? (
+          <span className="label" style={{ color: '#ef4444', fontSize: '1.1rem', fontWeight: 'bold' }}>Sınav Yapıldı</span>
+        ) : isYarin ? (
+          <span className="label" style={{ color: '#f97316', fontSize: '1.1rem', fontWeight: 'bold' }}>Yarın Sınav!</span>
+        ) : (
           <>
-            <span className="days" style={{ color: getDayColor(timeLeft) }}>{timeLeft}</span>
+            <span className="days" style={{ color: getDayColor(daysLeft) }}>{daysLeft}</span>
             <span className="label">GÜN KALDI</span>
           </>
-        ) : (
-          <span className="label" style={{ color: '#ef4444', fontSize: '1.1rem', fontWeight: 'bold' }}>Sınav Yapıldı</span>
         )}
       </div>
     </div>
+
   );
 }
 
