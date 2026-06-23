@@ -38,6 +38,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import enginImg from './assets/engin-eraydin-transparent.png';
 import eventEskisehirImg from './assets/events/eskisehir_fuar.jpg';
 import eventDiyarbakirImg from '/diyarbakir-kamp.jpg';
+import eventMalatyaImg from '/malatya-genec-akademi.jpg';
 import kpssThumb from './assets/playlist-kpss-2026.png';
 import hizliTekrarThumb from './assets/playlist-hizli-tekrar.jpg';
 import haritalarThumb from './assets/playlist-haritalar.png';
@@ -556,6 +557,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showEventModal, setShowEventModal] = useState(false);
   const [showDiyarbakirModal, setShowDiyarbakirModal] = useState(false);
+  const [showMalatyaModal, setShowMalatyaModal] = useState(false);
   const [infographicModal, setInfographicModal] = useState(null);
   const [showPromoPopup, setShowPromoPopup] = useState(() => {
     // Sadece ilk girişte göster (oturum başına bir kez)
@@ -1069,6 +1071,32 @@ function App() {
             <p>Söyleşi, konferans ve imza günü etkinliklerinden haberdar olun.</p>
           </motion.div>
           <div className="events-grid">
+            {/* Malatya - Genç Akademi 2026 */}
+            <motion.div 
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={scaleIn}
+              whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0,0,0,0.15)" }} 
+              className="event-card glass-card"
+              style={{ borderLeft: '4px solid #f59e0b' }}
+            >
+              <div className="event-date-badge" style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)' }}>
+                <span className="full-date">28 Haziran 2026</span>
+              </div>
+              <div className="event-info">
+                <h4>Genç Akademi Elit Plus – Yıldızlarla Genel Tekrar</h4>
+                <p><Calendar size={14} /> 28 Haziran Cumartesi | Malatya</p>
+                <p className="description">KPSS Adayları için Engin Eraydın ile Coğrafya Dersi Tekrarı. Özalper Mah., Yeni Devlet Hastanesi Karşısı, Elite Plus Eğitim Binası.<br/>📞 0 549 920 39 32 / 0 544 488 54 44</p>
+                <button 
+                  className="btn btn-outline"
+                  onClick={() => setShowMalatyaModal(true)}
+                >
+                  Detaylar
+                </button>
+              </div>
+            </motion.div>
+
             {/* Diyarbakır Kampı */}
             <motion.div 
               initial="hidden"
@@ -1078,7 +1106,7 @@ function App() {
               whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }} 
               className="event-card glass-card"
             >
-              <div className="event-date-badge">
+              <div className="event-date-badge" style={{ background: '#9ca3af' }}>
                 <span className="full-date">22 Haziran 2026</span>
               </div>
               <div className="event-info">
@@ -1152,6 +1180,23 @@ function App() {
               <X size={24} />
             </button>
             <img src={eventDiyarbakirImg} alt="Ateş Yargı Akademi Diyarbakır Kampı" className="modal-img" />
+          </motion.div>
+        </div>
+      )}
+
+      {/* Malatya Genç Akademi Modal */}
+      {showMalatyaModal && (
+        <div className="modal-overlay" onClick={() => setShowMalatyaModal(false)}>
+          <motion.div 
+            className="modal-content"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="modal-close" onClick={() => setShowMalatyaModal(false)}>
+              <X size={24} />
+            </button>
+            <img src={eventMalatyaImg} alt="Genç Akademi 2026 Elite Plus Malatya KPSS Genel Tekrar" className="modal-img" />
           </motion.div>
         </div>
       )}
