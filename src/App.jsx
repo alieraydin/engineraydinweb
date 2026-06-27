@@ -565,6 +565,40 @@ function App() {
   });
   const [activeQuiz, setActiveQuiz] = useState(null);
 
+  // PWA State
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [showIosPrompt, setShowIosPrompt] = useState(false);
+
+  useEffect(() => {
+    const handleBeforeInstallPrompt = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    const isIosDevice = /iphone|ipad|ipod/.test(userAgent);
+    const isStandaloneMode = ('standalone' in window.navigator) && window.navigator.standalone;
+
+    if (isIosDevice && !isStandaloneMode) {
+      setTimeout(() => setShowIosPrompt(true), 3000);
+    }
+
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+    };
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') {
+        setDeferredPrompt(null);
+      }
+    }
+  };
+
   const closePromoPopup = () => {
     sessionStorage.setItem('promoSeen', '1');
     setShowPromoPopup(false);
@@ -572,6 +606,48 @@ function App() {
 
   return (
     <div className="app">
+      {/* PWA Install Banners */}
+      <AnimatePresence>
+        {deferredPrompt && (
+          <motion.div
+            className="pwa-install-banner"
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -100, opacity: 0 }}
+          >
+            <div className="pwa-banner-content">
+              <div className="pwa-icon">🌍</div>
+              <div className="pwa-text">
+                <strong>Engin Eraydın Coğrafya</strong>
+                <span>Uygulamayı yükleyerek daha hızlı erişin</span>
+              </div>
+            </div>
+            <div className="pwa-actions">
+              <button className="btn-pwa-install" onClick={handleInstallClick}>Yükle</button>
+              <button className="btn-pwa-close" onClick={() => setDeferredPrompt(null)}><X size={18}/></button>
+            </div>
+          </motion.div>
+        )}
+
+        {showIosPrompt && (
+          <motion.div
+            className="pwa-install-banner ios-banner"
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -100, opacity: 0 }}
+          >
+            <div className="pwa-banner-content">
+              <div className="pwa-icon">🌍</div>
+              <div className="pwa-text">
+                <strong>Uygulamayı Ana Ekrana Ekle</strong>
+                <span>Safari'de 'Paylaş' simgesine dokunup 'Ana Ekrana Ekle'yi seçin.</span>
+              </div>
+            </div>
+            <button className="btn-pwa-close" onClick={() => setShowIosPrompt(false)}><X size={18}/></button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* ── Promo Popup (ilk giriş) ── */}
       <AnimatePresence>
         {showPromoPopup && (
