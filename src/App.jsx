@@ -46,6 +46,8 @@ import denemeThumb from './assets/playlist-deneme.jpg';
 import gorsellerleThumb from './assets/playlist-gorsellerle.jpg';
 import garantiThumb from './assets/playlist-garanti.jpg';
 import deneme20Thumb from './assets/playlist-deneme-20.png';
+import ags5DenemeThumb from './assets/video-ags-5deneme.jpg';
+import agsNelerSorulduThumb from './assets/video-ags-neler-soruldu.jpg';
 import { Analytics } from '@vercel/analytics/react';
 import InteractiveMap from './InteractiveMap';
 import HeroSlider from './components/HeroSlider';
@@ -67,6 +69,22 @@ import './App.css';
 
 
 const PLAYLISTS = [
+  { 
+    id: 0, 
+    title: "2026 MEB AGS - Coğrafya 5 Deneme - Beklediğim Sorular", 
+    thumbnail: ags5DenemeThumb, 
+    videoCount: null,
+    label: "Videoyu İzle",
+    link: "https://www.youtube.com/watch?v=vNXjugUBOsY" 
+  },
+  {
+    id: -1,
+    title: "2026 AGS Neler Soruldu? KPSS'ye Yansıması Ne Olur?",
+    thumbnail: agsNelerSorulduThumb,
+    videoCount: null,
+    label: "Videoyu İzle",
+    link: "https://www.youtube.com/watch?v=wxrshccDgVM&t=263s"
+  },
   { 
     id: 1, 
     title: "2026 YENİ KPSS - AGS - Coğrafya Konu Anlatımı Videoları", 
@@ -343,7 +361,8 @@ const BOOKS = [
     title: "2026 KPSS Coğrafya Konu Konu Kritik 10ar Soru +5 Kritik Deneme Sınavı",
     price: "79,50 TL",
     image: "/kritik-deneme.jpeg",
-    link: "https://www.yargiyayinevi.com/yargi-yayinlari-2026-kpss-cografya-konu-konu-kritik-10ar-soru-5-kritik-deneme-sinavi"
+    link: "https://www.yargiyayinevi.com/yargi-yayinlari-2026-kpss-cografya-konu-konu-kritik-10ar-soru-5-kritik-deneme-sinavi",
+    promoLink: "https://www.youtube.com/watch?v=2THiac5C8Pk&t=8s"
   },
   {
     id: 1,
@@ -839,7 +858,7 @@ function App() {
                className="playlist-grid"
              >
                {(() => {
-                 const playlistColors = ['#ef4444','#f59e0b','#06b6d4','#8b5cf6','#f97316','#ec4899','#10b981'];
+                 const playlistColors = ['#ef4444','#f59e0b','#06b6d4','#8b5cf6','#f97316','#ec4899','#10b981','#3b82f6'];
                  return PLAYLISTS.map((playlist, idx) => (
                  <motion.a 
                    variants={fadeInUp}
@@ -854,15 +873,17 @@ function App() {
                  >
                    <div className="playlist-thumbnail">
                      <img src={playlist.thumbnail} alt={playlist.title} />
-                     <div className="video-count-overlay">
-                       <span className="v-number">{playlist.videoCount}</span>
-                       <span className="v-text">VİDEO</span>
-                     </div>
+                     {playlist.videoCount != null ? (
+                       <div className="video-count-overlay">
+                         <span className="v-number">{playlist.videoCount}</span>
+                         <span className="v-text">VİDEO</span>
+                       </div>
+                     ) : null}
                    </div>
                    <div className="playlist-info">
                      <h4>{playlist.title}</h4>
                      <div className="playlist-footer">
-                        <span>Oynatma Listesini İncele</span>
+                        <span>{playlist.label || 'Oynatma Listesini İncele'}</span>
                         <ChevronRight size={16} />
                      </div>
                    </div>
@@ -908,7 +929,33 @@ function App() {
                   <img src={book.image} alt={book.title} />
                   <div className="book-info">
                     <h4>{book.title}</h4>
-                    <a href={book.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Kitaba Git</a>
+                    <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+                      <a href={book.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Kitaba Git</a>
+                      {book.promoLink && (
+                        <a
+                          href={book.promoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '0.3rem',
+                            padding: '0.5rem 1rem',
+                            background: '#f97316',
+                            color: 'white',
+                            borderRadius: '50px',
+                            fontWeight: 700,
+                            fontSize: '0.9rem',
+                            textDecoration: 'none',
+                            transition: 'opacity 0.2s'
+                          }}
+                          onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
+                          onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+                        >
+                          Tanıtım
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </motion.div>
               ));
@@ -1155,9 +1202,8 @@ function App() {
               variants={scaleIn}
               whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0,0,0,0.15)" }} 
               className="event-card glass-card"
-              style={{ borderLeft: '4px solid #f59e0b' }}
             >
-              <div className="event-date-badge" style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)' }}>
+              <div className="event-date-badge" style={{ background: '#9ca3af' }}>
                 <span className="full-date">28 Haziran 2026</span>
               </div>
               <div className="event-info">
