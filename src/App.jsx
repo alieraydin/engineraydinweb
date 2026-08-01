@@ -47,6 +47,7 @@ import gorsellerleThumb from './assets/playlist-gorsellerle.jpg';
 import garantiThumb from './assets/playlist-garanti.jpg';
 import deneme20Thumb from './assets/playlist-deneme-20.png';
 import ags5DenemeThumb from './assets/video-ags-5deneme.jpg';
+import kpss5DenemeThumb from './assets/video-kpss-5deneme.jpg';
 import agsNelerSorulduThumb from './assets/video-ags-neler-soruldu.jpg';
 import { Analytics } from '@vercel/analytics/react';
 import InteractiveMap from './InteractiveMap';
@@ -69,6 +70,14 @@ import './App.css';
 
 
 const PLAYLISTS = [
+  { 
+    id: -2, 
+    title: "2026 KPSS - Coğrafya 5 Deneme - Beklediğim Sorular", 
+    thumbnail: kpss5DenemeThumb, 
+    videoCount: null,
+    label: "Videoyu İzle",
+    link: "https://www.youtube.com/watch?v=gsDXVd5ZUcQ" 
+  },
   { 
     id: 0, 
     title: "2026 MEB AGS - Coğrafya 5 Deneme - Beklediğim Sorular", 
@@ -444,6 +453,13 @@ const BOOKS = [
 ];
 
 const DOCUMENTS = [
+  {
+    id: 0,
+    title: "2026 (BEKLEDİĞİM SORULAR) KPSS ENGİN ERAYDIN 5 DENEME",
+    subtitle: "Deneme Pdf'i",
+    label: "İndir",
+    link: "https://drive.google.com/file/d/1tFue4dJYYXxrQa8BXBIg7rL1Zhg25RbL/view"
+  },
   {
     id: 1,
     title: "2026 KPSS - AGS ENGİN ERAYDIN COĞRAFYA HARİTALARLA GENEL TEKRAR",
